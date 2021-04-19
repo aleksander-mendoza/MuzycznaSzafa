@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="zdg-dt-j0F" customClass="BoolTableViewCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="121"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uxU-iE-oOy">
+                    <rect key="frame" x="1" y="52" width="318" height="18"/>
+                    <buttonCell key="cell" type="check" title="? ? ?" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="lHJ-nY-mAL">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="stateChanged:" target="zdg-dt-j0F" id="ZKw-Pk-njo"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LXH-mZ-D7b">
+                    <rect key="frame" x="294" y="47" width="25" height="25"/>
+                    <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ggc-W2-pT5">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="helpSelected:" target="zdg-dt-j0F" id="9XS-LX-gKg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="LXH-mZ-D7b" firstAttribute="centerY" secondItem="uxU-iE-oOy" secondAttribute="centerY" id="0xg-jf-8c6"/>
+                <constraint firstAttribute="trailing" secondItem="uxU-iE-oOy" secondAttribute="trailing" constant="3" id="9Yi-bi-or4"/>
+                <constraint firstItem="uxU-iE-oOy" firstAttribute="centerY" secondItem="zdg-dt-j0F" secondAttribute="centerY" id="TYC-2M-ntU"/>
+                <constraint firstAttribute="trailing" secondItem="LXH-mZ-D7b" secondAttribute="trailing" constant="3" id="qOG-zX-U04"/>
+                <constraint firstItem="uxU-iE-oOy" firstAttribute="leading" secondItem="zdg-dt-j0F" secondAttribute="leading" constant="3" id="xm2-Fe-TMW"/>
+            </constraints>
+            <connections>
+                <outlet property="cellValue" destination="uxU-iE-oOy" id="R21-EC-KSy"/>
+                <outlet property="help" destination="LXH-mZ-D7b" id="jZA-im-2BL"/>
+            </connections>
+            <point key="canvasLocation" x="74" y="142.5"/>
+        </tableCellView>
+    </objects>
+</document>

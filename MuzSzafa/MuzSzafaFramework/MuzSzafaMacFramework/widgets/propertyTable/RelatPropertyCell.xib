@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="zdg-dt-j0F" customClass="RelatTableViewCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="238" height="47"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SFn-fe-OMP">
+                    <rect key="frame" x="86" y="16" width="67" height="32"/>
+                    <buttonCell key="cell" type="push" title="? ? ?" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="C7v-aa-bsZ">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="pressed:" target="zdg-dt-j0F" id="XJH-s5-mcD"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="RQ5-1B-pb3" userLabel="Title">
+                    <rect key="frame" x="1" y="25" width="31" height="17"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="? ? ?" id="OcO-Rh-UKO">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="A7S-Qb-Ngk" customClass="DraggableButton" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+                    <rect key="frame" x="155" y="26" width="14" height="15"/>
+                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSFollowLinkFreestandingTemplate" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" id="Bm1-UD-Ydp">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ony-5l-ZYl">
+                    <rect key="frame" x="36" y="20" width="25" height="25"/>
+                    <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="94I-GA-QOt">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="helpSelected:" target="zdg-dt-j0F" id="fZH-04-0J3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ony-5l-ZYl" firstAttribute="leading" secondItem="RQ5-1B-pb3" secondAttribute="trailing" constant="8" symbolic="YES" id="2Pa-rc-uk1"/>
+                <constraint firstItem="A7S-Qb-Ngk" firstAttribute="centerY" secondItem="SFn-fe-OMP" secondAttribute="centerY" id="CIP-he-D38"/>
+                <constraint firstItem="SFn-fe-OMP" firstAttribute="centerX" secondItem="zdg-dt-j0F" secondAttribute="centerX" id="IdP-m0-6fP"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="centerY" secondItem="SFn-fe-OMP" secondAttribute="centerY" id="VV3-yX-nad"/>
+                <constraint firstItem="SFn-fe-OMP" firstAttribute="top" secondItem="zdg-dt-j0F" secondAttribute="top" constant="3" id="VZx-GL-mkd"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="leading" secondItem="zdg-dt-j0F" secondAttribute="leading" constant="3" id="bhy-uY-Pju"/>
+                <constraint firstItem="SFn-fe-OMP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="RQ5-1B-pb3" secondAttribute="trailing" constant="3" id="k4S-Co-tZB"/>
+                <constraint firstItem="ony-5l-ZYl" firstAttribute="centerY" secondItem="RQ5-1B-pb3" secondAttribute="centerY" id="nGo-er-9Id"/>
+                <constraint firstItem="A7S-Qb-Ngk" firstAttribute="leading" secondItem="SFn-fe-OMP" secondAttribute="trailing" constant="8" id="xCV-Fx-Frc"/>
+            </constraints>
+            <connections>
+                <outlet property="cellTitle" destination="RQ5-1B-pb3" id="WiC-3Q-QJ2"/>
+                <outlet property="cellValue" destination="SFn-fe-OMP" id="iSh-r8-Xca"/>
+                <outlet property="help" destination="ony-5l-ZYl" id="I7q-m0-ADT"/>
+                <outlet property="linkButton" destination="A7S-Qb-Ngk" id="pe1-bA-tUW"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="105.5"/>
+        </tableCellView>
+    </objects>
+    <resources>
+        <image name="NSFollowLinkFreestandingTemplate" width="14" height="14"/>
+    </resources>
+</document>

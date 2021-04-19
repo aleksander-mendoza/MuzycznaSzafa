@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G3025" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Client" representedClassName="Client" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="deal" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Deal" inverseName="client" inverseEntity="Deal" syncable="YES"/>
+        <relationship name="unowned_deals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Deal" inverseName="other_clients" inverseEntity="Deal" syncable="YES"/>
+    </entity>
+    <entity name="Deal" representedClassName="Deal" syncable="YES" codeGenerationType="class">
+        <attribute name="deposit" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="deposit_return_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keeps_asset" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pricing" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" customClassName="UInt64" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="4" defaultValueString="0" usesScalarValueType="YES" customClassName="DealStatus" syncable="YES"/>
+        <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Client" inverseName="deal" inverseEntity="Client" syncable="YES"/>
+        <relationship name="instrument" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Instrument" inverseName="deal" inverseEntity="Instrument" syncable="YES"/>
+        <relationship name="other_clients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Client" inverseName="unowned_deals" inverseEntity="Client" syncable="YES"/>
+        <relationship name="payment" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Payment" inverseName="deal" inverseEntity="Payment" syncable="YES"/>
+    </entity>
+    <entity name="Instrument" representedClassName="Instrument" syncable="YES" codeGenerationType="class">
+        <attribute name="available" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="deposit" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fee" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instrumentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="physical_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="accessories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Instrument" inverseName="parent_accessory" inverseEntity="Instrument" syncable="YES"/>
+        <relationship name="deal" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Deal" inverseName="instrument" inverseEntity="Deal" syncable="YES"/>
+        <relationship name="parent_accessory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Instrument" inverseName="accessories" inverseEntity="Instrument" syncable="YES"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InstrumentType" inverseName="instrument" inverseEntity="InstrumentType" syncable="YES"/>
+    </entity>
+    <entity name="InstrumentType" representedClassName="InstrumentType" syncable="YES" codeGenerationType="class">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="instrument" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Instrument" inverseName="type" inverseEntity="Instrument" syncable="YES"/>
+    </entity>
+    <entity name="Payment" representedClassName="Payment" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="in_cash" optional="YES" attributeType="Integer 16" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="money_amount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="paid" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="paid_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="term_begin" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="term_end" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="deal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Deal" inverseName="payment" inverseEntity="Deal" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Client" positionX="4327" positionY="-576" width="128" height="165"/>
+        <element name="Deal" positionX="4491" positionY="-576" width="128" height="225"/>
+        <element name="Instrument" positionX="4138" positionY="-574" width="128" height="240"/>
+        <element name="InstrumentType" positionX="4356" positionY="-372" width="128" height="75"/>
+        <element name="Payment" positionX="4666.4609375" positionY="-505.03125" width="128" height="163"/>
+    </elements>
+</model>

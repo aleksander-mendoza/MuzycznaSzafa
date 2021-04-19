@@ -1,0 +1,162 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1Ds-F7-6Na"; */
+"1Ds-F7-6Na.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "List"; ObjectID = "3Pn-cF-NB9"; */
+"3Pn-cF-NB9.title" = "List";
+
+/* Class = "UILabel"; text = "kolidujący klienci:"; ObjectID = "4PW-tW-luU"; */
+"4PW-tW-luU.text" = "kolidujący klienci:";
+
+/* Class = "UIViewController"; title = "Klient"; ObjectID = "71y-Jz-idR"; */
+"71y-Jz-idR.title" = "Klient";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "8eO-yf-IVt"; */
+"8eO-yf-IVt.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "AS1-XX-l2b"; */
+"AS1-XX-l2b.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "EBd-mw-Nq5"; */
+"EBd-mw-Nq5.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "ETW-yb-cl6"; */
+"ETW-yb-cl6.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "klient:"; ObjectID = "Ewh-rT-uP1"; */
+"Ewh-rT-uP1.text" = "klient:";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "F15-4t-Art"; */
+"F15-4t-Art.text" = "Subtitle";
+
+/* Class = "UITextField"; placeholder = "unique identifier"; ObjectID = "Fin-6d-0Yr"; */
+"Fin-6d-0Yr.placeholder" = "unique identifier";
+
+/* Class = "UITabBarItem"; title = "Zestawienie"; ObjectID = "G0b-Hv-K7w"; */
+"G0b-Hv-K7w.title" = "Zestawienie";
+
+/* Class = "UITabBarItem"; title = "Lista"; ObjectID = "Lsa-ZG-GWN"; */
+"Lsa-ZG-GWN.title" = "Lista";
+
+/* Class = "UIViewController"; title = "Ustawienia"; ObjectID = "Pmd-Jc-WsD"; */
+"Pmd-Jc-WsD.title" = "Ustawienia";
+
+/* Class = "UILabel"; text = "wypożyczony przez:"; ObjectID = "QKV-2G-97B"; */
+"QKV-2G-97B.text" = "wypożyczony przez:";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "RIN-F7-kaf"; */
+"RIN-F7-kaf.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "nazwa:"; ObjectID = "RPT-i7-AWw"; */
+"RPT-i7-AWw.text" = "nazwa:";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "RQd-vN-nSh"; */
+"RQd-vN-nSh.text" = "Title";
+
+/* Class = "UIViewController"; title = "New Client"; ObjectID = "RdN-ms-Q4c"; */
+"RdN-ms-Q4c.title" = "New Client";
+
+/* Class = "UILabel"; text = "id:"; ObjectID = "Rva-0v-VNB"; */
+"Rva-0v-VNB.text" = "id:";
+
+/* Class = "UILabel"; text = "rodzaj:"; ObjectID = "S7k-VM-f50"; */
+"S7k-VM-f50.text" = "rodzaj:";
+
+/* Class = "UIViewController"; title = "Overview"; ObjectID = "W0W-Ws-iTf"; */
+"W0W-Ws-iTf.title" = "Overview";
+
+/* Class = "UIBarButtonItem"; title = "wypożyczył:"; ObjectID = "Ww3-c7-Dg9"; */
+"Ww3-c7-Dg9.title" = "wypożyczył:";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "Xue-Dc-vX5"; */
+"Xue-Dc-vX5.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Z6J-LE-w4T"; */
+"Z6J-LE-w4T.text" = "Detail";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "bMQ-PP-zyZ"; */
+"bMQ-PP-zyZ.text" = "Subtitle";
+
+/* Class = "UINavigationItem"; title = "Start"; ObjectID = "bdl-Jk-mAL"; Note = "Start page title"; */
+"bdl-Jk-mAL.title" = "Start";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "c17-ek-pbx"; */
+"c17-ek-pbx.placeholder" = "Name";
+
+/* Class = "UIViewController"; title = "Instrumenty"; ObjectID = "dH2-c2-246"; */
+"dH2-c2-246.title" = "Instrumenty";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "dHW-Fg-tOE"; */
+"dHW-Fg-tOE.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "type"; ObjectID = "dzm-RW-3GZ"; */
+"dzm-RW-3GZ.placeholder" = "type";
+
+/* Class = "UITextField"; placeholder = "id"; ObjectID = "e9K-t1-jfh"; */
+"e9K-t1-jfh.placeholder" = "id";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "fOE-E8-woa"; */
+"fOE-E8-woa.text" = "Title";
+
+/* Class = "UILabel"; text = "id:"; ObjectID = "gJY-V1-m5s"; */
+"gJY-V1-m5s.text" = "id:";
+
+/* Class = "UITextField"; placeholder = "Surname"; ObjectID = "h1R-cT-2oQ"; */
+"h1R-cT-2oQ.placeholder" = "Surname";
+
+/* Class = "UILabel"; text = "?  ?  ?"; ObjectID = "hDC-mS-aDa"; */
+"hDC-mS-aDa.text" = "?  ?  ?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hQM-lX-d8l"; */
+"hQM-lX-d8l.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "suma:"; ObjectID = "i4k-NJ-0ee"; */
+"i4k-NJ-0ee.text" = "suma:";
+
+/* Class = "UILabel"; text = "numer umowy:"; ObjectID = "kkw-D2-Q4A"; */
+"kkw-D2-Q4A.text" = "numer umowy:";
+
+/* Class = "UIViewController"; title = "Klienci"; ObjectID = "mkp-gY-Kzu"; */
+"mkp-gY-Kzu.title" = "Klienci";
+
+/* Class = "UILabel"; text = "imię:"; ObjectID = "ngz-7m-Bfy"; */
+"ngz-7m-Bfy.text" = "imię:";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oAR-uj-SAz"; */
+"oAR-uj-SAz.text" = "Title";
+
+/* Class = "UIViewController"; title = "Instrument"; ObjectID = "oIe-KU-J8M"; */
+"oIe-KU-J8M.title" = "Instrument";
+
+/* Class = "UILabel"; text = "nazwisko:"; ObjectID = "ouK-Uk-xpU"; */
+"ouK-Uk-xpU.text" = "nazwisko:";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "pqm-LB-3m7"; */
+"pqm-LB-3m7.text" = "Subtitle";
+
+/* Class = "UITabBarController"; title = "Przychód"; ObjectID = "qGZ-rr-ErS"; */
+"qGZ-rr-ErS.title" = "Przychód";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s9u-oq-aJq"; */
+"s9u-oq-aJq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "sXf-kS-4nb"; */
+"sXf-kS-4nb.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "sbl-eb-6ym"; */
+"sbl-eb-6ym.text" = "Title";
+
+/* Class = "UIViewController"; title = "New Deal"; ObjectID = "tYc-oN-l7Q"; */
+"tYc-oN-l7Q.title" = "New Deal";
+
+/* Class = "UIViewController"; title = "Umowa"; ObjectID = "tel-LJ-09M"; */
+"tel-LJ-09M.title" = "Umowa";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "uD0-zp-Ty9"; */
+"uD0-zp-Ty9.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vo1-C6-p2d"; */
+"vo1-C6-p2d.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "New Instrument"; ObjectID = "x6G-mD-CvO"; */
+"x6G-mD-CvO.title" = "New Instrument";

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="zdg-dt-j0F" customClass="TextTableViewCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="176"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="RQ5-1B-pb3" userLabel="Title">
+                    <rect key="frame" x="1" y="156" width="320" height="17"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="? ? ?" id="OcO-Rh-UKO">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbd-M3-gkX">
+                    <rect key="frame" x="3" y="3" width="316" height="145"/>
+                    <clipView key="contentView" id="5HR-dC-QtQ">
+                        <rect key="frame" x="1" y="1" width="314" height="143"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="cUW-dS-tLu">
+                                <rect key="frame" x="0.0" y="0.0" width="314" height="143"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="minSize" width="314" height="143"/>
+                                <size key="maxSize" width="463" height="10000000"/>
+                                <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="ArO-2y-jNq">
+                        <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="5SS-Y3-8GT">
+                        <rect key="frame" x="299" y="1" width="16" height="143"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CcF-w9-qcy">
+                    <rect key="frame" x="296" y="151" width="25" height="25"/>
+                    <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yLx-Qs-vlk">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="helpSelected:" target="zdg-dt-j0F" id="A1e-fd-ga9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CcF-w9-qcy" secondAttribute="trailing" constant="3" id="3L0-xK-M8k"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="top" secondItem="zdg-dt-j0F" secondAttribute="top" constant="3" id="Q04-Rw-ZNO"/>
+                <constraint firstAttribute="trailing" secondItem="RQ5-1B-pb3" secondAttribute="trailing" constant="3" id="Xft-6N-6hO"/>
+                <constraint firstItem="tbd-M3-gkX" firstAttribute="trailing" secondItem="RQ5-1B-pb3" secondAttribute="trailing" id="aYI-Vv-Vdd"/>
+                <constraint firstItem="tbd-M3-gkX" firstAttribute="top" secondItem="RQ5-1B-pb3" secondAttribute="bottom" constant="8" symbolic="YES" id="bln-ZV-7II"/>
+                <constraint firstItem="CcF-w9-qcy" firstAttribute="centerY" secondItem="RQ5-1B-pb3" secondAttribute="centerY" id="dOF-SJ-M8u"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="leading" secondItem="zdg-dt-j0F" secondAttribute="leading" constant="3" id="jGa-z5-BJY"/>
+                <constraint firstAttribute="bottom" secondItem="tbd-M3-gkX" secondAttribute="bottom" constant="3" id="r8J-qR-DhT"/>
+                <constraint firstItem="tbd-M3-gkX" firstAttribute="leading" secondItem="RQ5-1B-pb3" secondAttribute="leading" id="wBO-Hl-uQE"/>
+            </constraints>
+            <connections>
+                <outlet property="cellTitle" destination="RQ5-1B-pb3" id="WiC-3Q-QJ2"/>
+                <outlet property="cellValue" destination="cUW-dS-tLu" id="wly-be-cE3"/>
+                <outlet property="help" destination="CcF-w9-qcy" id="9WK-Ge-Z0q"/>
+            </connections>
+            <point key="canvasLocation" x="75" y="215"/>
+        </tableCellView>
+    </objects>
+</document>

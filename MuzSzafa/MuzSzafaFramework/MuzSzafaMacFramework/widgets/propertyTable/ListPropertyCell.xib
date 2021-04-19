@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="zdg-dt-j0F" customClass="ListTableViewCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="59"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="RQ5-1B-pb3" userLabel="Title">
+                    <rect key="frame" x="1" y="21" width="31" height="17"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="? ? ?" id="OcO-Rh-UKO">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton horizontalHuggingPriority="249" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-fU-d9h">
+                    <rect key="frame" x="36" y="16" width="252" height="26"/>
+                    <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="9pa-hS-PKZ" id="W9l-ja-dNk">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" id="46f-7R-B3Q">
+                            <items>
+                                <menuItem title="Item 1" state="on" id="9pa-hS-PKZ"/>
+                                <menuItem title="Item 2" id="Wah-Lt-RbJ"/>
+                                <menuItem title="Item 3" id="2aQ-sg-CCF"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="selectionChanged:" target="zdg-dt-j0F" id="tom-Qa-WjS"/>
+                    </connections>
+                </popUpButton>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9vX-Fh-uHe">
+                    <rect key="frame" x="295" y="16" width="25" height="25"/>
+                    <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NMD-5j-nqx">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="helpSelected:" target="zdg-dt-j0F" id="v46-Qz-qHL"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="XxS-fU-d9h" firstAttribute="leading" secondItem="RQ5-1B-pb3" secondAttribute="trailing" constant="8" id="4kx-vJ-gSM"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="centerY" secondItem="zdg-dt-j0F" secondAttribute="centerY" id="7EB-Q4-yLX"/>
+                <constraint firstItem="9vX-Fh-uHe" firstAttribute="leading" secondItem="XxS-fU-d9h" secondAttribute="trailing" constant="12" id="Ar7-ng-YIV"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="leading" secondItem="zdg-dt-j0F" secondAttribute="leading" constant="3" id="LIT-vo-xQG"/>
+                <constraint firstItem="9vX-Fh-uHe" firstAttribute="centerY" secondItem="XxS-fU-d9h" secondAttribute="centerY" id="i7Z-F8-Ce1"/>
+                <constraint firstItem="XxS-fU-d9h" firstAttribute="centerY" secondItem="RQ5-1B-pb3" secondAttribute="centerY" id="l4l-BV-oK9"/>
+                <constraint firstAttribute="trailing" secondItem="9vX-Fh-uHe" secondAttribute="trailing" constant="3" id="uSG-YR-2qD"/>
+            </constraints>
+            <connections>
+                <outlet property="cellTitle" destination="RQ5-1B-pb3" id="WiC-3Q-QJ2"/>
+                <outlet property="cellValue" destination="XxS-fU-d9h" id="TVr-uC-McU"/>
+                <outlet property="help" destination="9vX-Fh-uHe" id="fif-5o-dLA"/>
+            </connections>
+            <point key="canvasLocation" x="74.5" y="111.5"/>
+        </tableCellView>
+    </objects>
+</document>

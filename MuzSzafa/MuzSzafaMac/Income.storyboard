@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="tk8-uO-cKr">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Income-->
+        <scene sceneID="vEA-RL-UR7">
+            <objects>
+                <viewController title="Income" id="tk8-uO-cKr" customClass="IncomeViewController" customModule="MuzSzafaMac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="NHz-OA-wX8">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <splitView arrangesAllSubviews="NO" dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Tq-rG-zIo">
+                                <rect key="frame" x="20" y="20" width="400" height="230"/>
+                                <subviews>
+                                    <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="26" horizontalPageScroll="10" verticalLineScroll="26" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="7kj-jN-rz8">
+                                        <rect key="frame" x="0.0" y="0.0" width="218" height="230"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <clipView key="contentView" id="OeA-zY-Nz5">
+                                            <rect key="frame" x="1" y="23" width="216" height="206"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="systemDefault" headerView="Wrm-fd-o7l" id="vLb-jD-fBY" customClass="CoreDataTable" customModule="MuzSzafaMacFramework">
+                                                    <rect key="frame" x="0.0" y="0.0" width="216" height="206"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <size key="intercellSpacing" width="3" height="2"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                                </tableView>
+                                            </subviews>
+                                        </clipView>
+                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="KtE-np-YPs">
+                                            <rect key="frame" x="1" y="216" width="129" height="16"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </scroller>
+                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="iSR-Hb-Rwe">
+                                            <rect key="frame" x="224" y="17" width="15" height="102"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </scroller>
+                                        <tableHeaderView key="headerView" id="Wrm-fd-o7l">
+                                            <rect key="frame" x="0.0" y="0.0" width="216" height="23"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableHeaderView>
+                                    </scrollView>
+                                    <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="26" horizontalPageScroll="10" verticalLineScroll="26" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="hwb-yG-rXK">
+                                        <rect key="frame" x="228" y="0.0" width="172" height="230"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <clipView key="contentView" id="p69-8p-jiO">
+                                            <rect key="frame" x="1" y="23" width="170" height="206"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="systemDefault" headerView="lfn-fb-a8E" id="mOx-2y-Lge" customClass="EntitiesFilteredTableView" customModule="MuzSzafaMacFramework">
+                                                    <rect key="frame" x="0.0" y="0.0" width="170" height="206"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <size key="intercellSpacing" width="3" height="2"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                                </tableView>
+                                            </subviews>
+                                        </clipView>
+                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="9as-yM-UaP">
+                                            <rect key="frame" x="1" y="216" width="194" height="16"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </scroller>
+                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="eiU-0K-EMa">
+                                            <rect key="frame" x="224" y="17" width="15" height="102"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </scroller>
+                                        <tableHeaderView key="headerView" id="lfn-fb-a8E">
+                                            <rect key="frame" x="0.0" y="0.0" width="170" height="23"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableHeaderView>
+                                    </scrollView>
+                                </subviews>
+                                <holdingPriorities>
+                                    <real value="250"/>
+                                    <real value="250"/>
+                                </holdingPriorities>
+                            </splitView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3TM-Pq-btg">
+                                <rect key="frame" x="0.0" y="248" width="21" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="UPw-zy-vTo"/>
+                                    <constraint firstAttribute="width" constant="21" id="aRu-w4-B8c"/>
+                                </constraints>
+                                <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSGoBackTemplate" imagePosition="overlaps" alignment="center" controlSize="small" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" id="hdY-BF-sJr">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="smallSystem"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="goBack:" target="tk8-uO-cKr" id="CNI-Yc-rJo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="3TM-Pq-btg" firstAttribute="leading" secondItem="NHz-OA-wX8" secondAttribute="leading" id="GMy-jN-7JQ"/>
+                            <constraint firstItem="0Tq-rG-zIo" firstAttribute="top" secondItem="NHz-OA-wX8" secondAttribute="top" constant="20" id="P6K-5v-Ekc"/>
+                            <constraint firstItem="3TM-Pq-btg" firstAttribute="top" secondItem="NHz-OA-wX8" secondAttribute="top" id="h48-Jc-Ofg"/>
+                            <constraint firstAttribute="bottom" secondItem="0Tq-rG-zIo" secondAttribute="bottom" constant="20" id="iDL-hR-XRq"/>
+                            <constraint firstAttribute="trailing" secondItem="0Tq-rG-zIo" secondAttribute="trailing" constant="20" id="k6U-6h-gfg"/>
+                            <constraint firstItem="0Tq-rG-zIo" firstAttribute="leading" secondItem="NHz-OA-wX8" secondAttribute="leading" constant="20" id="uuV-ba-hci"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="controls" destination="vLb-jD-fBY" id="RuT-gW-KiQ"/>
+                        <outlet property="payments" destination="mOx-2y-Lge" id="UIt-7Y-CaM"/>
+                    </connections>
+                </viewController>
+                <customObject id="3c2-AL-IkO" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-530" y="656"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NSGoBackTemplate" width="9" height="12"/>
+    </resources>
+</document>

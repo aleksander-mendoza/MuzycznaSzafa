@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="FileChooser" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <connections>
+                <outlet property="caution" destination="LH3-uE-mPH" id="Pg6-Ee-01z"/>
+                <outlet property="field" destination="DbD-Im-Bt6" id="Tdz-Cy-Czh"/>
+                <outlet property="view" destination="lc3-ih-Jix" id="Dqf-Iv-1a2"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="lc3-ih-Jix">
+            <rect key="frame" x="0.0" y="0.0" width="226" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DbD-Im-Bt6">
+                    <rect key="frame" x="0.0" y="73" width="169" height="22"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="fMC-k8-Fqe">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VFk-dc-Qk8">
+                    <rect key="frame" x="164" y="67" width="68" height="32"/>
+                    <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSFolder" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bFf-ah-rGl">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="open:" target="-2" id="QSy-4T-Nbf"/>
+                    </connections>
+                </button>
+                <button hidden="YES" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="LH3-uE-mPH">
+                    <rect key="frame" x="133" y="73" width="36" height="22"/>
+                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSCaution" imagePosition="right" alignment="center" lineBreakMode="truncatingTail" enabled="NO" refusesFirstResponder="YES" state="on" transparent="YES" imageScaling="proportionallyDown" inset="2" id="Hhg-4B-N96">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VFk-dc-Qk8" secondAttribute="trailing" id="3TE-92-yD1"/>
+                <constraint firstItem="LH3-uE-mPH" firstAttribute="centerY" secondItem="DbD-Im-Bt6" secondAttribute="centerY" id="KEC-fZ-CgT"/>
+                <constraint firstItem="VFk-dc-Qk8" firstAttribute="leading" secondItem="DbD-Im-Bt6" secondAttribute="trailing" constant="1" id="aAl-Tn-Qs3"/>
+                <constraint firstItem="DbD-Im-Bt6" firstAttribute="top" secondItem="lc3-ih-Jix" secondAttribute="top" id="aHf-hW-fri"/>
+                <constraint firstItem="LH3-uE-mPH" firstAttribute="height" secondItem="DbD-Im-Bt6" secondAttribute="height" id="edg-mb-dnW"/>
+                <constraint firstItem="DbD-Im-Bt6" firstAttribute="leading" secondItem="lc3-ih-Jix" secondAttribute="leading" id="hlT-gi-szM"/>
+                <constraint firstItem="VFk-dc-Qk8" firstAttribute="leading" secondItem="LH3-uE-mPH" secondAttribute="trailing" constant="1" id="oJN-A4-RMf"/>
+                <constraint firstItem="VFk-dc-Qk8" firstAttribute="top" secondItem="lc3-ih-Jix" secondAttribute="top" id="oSt-Sm-zqI"/>
+            </constraints>
+            <point key="canvasLocation" x="125" y="-23.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSCaution" width="32" height="32"/>
+        <image name="NSFolder" width="32" height="32"/>
+    </resources>
+</document>

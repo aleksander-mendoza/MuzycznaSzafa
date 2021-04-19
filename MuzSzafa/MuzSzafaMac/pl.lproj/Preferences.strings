@@ -1,0 +1,12 @@
+
+/* Class = "NSViewController"; title = "email"; ObjectID = "Z6Y-26-iKB"; */
+"Z6Y-26-iKB.title" = "email";
+
+/* Class = "NSTextFieldCell"; title = "Email pattern:"; ObjectID = "jRt-Jp-K0E"; */
+"jRt-Jp-K0E.title" = "Wzór emaila:";
+
+/* Class = "NSTabViewController"; title = "Preferences"; ObjectID = "tef-qA-Cvm"; */
+"tef-qA-Cvm.title" = "Preferencje";
+
+/* Class = "NSViewController"; title = "general"; ObjectID = "z5M-RM-Zca"; */
+"z5M-RM-Zca.title" = "ogólne";

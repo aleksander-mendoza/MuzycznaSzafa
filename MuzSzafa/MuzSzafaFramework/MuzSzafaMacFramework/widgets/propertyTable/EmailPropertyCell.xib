@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="zdg-dt-j0F" customClass="EmailTableViewCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="287" height="28"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aun-g4-Sfc">
+                    <rect key="frame" x="38" y="3" width="217" height="22"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="CSd-d0-fdO">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="RQ5-1B-pb3" userLabel="Title">
+                    <rect key="frame" x="1" y="5" width="31" height="17"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="? ? ?" id="OcO-Rh-UKO">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="I7O-PM-iz7">
+                    <rect key="frame" x="261" y="1" width="25" height="25"/>
+                    <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JyQ-86-tHU">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="helpSelected:" target="zdg-dt-j0F" id="Jdb-Rg-Dta"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="I7O-PM-iz7" firstAttribute="leading" secondItem="aun-g4-Sfc" secondAttribute="trailing" constant="8" id="6nT-3G-SOJ"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="centerY" secondItem="aun-g4-Sfc" secondAttribute="centerY" id="M4s-tU-sji"/>
+                <constraint firstItem="aun-g4-Sfc" firstAttribute="leading" secondItem="RQ5-1B-pb3" secondAttribute="trailing" constant="8" symbolic="YES" id="VMt-8z-63s"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="leading" secondItem="zdg-dt-j0F" secondAttribute="leading" constant="3" id="c2q-iK-NfP"/>
+                <constraint firstAttribute="trailing" secondItem="I7O-PM-iz7" secondAttribute="trailing" constant="3" id="gxy-Y9-BdC"/>
+                <constraint firstItem="I7O-PM-iz7" firstAttribute="centerY" secondItem="aun-g4-Sfc" secondAttribute="centerY" id="q2G-5f-wLs"/>
+                <constraint firstItem="aun-g4-Sfc" firstAttribute="top" secondItem="zdg-dt-j0F" secondAttribute="top" constant="3" id="zbV-aF-hkO"/>
+            </constraints>
+            <connections>
+                <outlet property="cellTitle" destination="RQ5-1B-pb3" id="WJL-Hk-4fl"/>
+                <outlet property="cellValue" destination="aun-g4-Sfc" id="EAu-Ji-NpW"/>
+                <outlet property="help" destination="I7O-PM-iz7" id="NtH-vi-GGB"/>
+            </connections>
+            <point key="canvasLocation" x="57.5" y="96"/>
+        </tableCellView>
+    </objects>
+</document>

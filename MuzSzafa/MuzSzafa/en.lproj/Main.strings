@@ -1,0 +1,255 @@
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "0iI-eK-TkV"; */
+"0iI-eK-TkV.text" = "? ? ?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1Ds-F7-6Na"; */
+"1Ds-F7-6Na.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "1al-Vh-uRB"; */
+"1al-Vh-uRB.text" = "name:";
+
+/* Class = "UIViewController"; title = "List"; ObjectID = "3Pn-cF-NB9"; */
+"3Pn-cF-NB9.title" = "List";
+
+/* Class = "UILabel"; text = "tel:"; ObjectID = "3YY-xH-KMB"; */
+"3YY-xH-KMB.text" = "tel:";
+
+/* Class = "UILabel"; text = "borrowed by:"; ObjectID = "4tq-qn-h1r"; */
+"4tq-qn-h1r.text" = "borrowed by:";
+
+/* Class = "UILabel"; text = "deal id:"; ObjectID = "69A-uZ-9g2"; */
+"69A-uZ-9g2.text" = "deal id:";
+
+/* Class = "UIViewController"; title = "Client"; ObjectID = "71y-Jz-idR"; */
+"71y-Jz-idR.title" = "Client";
+
+/* Class = "UILabel"; text = "surname:"; ObjectID = "8an-d7-7QB"; */
+"8an-d7-7QB.text" = "surname:";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "9Lq-KG-Fsd"; */
+"9Lq-KG-Fsd.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "AEA-Pq-1XM"; */
+"AEA-Pq-1XM.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "AS1-XX-l2b"; */
+"AS1-XX-l2b.text" = "? ? ?";
+
+/* Class = "UITableViewController"; title = "ClientsTable"; ObjectID = "Bbh-5I-ZiC"; */
+"Bbh-5I-ZiC.title" = "ClientsTable";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "DOh-Wh-gBm"; */
+"DOh-Wh-gBm.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "client:"; ObjectID = "Ewh-rT-uP1"; */
+"Ewh-rT-uP1.text" = "client:";
+
+/* Class = "UILabel"; text = "type:"; ObjectID = "FLb-Kl-Zhj"; */
+"FLb-Kl-Zhj.text" = "type:";
+
+/* Class = "UITextField"; placeholder = "unique identifier"; ObjectID = "Fin-6d-0Yr"; */
+"Fin-6d-0Yr.placeholder" = "unique identifier";
+
+/* Class = "UITabBarItem"; title = "Overview"; ObjectID = "G0b-Hv-K7w"; */
+"G0b-Hv-K7w.title" = "Overview";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "GSv-Kp-oe7"; */
+"GSv-Kp-oe7.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "GVV-Mc-7wr"; */
+"GVV-Mc-7wr.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "size:"; ObjectID = "GaD-qc-5SW"; */
+"GaD-qc-5SW.text" = "size:";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "HQp-tz-Uab"; */
+"HQp-tz-Uab.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "IuB-2a-rwf"; */
+"IuB-2a-rwf.text" = "? ? ?";
+
+/* Class = "UITabBarItem"; title = "List"; ObjectID = "Lsa-ZG-GWN"; */
+"Lsa-ZG-GWN.title" = "List";
+
+/* Class = "UITextField"; placeholder = "tel"; ObjectID = "ORA-Py-tBq"; */
+"ORA-Py-tBq.placeholder" = "tel";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "OWI-cQ-9EI"; */
+"OWI-cQ-9EI.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "price:"; ObjectID = "PkZ-Y1-GJB"; */
+"PkZ-Y1-GJB.text" = "price:";
+
+/* Class = "UIViewController"; title = "Settings"; ObjectID = "Pmd-Jc-WsD"; */
+"Pmd-Jc-WsD.title" = "Settings";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "Q4Q-EV-Bj2"; */
+"Q4Q-EV-Bj2.text" = "? ? ?";
+
+/* Class = "UITableViewController"; title = "Deals Table"; ObjectID = "RGG-jG-er1"; */
+"RGG-jG-er1.title" = "Deals Table";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "RPT-i7-AWw"; */
+"RPT-i7-AWw.text" = "name:";
+
+/* Class = "UIViewController"; title = "New Client"; ObjectID = "RdN-ms-Q4c"; */
+"RdN-ms-Q4c.title" = "New Client";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "Reg-Lp-IC8"; */
+"Reg-Lp-IC8.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "id:"; ObjectID = "Rva-0v-VNB"; */
+"Rva-0v-VNB.text" = "id:";
+
+/* Class = "UILabel"; text = "email:"; ObjectID = "S7S-E0-dyC"; */
+"S7S-E0-dyC.text" = "email:";
+
+/* Class = "UILabel"; text = "type:"; ObjectID = "S7k-VM-f50"; */
+"S7k-VM-f50.text" = "type:";
+
+/* Class = "UITableViewController"; title = "Instrument Table"; ObjectID = "TYC-Fo-izV"; */
+"TYC-Fo-izV.title" = "Instrument Table";
+
+/* Class = "UIViewController"; title = "Overview"; ObjectID = "W0W-Ws-iTf"; */
+"W0W-Ws-iTf.title" = "Overview";
+
+/* Class = "UILabel"; text = "client"; ObjectID = "Wec-Aj-p61"; */
+"Wec-Aj-p61.text" = "client";
+
+/* Class = "UILabel"; text = "available:"; ObjectID = "XJA-dg-6mb"; */
+"XJA-dg-6mb.text" = "available:";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "Xue-Dc-vX5"; */
+"Xue-Dc-vX5.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "from:"; ObjectID = "YiY-sO-TQu"; */
+"YiY-sO-TQu.text" = "from:";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "ao3-FN-e9g"; */
+"ao3-FN-e9g.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "notes:"; ObjectID = "app-FP-q2E"; */
+"app-FP-q2E.text" = "notes:";
+
+/* Class = "UILabel"; text = "surname:"; ObjectID = "b3U-WH-pQD"; */
+"b3U-WH-pQD.text" = "surname:";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "bdl-Jk-mAL"; */
+"bdl-Jk-mAL.title" = "Home";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "c17-ek-pbx"; */
+"c17-ek-pbx.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "id:"; ObjectID = "cDz-od-IxS"; */
+"cDz-od-IxS.text" = "id:";
+
+/* Class = "UILabel"; text = "to:"; ObjectID = "ce1-pj-Uio"; */
+"ce1-pj-Uio.text" = "to:";
+
+/* Class = "UILabel"; text = "deposit:"; ObjectID = "cqU-7m-1ct"; */
+"cqU-7m-1ct.text" = "deposit:";
+
+/* Class = "UIViewController"; title = "Instruments"; ObjectID = "dH2-c2-246"; */
+"dH2-c2-246.title" = "Instruments";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "dKR-uY-SFk"; */
+"dKR-uY-SFk.text" = "? ? ?";
+
+/* Class = "UITextField"; text = "name:"; ObjectID = "djC-MO-D6v"; */
+"djC-MO-D6v.text" = "name:";
+
+/* Class = "UITextField"; placeholder = "type"; ObjectID = "dzm-RW-3GZ"; */
+"dzm-RW-3GZ.placeholder" = "type";
+
+/* Class = "UITextField"; placeholder = "id"; ObjectID = "e9K-t1-jfh"; */
+"e9K-t1-jfh.placeholder" = "id";
+
+/* Class = "UITextField"; placeholder = "name"; ObjectID = "gCP-dg-p8M"; */
+"gCP-dg-p8M.placeholder" = "name";
+
+/* Class = "UILabel"; text = "id:"; ObjectID = "gJY-V1-m5s"; */
+"gJY-V1-m5s.text" = "id:";
+
+/* Class = "UITextField"; placeholder = "Surname"; ObjectID = "h1R-cT-2oQ"; */
+"h1R-cT-2oQ.placeholder" = "Surname";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "hDr-1p-MX0"; */
+"hDr-1p-MX0.placeholder" = "email";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hQM-lX-d8l"; */
+"hQM-lX-d8l.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "notes:"; ObjectID = "j33-Mc-xdb"; */
+"j33-Mc-xdb.text" = "notes:";
+
+/* Class = "UILabel"; text = "instrument"; ObjectID = "k1B-wT-jfV"; */
+"k1B-wT-jfV.text" = "instrument";
+
+/* Class = "UILabel"; text = "deal id:"; ObjectID = "kkw-D2-Q4A"; */
+"kkw-D2-Q4A.text" = "deal id:";
+
+/* Class = "UIViewController"; title = "Clients"; ObjectID = "mkp-gY-Kzu"; */
+"mkp-gY-Kzu.title" = "Clients";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "ngz-7m-Bfy"; */
+"ngz-7m-Bfy.text" = "name:";
+
+/* Class = "UITextField"; placeholder = "surname"; ObjectID = "nmh-Eh-1ci"; */
+"nmh-Eh-1ci.placeholder" = "surname";
+
+/* Class = "UIViewController"; title = "Instrument"; ObjectID = "oIe-KU-J8M"; */
+"oIe-KU-J8M.title" = "Instrument";
+
+/* Class = "UILabel"; text = "surname:"; ObjectID = "ouK-Uk-xpU"; */
+"ouK-Uk-xpU.text" = "surname:";
+
+/* Class = "UITabBarController"; title = "Income"; ObjectID = "qGZ-rr-ErS"; */
+"qGZ-rr-ErS.title" = "Income";
+
+/* Class = "UILabel"; text = "price:"; ObjectID = "rSE-PP-FLV"; */
+"rSE-PP-FLV.text" = "price:";
+
+/* Class = "UILabel"; text = "borrowed:"; ObjectID = "rxt-X5-wS1"; */
+"rxt-X5-wS1.text" = "borrowed:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s9u-oq-aJq"; */
+"s9u-oq-aJq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "sXf-kS-4nb"; */
+"sXf-kS-4nb.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "notes:"; ObjectID = "t8i-MW-4uc"; */
+"t8i-MW-4uc.text" = "notes:";
+
+/* Class = "UITextField"; placeholder = "price per month"; ObjectID = "tSZ-gC-NDK"; */
+"tSZ-gC-NDK.placeholder" = "price per month";
+
+/* Class = "UIViewController"; title = "New Deal"; ObjectID = "tYc-oN-l7Q"; */
+"tYc-oN-l7Q.title" = "New Deal";
+
+/* Class = "UITextField"; text = "id:"; ObjectID = "tnE-o3-6gz"; */
+"tnE-o3-6gz.text" = "id:";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "vfs-8R-wpr"; */
+"vfs-8R-wpr.text" = "name:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vo1-C6-p2d"; */
+"vo1-C6-p2d.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "voq-e5-LrI"; */
+"voq-e5-LrI.text" = "name:";
+
+/* Class = "UIViewController"; title = "New Instrument"; ObjectID = "x6G-mD-CvO"; */
+"x6G-mD-CvO.title" = "New Instrument";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "xAz-e5-QOz"; */
+"xAz-e5-QOz.text" = ":";
+
+/* Class = "UILabel"; text = "deal"; ObjectID = "xmy-qs-dQ1"; */
+"xmy-qs-dQ1.text" = "deal";
+
+/* Class = "UILabel"; text = "? ? ?"; ObjectID = "yRK-3n-M3p"; */
+"yRK-3n-M3p.text" = "? ? ?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zZC-la-wJS"; */
+"zZC-la-wJS.text" = "Label";

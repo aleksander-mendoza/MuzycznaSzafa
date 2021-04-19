@@ -1,0 +1,1431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70B67692157F5EB0038ED88 /* HelpPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70B67682157F5EB0038ED88 /* HelpPopover.swift */; };
+		E70D02FC2063C3F500CE162C /* MuzSzafaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70D02F22063C3F500CE162C /* MuzSzafaFramework.framework */; };
+		E70D03032063C3F500CE162C /* MuzSzafaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E70D02F52063C3F500CE162C /* MuzSzafaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E70D03232063C41B00CE162C /* MuzSzafaMacFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70D031A2063C41A00CE162C /* MuzSzafaMacFramework.framework */; };
+		E70D032A2063C41B00CE162C /* MuzSzafaMacFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E70D031C2063C41A00CE162C /* MuzSzafaMacFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E710ED4821CF715500391378 /* MOListDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E710ED4721CF715500391378 /* MOListDataDelegate.swift */; };
+		E710ED4B21CF8B0300391378 /* MOManualListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E710ED4A21CF8B0300391378 /* MOManualListTableView.swift */; };
+		E7111ECE20B7010300DFDE13 /* TextTableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7111ECD20B7010300DFDE13 /* TextTableBuilder.swift */; };
+		E7111ED120B731D800DFDE13 /* NSTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7111ED020B731D800DFDE13 /* NSTextBlock.swift */; };
+		E71619D22215E89900A27650 /* BasicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71619D12215E89900A27650 /* BasicCell.xib */; };
+		E71619D52215E8BC00A27650 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71619D42215E8BC00A27650 /* BasicCell.swift */; };
+		E71619D72215E99F00A27650 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71619D62215E99F00A27650 /* UITableView.swift */; };
+		E72535FD20D27DC60023BF2F /* PopUpButtonTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72535FC20D27DC50023BF2F /* PopUpButtonTableCell.swift */; };
+		E72535FF20D27EE10023BF2F /* NSTableColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72535FE20D27EE10023BF2F /* NSTableColumn.swift */; };
+		E725360020D283C20023BF2F /* PopUpButtonTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72535FA20D27DC50023BF2F /* PopUpButtonTableCell.xib */; };
+		E73D93DF2072936500847769 /* EmailPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73D93DE2072936500847769 /* EmailPropertyCell.xib */; };
+		E73D93E22072937100847769 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D93E12072937100847769 /* EmailTableViewCell.swift */; };
+		E73D93E420729F9800847769 /* TelephonePropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73D93E320729F9800847769 /* TelephonePropertyCell.xib */; };
+		E73D93E620729FA400847769 /* TelephoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D93E520729FA400847769 /* TelephoneTableViewCell.swift */; };
+		E73D93E82072A2FC00847769 /* MoneyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D93E72072A2FC00847769 /* MoneyTextField.swift */; };
+		E73D93EA2072AB8D00847769 /* MoneyPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73D93E92072AB8D00847769 /* MoneyPropertyCell.xib */; };
+		E73D93EC2072AB9600847769 /* MoneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D93EB2072AB9600847769 /* MoneyTableViewCell.swift */; };
+		E753B08A2067C2A70015BD0E /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753B0892067C2A70015BD0E /* Property.swift */; };
+		E7540E0C206FCE9A0018C602 /* PropertyTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E0B206FCE9A0018C602 /* PropertyTable.swift */; };
+		E7540E12206FD5300018C602 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E0F206FD5300018C602 /* Property.swift */; };
+		E7540E13206FD5300018C602 /* AutomaticTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E10206FD5300018C602 /* AutomaticTitleCell.swift */; };
+		E7540E14206FD5300018C602 /* PropertyTypeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E11206FD5300018C602 /* PropertyTypeUtils.swift */; };
+		E7540E16206FDBD90018C602 /* DisplayPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7540E15206FDBD90018C602 /* DisplayPropertyCell.xib */; };
+		E754546B206B9CD500FE8CFA /* EntitiesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E754546A206B9CD500FE8CFA /* EntitiesTableView.swift */; };
+		E7549DD2207212D500D8A1DF /* CounterField.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7549DD1207212D500D8A1DF /* CounterField.xib */; };
+		E7549DD52072134500D8A1DF /* CounterField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7549DD42072134500D8A1DF /* CounterField.swift */; };
+		E7562697207D18E100591BC2 /* ButtonPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7562696207D18E100591BC2 /* ButtonPropertyCell.xib */; };
+		E756269A207D18EB00591BC2 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7562699207D18EB00591BC2 /* ButtonTableViewCell.swift */; };
+		E756269C207D1C8E00591BC2 /* ButtonPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E756269B207D1C8E00591BC2 /* ButtonPropertyCell.xib */; };
+		E756269E207D1C9F00591BC2 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756269D207D1C9F00591BC2 /* ButtonTableViewCell.swift */; };
+		E75969D920B1FF7100E28744 /* NSTextTableBlockArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75969D820B1FF7100E28744 /* NSTextTableBlockArray.swift */; };
+		E759D51920789EDE00157596 /* TablePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = E759D51820789EDE00157596 /* TablePair.swift */; };
+		E75D007D208C8BD500E15639 /* Dialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D007C208C8BD500E15639 /* Dialogs.swift */; };
+		E75D0A2A2071204100727130 /* BoolPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75D0A292071204100727130 /* BoolPropertyCell.xib */; };
+		E75D0A2D2071204D00727130 /* BoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D0A2C2071204D00727130 /* BoolTableViewCell.swift */; };
+		E75D0A2F207122D400727130 /* IntPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75D0A2E207122D400727130 /* IntPropertyCell.xib */; };
+		E75D0A31207122DD00727130 /* IntTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D0A30207122DD00727130 /* IntTableViewCell.swift */; };
+		E75DBC0221C505940095A1AB /* RelatToManyPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75DBC0121C505940095A1AB /* RelatToManyPropertyCell.xib */; };
+		E75DBC0521C505A30095A1AB /* RelatToManyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DBC0421C505A30095A1AB /* RelatToManyTableViewCell.swift */; };
+		E75E501F20AC98C8001AFD01 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E501E20AC98C8001AFD01 /* String.swift */; };
+		E75EB8A52216E2000034FEB1 /* MOManualListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75EB8A42216E2000034FEB1 /* MOManualListTableView.swift */; };
+		E75EB8A82216E2350034FEB1 /* MOListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75EB8A72216E2350034FEB1 /* MOListTableView.swift */; };
+		E75EB8AA2216E24E0034FEB1 /* MOListDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75EB8A92216E24E0034FEB1 /* MOListDataDelegate.swift */; };
+		E75EB8AC2216EB9F0034FEB1 /* RelatToManyPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75EB8AB2216EB9F0034FEB1 /* RelatToManyPropertyCell.xib */; };
+		E75EB8AE2216EBAA0034FEB1 /* RelatToManyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75EB8AD2216EBAA0034FEB1 /* RelatToManyTableViewCell.swift */; };
+		E75EB8BB2216F8C50034FEB1 /* RelatListPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75EB8BA2216F8C50034FEB1 /* RelatListPropertyCell.xib */; };
+		E75EB8BD2216F8D00034FEB1 /* RelatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75EB8BC2216F8D00034FEB1 /* RelatListTableViewCell.swift */; };
+		E7617D642063E59B00817E2B /* PropertyTypeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03312063C43D00CE162C /* PropertyTypeUtils.swift */; };
+		E7617D672063E59B00817E2B /* PropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03342063C43D00CE162C /* PropertyCell.swift */; };
+		E7617D682063E59B00817E2B /* PropertyTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03352063C43D00CE162C /* PropertyTable.swift */; };
+		E7617D692063E59B00817E2B /* BoolPropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D03362063C43D00CE162C /* BoolPropertyCell.xib */; };
+		E7617D6A2063E59B00817E2B /* BoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03372063C43D00CE162C /* BoolTableViewCell.swift */; };
+		E7617D6B2063E59B00817E2B /* IntPropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D03382063C43D00CE162C /* IntPropertyCell.xib */; };
+		E7617D6C2063E59B00817E2B /* IntTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03392063C43D00CE162C /* IntTableViewCell.swift */; };
+		E7617D6D2063E59B00817E2B /* DatePropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D033A2063C43D00CE162C /* DatePropertyCell.xib */; };
+		E7617D6E2063E59B00817E2B /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D033B2063C43D00CE162C /* DateTableViewCell.swift */; };
+		E7617D6F2063E59B00817E2B /* StringPropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D033C2063C43D00CE162C /* StringPropertyCell.xib */; };
+		E7617D702063E59B00817E2B /* StringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D033D2063C43D00CE162C /* StringTableViewCell.swift */; };
+		E7617D712063E59B00817E2B /* MoneyPropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D033E2063C43D00CE162C /* MoneyPropertyCell.xib */; };
+		E7617D722063E59B00817E2B /* MoneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D033F2063C43D00CE162C /* MoneyTableViewCell.swift */; };
+		E7617D732063E59B00817E2B /* DisplayPropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D03402063C43D00CE162C /* DisplayPropertyCell.xib */; };
+		E7617D742063E59B00817E2B /* DisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03412063C43D00CE162C /* DisplayTableViewCell.swift */; };
+		E7617D752063E59B00817E2B /* TextPropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D03422063C43D00CE162C /* TextPropertyCell.xib */; };
+		E7617D762063E59B00817E2B /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03432063C43D00CE162C /* TextTableViewCell.swift */; };
+		E7617D772063E59B00817E2B /* TelephonePropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D03442063C43D00CE162C /* TelephonePropertyCell.xib */; };
+		E7617D782063E59B00817E2B /* TelephoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03452063C43D00CE162C /* TelephoneTableViewCell.swift */; };
+		E7617D792063E59B00817E2B /* EmailPropertyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D03462063C43D00CE162C /* EmailPropertyCell.xib */; };
+		E7617D7A2063E59B00817E2B /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03472063C43D00CE162C /* EmailTableViewCell.swift */; };
+		E7617D7B2063E59B00817E2B /* MoneyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D03492063C43D00CE162C /* MoneyTextField.swift */; };
+		E7617D7C2063E59B00817E2B /* TelephoneField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D034A2063C43D00CE162C /* TelephoneField.swift */; };
+		E7617D7D2063E59B00817E2B /* EmailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D034B2063C43D00CE162C /* EmailField.swift */; };
+		E7617D7E2063E59B00817E2B /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D034C2063C43D00CE162C /* ToggleButton.swift */; };
+		E7617D7F2063E59B00817E2B /* CounterField.xib in Sources */ = {isa = PBXBuildFile; fileRef = E70D034D2063C43D00CE162C /* CounterField.xib */; };
+		E7617D802063E59B00817E2B /* CounterField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D034E2063C43D00CE162C /* CounterField.swift */; };
+		E7617D812063E59B00817E2B /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D034F2063C43D00CE162C /* CoreDataTable.swift */; };
+		E7617DA02064039C00817E2B /* GenericPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7617D9F2064039B00817E2B /* GenericPicker.swift */; };
+		E7617DA2206403AC00817E2B /* GenericTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7617DA1206403AB00817E2B /* GenericTable.swift */; };
+		E7617DA4206403B600817E2B /* GenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7617DA3206403B500817E2B /* GenericTableViewCell.swift */; };
+		E7617DB5206403F600817E2B /* PopoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7617DB3206403F600817E2B /* PopoverController.swift */; };
+		E7617DB62064061000817E2B /* DealTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7617DA5206403DC00817E2B /* DealTable.swift */; };
+		E7617DB72064061000817E2B /* ClientTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7617DA6206403DC00817E2B /* ClientTable.swift */; };
+		E7617DB82064061000817E2B /* InstrumentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7617DA7206403DC00817E2B /* InstrumentTable.swift */; };
+		E765315620B5ED1900A97E6D /* TextTableBlockRangeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765315520B5ED1900A97E6D /* TextTableBlockRangeArray.swift */; };
+		E765978720BF21ED00084D6A /* NSPathControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765978620BF21ED00084D6A /* NSPathControlItem.swift */; };
+		E765C95420B45FBE00D7551C /* MutableTextTableRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C95320B45FBE00D7551C /* MutableTextTableRange.swift */; };
+		E765C95720B4600E00D7551C /* MutableTextTableBlockRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C95620B4600E00D7551C /* MutableTextTableBlockRange.swift */; };
+		E765C95920B4671C00D7551C /* MutableTextTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C95820B4671C00D7551C /* MutableTextTable.swift */; };
+		E765C95B20B469BB00D7551C /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C95A20B469BB00D7551C /* NSMutableAttributedString.swift */; };
+		E765C95D20B4841800D7551C /* MutableTextTableCellRangeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C95C20B4841800D7551C /* MutableTextTableCellRangeIterator.swift */; };
+		E767F28120864A9900FD7A7B /* TogglePropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E767F28020864A9900FD7A7B /* TogglePropertyCell.xib */; };
+		E767F28420864AA600FD7A7B /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F28320864AA600FD7A7B /* ToggleTableViewCell.swift */; };
+		E767F28620864C4F00FD7A7B /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F28520864C4F00FD7A7B /* ToggleButton.swift */; };
+		E767F28B208662D600FD7A7B /* TogglePropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E767F28A208662D600FD7A7B /* TogglePropertyCell.xib */; };
+		E767F28D208662E100FD7A7B /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F28C208662E100FD7A7B /* ToggleTableViewCell.swift */; };
+		E768770820ADA41200C4C85D /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768770720ADA41200C4C85D /* URL.swift */; };
+		E7759FDE20B3FED7008A4F46 /* TextTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7759FDD20B3FED7008A4F46 /* TextTable.swift */; };
+		E7759FE020B3FF1B008A4F46 /* AttributedStringRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7759FDF20B3FF1B008A4F46 /* AttributedStringRange.swift */; };
+		E7759FE220B3FF97008A4F46 /* TextTableBlockRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7759FE120B3FF97008A4F46 /* TextTableBlockRange.swift */; };
+		E7759FE420B3FFF1008A4F46 /* TextTableRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7759FE320B3FFF1008A4F46 /* TextTableRange.swift */; };
+		E7759FE620B40616008A4F46 /* TextTableCellRangeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7759FE520B40616008A4F46 /* TextTableCellRangeIterator.swift */; };
+		E7759FE820B42369008A4F46 /* MutableAttributedStringRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7759FE720B42369008A4F46 /* MutableAttributedStringRange.swift */; };
+		E776560C21CE59C6007A24E4 /* MOListPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776560B21CE59C6007A24E4 /* MOListPropertyCell.xib */; };
+		E776560F21CE59D4007A24E4 /* MOListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776560E21CE59D4007A24E4 /* MOListTableViewCell.swift */; };
+		E776561121CE5AEF007A24E4 /* MOListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776561021CE5AEF007A24E4 /* MOListTableView.swift */; };
+		E77FBAC320711CC90034CD67 /* StringPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77FBAC220711CC90034CD67 /* StringPropertyCell.xib */; };
+		E77FBAC520711CD80034CD67 /* StringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAC420711CD80034CD67 /* StringTableViewCell.swift */; };
+		E780B0FD219C704300C10926 /* CharacterChooser.xib in Resources */ = {isa = PBXBuildFile; fileRef = E780B0FC219C704300C10926 /* CharacterChooser.xib */; };
+		E780B100219C705500C10926 /* CharacterChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E780B0FF219C705500C10926 /* CharacterChooser.swift */; };
+		E786BCAF20B1A82200F0CF0F /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786BCAE20B1A82200F0CF0F /* NSAttributedString.swift */; };
+		E78A03F1207375290004C83C /* ListPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78A03F0207375290004C83C /* ListPropertyCell.xib */; };
+		E78A03F4207375350004C83C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A03F3207375350004C83C /* ListTableViewCell.swift */; };
+		E78A04022073BF7A0004C83C /* RelatPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78A04012073BF7A0004C83C /* RelatPropertyCell.xib */; };
+		E78A04042073BF850004C83C /* RelatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A04032073BF850004C83C /* RelatTableViewCell.swift */; };
+		E78A04062073C0740004C83C /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A04052073C0740004C83C /* CoreDataTable.swift */; };
+		E78A632720728EA1005CD1C8 /* DatePropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78A632620728EA1005CD1C8 /* DatePropertyCell.xib */; };
+		E78A632A20728EAC005CD1C8 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A632920728EAC005CD1C8 /* DateTableViewCell.swift */; };
+		E78B88DD215A8928004719DA /* NSRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B88DC215A8928004719DA /* NSRect.swift */; };
+		E78BF4CF207B8BAD0077607F /* PopoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78BF4CD207B8BAD0077607F /* PopoverController.swift */; };
+		E78DD75A206795300071A9CD /* RepresentationTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78DD759206795300071A9CD /* RepresentationTable.swift */; };
+		E78DD75C206797050071A9CD /* RepresentationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78DD75B206797050071A9CD /* RepresentationCell.swift */; };
+		E78E2BB92070BB58009D7E29 /* DisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E2BB82070BB58009D7E29 /* DisplayTableViewCell.swift */; };
+		E78F245320C3D9A0009E38AA /* EntTableSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78F245220C3D9A0009E38AA /* EntTableSelectionCell.xib */; };
+		E78F245520C3D9AA009E38AA /* EntTableSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F245420C3D9AA009E38AA /* EntTableSelectionCell.swift */; };
+		E78F245720C3ECF6009E38AA /* BasicTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F245620C3ECF6009E38AA /* BasicTableCell.swift */; };
+		E78F245920C3ED0B009E38AA /* BasicTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78F245820C3ED0B009E38AA /* BasicTableCell.xib */; };
+		E793B97C208748D9009D2C38 /* EntitiesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793B97B208748D9009D2C38 /* EntitiesTableView.swift */; };
+		E795A05122169DF3002D3163 /* MOListPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E795A05022169DF3002D3163 /* MOListPropertyCell.xib */; };
+		E795A05322169E05002D3163 /* MOListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E795A05222169E05002D3163 /* MOListTableViewCell.swift */; };
+		E798481A206B72A5002C8820 /* RelatPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7984819206B72A5002C8820 /* RelatPropertyCell.xib */; };
+		E798481E206B72B2002C8820 /* RelatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E798481D206B72B2002C8820 /* RelatTableViewCell.swift */; };
+		E79967C920A455A8009C9DAE /* PropertyTableCellMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79967C820A455A8009C9DAE /* PropertyTableCellMac.swift */; };
+		E79A53BB20A188780065A749 /* EntitiesFilteredTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A53BA20A188780065A749 /* EntitiesFilteredTableView.swift */; };
+		E7A3C9D52153F62800FB8B4A /* HelpPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3C9D42153F62800FB8B4A /* HelpPopoverViewController.swift */; };
+		E7A3C9D82153F64400FB8B4A /* HelpPopover.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A3C9D72153F64400FB8B4A /* HelpPopover.xib */; };
+		E7A3C9E22153FB1700FB8B4A /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3C9E12153FB1700FB8B4A /* NSView.swift */; };
+		E7A3C9E42154061C00FB8B4A /* HelpPopoverRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3C9E32154061C00FB8B4A /* HelpPopoverRequestDelegate.swift */; };
+		E7A688A8209DA4EB00A9EFA9 /* DraggableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A688A7209DA4EB00A9EFA9 /* DraggableButton.swift */; };
+		E7A7B40F206642A600A4AEE9 /* ListPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A7B40E206642A600A4AEE9 /* ListPropertyCell.xib */; };
+		E7A7B413206642B300A4AEE9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7B412206642B300A4AEE9 /* ListTableViewCell.swift */; };
+		E7B1BB6A2218146100CFC2C8 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1BB692218146100CFC2C8 /* UIViewController.swift */; };
+		E7B1BB6D2218159700CFC2C8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1BB6C2218159700CFC2C8 /* UIView.swift */; };
+		E7BCDD6020AAEE8F00C9A8D0 /* FileChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BCDD5F20AAEE8F00C9A8D0 /* FileChooser.swift */; };
+		E7BCDD6320AAEEA600C9A8D0 /* FileChooser.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7BCDD6220AAEEA600C9A8D0 /* FileChooser.xib */; };
+		E7D646D42070C3B900426612 /* MuzSzafaShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76F9F2F20642376007D38C9 /* MuzSzafaShared.framework */; };
+		E7D646DF2070C61500426612 /* MuzSzafaShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76F9F2F20642376007D38C9 /* MuzSzafaShared.framework */; };
+		E7D646E3207104A500426612 /* TextPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7D646E2207104A500426612 /* TextPropertyCell.xib */; };
+		E7D646E5207104B000426612 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D646E4207104B000426612 /* TextTableViewCell.swift */; };
+		E7E2F0C221CE228F00F87C04 /* RelatListPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E2F0C121CE228F00F87C04 /* RelatListPropertyCell.xib */; };
+		E7E2F0C521CE229A00F87C04 /* RelatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E2F0C421CE229A00F87C04 /* RelatListTableViewCell.swift */; };
+		E7F610BD20C1A4F300EC93E9 /* NSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F610BC20C1A4F300EC93E9 /* NSTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E70D02FD2063C3F500CE162C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D02E92063C3F500CE162C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D02F12063C3F500CE162C;
+			remoteInfo = MuzSzafaFramework;
+		};
+		E70D03242063C41B00CE162C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D02E92063C3F500CE162C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D03192063C41A00CE162C;
+			remoteInfo = MuzSzafaMacFramework;
+		};
+		E76F9F2E20642376007D38C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76F9F2920642375007D38C9 /* MuzSzafaShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E76F9F0F20642375007D38C9;
+			remoteInfo = MuzSzafaShared;
+		};
+		E76F9F3020642376007D38C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76F9F2920642375007D38C9 /* MuzSzafaShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E76F9F1820642375007D38C9;
+			remoteInfo = MuzSzafaSharedTests;
+		};
+		E7D646D72070C52F00426612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76F9F2920642375007D38C9 /* MuzSzafaShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E76F9F0E20642375007D38C9;
+			remoteInfo = MuzSzafaShared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E70B67682157F5EB0038ED88 /* HelpPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPopover.swift; sourceTree = "<group>"; };
+		E70D02F22063C3F500CE162C /* MuzSzafaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MuzSzafaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D02F52063C3F500CE162C /* MuzSzafaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuzSzafaFramework.h; sourceTree = "<group>"; };
+		E70D02F62063C3F500CE162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D02FB2063C3F500CE162C /* MuzSzafaFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuzSzafaFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D03022063C3F500CE162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D031A2063C41A00CE162C /* MuzSzafaMacFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MuzSzafaMacFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D031C2063C41A00CE162C /* MuzSzafaMacFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuzSzafaMacFramework.h; sourceTree = "<group>"; };
+		E70D031D2063C41A00CE162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D03222063C41B00CE162C /* MuzSzafaMacFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuzSzafaMacFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D03292063C41B00CE162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D03312063C43D00CE162C /* PropertyTypeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTypeUtils.swift; sourceTree = "<group>"; };
+		E70D03342063C43D00CE162C /* PropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCell.swift; sourceTree = "<group>"; };
+		E70D03352063C43D00CE162C /* PropertyTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTable.swift; sourceTree = "<group>"; };
+		E70D03362063C43D00CE162C /* BoolPropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoolPropertyCell.xib; sourceTree = "<group>"; };
+		E70D03372063C43D00CE162C /* BoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolTableViewCell.swift; sourceTree = "<group>"; };
+		E70D03382063C43D00CE162C /* IntPropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntPropertyCell.xib; sourceTree = "<group>"; };
+		E70D03392063C43D00CE162C /* IntTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntTableViewCell.swift; sourceTree = "<group>"; };
+		E70D033A2063C43D00CE162C /* DatePropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePropertyCell.xib; sourceTree = "<group>"; };
+		E70D033B2063C43D00CE162C /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		E70D033C2063C43D00CE162C /* StringPropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StringPropertyCell.xib; sourceTree = "<group>"; };
+		E70D033D2063C43D00CE162C /* StringTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTableViewCell.swift; sourceTree = "<group>"; };
+		E70D033E2063C43D00CE162C /* MoneyPropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyPropertyCell.xib; sourceTree = "<group>"; };
+		E70D033F2063C43D00CE162C /* MoneyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyTableViewCell.swift; sourceTree = "<group>"; };
+		E70D03402063C43D00CE162C /* DisplayPropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayPropertyCell.xib; sourceTree = "<group>"; };
+		E70D03412063C43D00CE162C /* DisplayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayTableViewCell.swift; sourceTree = "<group>"; };
+		E70D03422063C43D00CE162C /* TextPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextPropertyCell.xib; sourceTree = "<group>"; };
+		E70D03432063C43D00CE162C /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		E70D03442063C43D00CE162C /* TelephonePropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelephonePropertyCell.xib; sourceTree = "<group>"; };
+		E70D03452063C43D00CE162C /* TelephoneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelephoneTableViewCell.swift; sourceTree = "<group>"; };
+		E70D03462063C43D00CE162C /* EmailPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailPropertyCell.xib; sourceTree = "<group>"; };
+		E70D03472063C43D00CE162C /* EmailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		E70D03492063C43D00CE162C /* MoneyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTextField.swift; sourceTree = "<group>"; };
+		E70D034A2063C43D00CE162C /* TelephoneField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelephoneField.swift; sourceTree = "<group>"; };
+		E70D034B2063C43D00CE162C /* EmailField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailField.swift; sourceTree = "<group>"; };
+		E70D034C2063C43D00CE162C /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		E70D034D2063C43D00CE162C /* CounterField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterField.xib; sourceTree = "<group>"; };
+		E70D034E2063C43D00CE162C /* CounterField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterField.swift; sourceTree = "<group>"; };
+		E70D034F2063C43D00CE162C /* CoreDataTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
+		E710ED4721CF715500391378 /* MOListDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOListDataDelegate.swift; sourceTree = "<group>"; };
+		E710ED4A21CF8B0300391378 /* MOManualListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOManualListTableView.swift; sourceTree = "<group>"; };
+		E7111ECD20B7010300DFDE13 /* TextTableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableBuilder.swift; sourceTree = "<group>"; };
+		E7111ED020B731D800DFDE13 /* NSTextBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextBlock.swift; sourceTree = "<group>"; };
+		E71619D12215E89900A27650 /* BasicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicCell.xib; sourceTree = "<group>"; };
+		E71619D42215E8BC00A27650 /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		E71619D62215E99F00A27650 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		E72535FA20D27DC50023BF2F /* PopUpButtonTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpButtonTableCell.xib; sourceTree = "<group>"; };
+		E72535FC20D27DC50023BF2F /* PopUpButtonTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpButtonTableCell.swift; sourceTree = "<group>"; };
+		E72535FE20D27EE10023BF2F /* NSTableColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTableColumn.swift; sourceTree = "<group>"; };
+		E73D93DE2072936500847769 /* EmailPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailPropertyCell.xib; sourceTree = "<group>"; };
+		E73D93E12072937100847769 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		E73D93E320729F9800847769 /* TelephonePropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelephonePropertyCell.xib; sourceTree = "<group>"; };
+		E73D93E520729FA400847769 /* TelephoneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelephoneTableViewCell.swift; sourceTree = "<group>"; };
+		E73D93E72072A2FC00847769 /* MoneyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTextField.swift; sourceTree = "<group>"; };
+		E73D93E92072AB8D00847769 /* MoneyPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoneyPropertyCell.xib; sourceTree = "<group>"; };
+		E73D93EB2072AB9600847769 /* MoneyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyTableViewCell.swift; sourceTree = "<group>"; };
+		E753B0892067C2A70015BD0E /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		E7540E0B206FCE9A0018C602 /* PropertyTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTable.swift; sourceTree = "<group>"; };
+		E7540E0F206FD5300018C602 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		E7540E10206FD5300018C602 /* AutomaticTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticTitleCell.swift; sourceTree = "<group>"; };
+		E7540E11206FD5300018C602 /* PropertyTypeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyTypeUtils.swift; sourceTree = "<group>"; };
+		E7540E15206FDBD90018C602 /* DisplayPropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayPropertyCell.xib; sourceTree = "<group>"; };
+		E754546A206B9CD500FE8CFA /* EntitiesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesTableView.swift; sourceTree = "<group>"; };
+		E7549DD1207212D500D8A1DF /* CounterField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterField.xib; sourceTree = "<group>"; };
+		E7549DD42072134500D8A1DF /* CounterField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterField.swift; sourceTree = "<group>"; };
+		E7562696207D18E100591BC2 /* ButtonPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonPropertyCell.xib; sourceTree = "<group>"; };
+		E7562699207D18EB00591BC2 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		E756269B207D1C8E00591BC2 /* ButtonPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonPropertyCell.xib; sourceTree = "<group>"; };
+		E756269D207D1C9F00591BC2 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		E75969D820B1FF7100E28744 /* NSTextTableBlockArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextTableBlockArray.swift; sourceTree = "<group>"; };
+		E759D51820789EDE00157596 /* TablePair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePair.swift; sourceTree = "<group>"; };
+		E75D007C208C8BD500E15639 /* Dialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialogs.swift; sourceTree = "<group>"; };
+		E75D0A292071204100727130 /* BoolPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoolPropertyCell.xib; sourceTree = "<group>"; };
+		E75D0A2C2071204D00727130 /* BoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolTableViewCell.swift; sourceTree = "<group>"; };
+		E75D0A2E207122D400727130 /* IntPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntPropertyCell.xib; sourceTree = "<group>"; };
+		E75D0A30207122DD00727130 /* IntTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntTableViewCell.swift; sourceTree = "<group>"; };
+		E75DBC0121C505940095A1AB /* RelatToManyPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelatToManyPropertyCell.xib; sourceTree = "<group>"; };
+		E75DBC0421C505A30095A1AB /* RelatToManyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatToManyTableViewCell.swift; sourceTree = "<group>"; };
+		E75E501E20AC98C8001AFD01 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E75EB8A42216E2000034FEB1 /* MOManualListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOManualListTableView.swift; sourceTree = "<group>"; };
+		E75EB8A72216E2350034FEB1 /* MOListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOListTableView.swift; sourceTree = "<group>"; };
+		E75EB8A92216E24E0034FEB1 /* MOListDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOListDataDelegate.swift; sourceTree = "<group>"; };
+		E75EB8AB2216EB9F0034FEB1 /* RelatToManyPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelatToManyPropertyCell.xib; sourceTree = "<group>"; };
+		E75EB8AD2216EBAA0034FEB1 /* RelatToManyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatToManyTableViewCell.swift; sourceTree = "<group>"; };
+		E75EB8BA2216F8C50034FEB1 /* RelatListPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelatListPropertyCell.xib; sourceTree = "<group>"; };
+		E75EB8BC2216F8D00034FEB1 /* RelatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatListTableViewCell.swift; sourceTree = "<group>"; };
+		E7617D9F2064039B00817E2B /* GenericPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPicker.swift; sourceTree = "<group>"; };
+		E7617DA1206403AB00817E2B /* GenericTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTable.swift; sourceTree = "<group>"; };
+		E7617DA3206403B500817E2B /* GenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCell.swift; sourceTree = "<group>"; };
+		E7617DA5206403DC00817E2B /* DealTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealTable.swift; sourceTree = "<group>"; };
+		E7617DA6206403DC00817E2B /* ClientTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTable.swift; sourceTree = "<group>"; };
+		E7617DA7206403DC00817E2B /* InstrumentTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentTable.swift; sourceTree = "<group>"; };
+		E7617DB3206403F600817E2B /* PopoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverController.swift; sourceTree = "<group>"; };
+		E765315520B5ED1900A97E6D /* TextTableBlockRangeArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableBlockRangeArray.swift; sourceTree = "<group>"; };
+		E765978620BF21ED00084D6A /* NSPathControlItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPathControlItem.swift; sourceTree = "<group>"; };
+		E765C95320B45FBE00D7551C /* MutableTextTableRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableTextTableRange.swift; sourceTree = "<group>"; };
+		E765C95620B4600E00D7551C /* MutableTextTableBlockRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableTextTableBlockRange.swift; sourceTree = "<group>"; };
+		E765C95820B4671C00D7551C /* MutableTextTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableTextTable.swift; sourceTree = "<group>"; };
+		E765C95A20B469BB00D7551C /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedString.swift; sourceTree = "<group>"; };
+		E765C95C20B4841800D7551C /* MutableTextTableCellRangeIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableTextTableCellRangeIterator.swift; sourceTree = "<group>"; };
+		E767F28020864A9900FD7A7B /* TogglePropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TogglePropertyCell.xib; sourceTree = "<group>"; };
+		E767F28320864AA600FD7A7B /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
+		E767F28520864C4F00FD7A7B /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		E767F28A208662D600FD7A7B /* TogglePropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TogglePropertyCell.xib; sourceTree = "<group>"; };
+		E767F28C208662E100FD7A7B /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
+		E768770720ADA41200C4C85D /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		E76F9F2920642375007D38C9 /* MuzSzafaShared.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MuzSzafaShared.xcodeproj; path = MuzSzafaShared/MuzSzafaShared.xcodeproj; sourceTree = "<group>"; };
+		E7759FDD20B3FED7008A4F46 /* TextTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTable.swift; sourceTree = "<group>"; };
+		E7759FDF20B3FF1B008A4F46 /* AttributedStringRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringRange.swift; sourceTree = "<group>"; };
+		E7759FE120B3FF97008A4F46 /* TextTableBlockRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableBlockRange.swift; sourceTree = "<group>"; };
+		E7759FE320B3FFF1008A4F46 /* TextTableRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableRange.swift; sourceTree = "<group>"; };
+		E7759FE520B40616008A4F46 /* TextTableCellRangeIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableCellRangeIterator.swift; sourceTree = "<group>"; };
+		E7759FE720B42369008A4F46 /* MutableAttributedStringRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutableAttributedStringRange.swift; sourceTree = "<group>"; };
+		E776560B21CE59C6007A24E4 /* MOListPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MOListPropertyCell.xib; sourceTree = "<group>"; };
+		E776560E21CE59D4007A24E4 /* MOListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOListTableViewCell.swift; sourceTree = "<group>"; };
+		E776561021CE5AEF007A24E4 /* MOListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOListTableView.swift; sourceTree = "<group>"; };
+		E77FBAC220711CC90034CD67 /* StringPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StringPropertyCell.xib; sourceTree = "<group>"; };
+		E77FBAC420711CD80034CD67 /* StringTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTableViewCell.swift; sourceTree = "<group>"; };
+		E780B0FC219C704300C10926 /* CharacterChooser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterChooser.xib; sourceTree = "<group>"; };
+		E780B0FF219C705500C10926 /* CharacterChooser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterChooser.swift; sourceTree = "<group>"; };
+		E786BCAE20B1A82200F0CF0F /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		E78A03F0207375290004C83C /* ListPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListPropertyCell.xib; sourceTree = "<group>"; };
+		E78A03F3207375350004C83C /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		E78A04012073BF7A0004C83C /* RelatPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelatPropertyCell.xib; sourceTree = "<group>"; };
+		E78A04032073BF850004C83C /* RelatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatTableViewCell.swift; sourceTree = "<group>"; };
+		E78A04052073C0740004C83C /* CoreDataTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
+		E78A632620728EA1005CD1C8 /* DatePropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePropertyCell.xib; sourceTree = "<group>"; };
+		E78A632920728EAC005CD1C8 /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		E78B88DC215A8928004719DA /* NSRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRect.swift; sourceTree = "<group>"; };
+		E78BF4CD207B8BAD0077607F /* PopoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverController.swift; sourceTree = "<group>"; };
+		E78DD759206795300071A9CD /* RepresentationTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentationTable.swift; sourceTree = "<group>"; };
+		E78DD75B206797050071A9CD /* RepresentationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentationCell.swift; sourceTree = "<group>"; };
+		E78E2BB82070BB58009D7E29 /* DisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTableViewCell.swift; sourceTree = "<group>"; };
+		E78F245220C3D9A0009E38AA /* EntTableSelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntTableSelectionCell.xib; sourceTree = "<group>"; };
+		E78F245420C3D9AA009E38AA /* EntTableSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntTableSelectionCell.swift; sourceTree = "<group>"; };
+		E78F245620C3ECF6009E38AA /* BasicTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableCell.swift; sourceTree = "<group>"; };
+		E78F245820C3ED0B009E38AA /* BasicTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicTableCell.xib; sourceTree = "<group>"; };
+		E793809D212DDB2000C99368 /* PropertyTableEntryRelatPressEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PropertyTableEntryRelatPressEvent.swift; path = ../../../MuzSzafaShared/MuzSzafaShared/property/table/PropertyTableEntryRelatPressEvent.swift; sourceTree = "<group>"; };
+		E793B97B208748D9009D2C38 /* EntitiesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesTableView.swift; sourceTree = "<group>"; };
+		E795A05022169DF3002D3163 /* MOListPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MOListPropertyCell.xib; sourceTree = "<group>"; };
+		E795A05222169E05002D3163 /* MOListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOListTableViewCell.swift; sourceTree = "<group>"; };
+		E7984819206B72A5002C8820 /* RelatPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelatPropertyCell.xib; sourceTree = "<group>"; };
+		E798481D206B72B2002C8820 /* RelatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatTableViewCell.swift; sourceTree = "<group>"; };
+		E79967C820A455A8009C9DAE /* PropertyTableCellMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableCellMac.swift; sourceTree = "<group>"; };
+		E79A53BA20A188780065A749 /* EntitiesFilteredTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesFilteredTableView.swift; sourceTree = "<group>"; };
+		E79FAA0221D4C5CA006B7633 /* PropertyTableEntryMOSelectEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyTableEntryMOSelectEvent.swift; path = ../../../MuzSzafaShared/MuzSzafaShared/property/table/PropertyTableEntryMOSelectEvent.swift; sourceTree = "<group>"; };
+		E7A3C9D42153F62800FB8B4A /* HelpPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPopoverViewController.swift; sourceTree = "<group>"; };
+		E7A3C9D72153F64400FB8B4A /* HelpPopover.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpPopover.xib; sourceTree = "<group>"; };
+		E7A3C9E12153FB1700FB8B4A /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		E7A3C9E32154061C00FB8B4A /* HelpPopoverRequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPopoverRequestDelegate.swift; sourceTree = "<group>"; };
+		E7A688A7209DA4EB00A9EFA9 /* DraggableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableButton.swift; sourceTree = "<group>"; };
+		E7A7B40E206642A600A4AEE9 /* ListPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListPropertyCell.xib; sourceTree = "<group>"; };
+		E7A7B412206642B300A4AEE9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		E7AD850921D4052A00835749 /* PropertyTableEntryMOAddEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyTableEntryMOAddEvent.swift; path = ../../../MuzSzafaShared/MuzSzafaShared/property/table/PropertyTableEntryMOAddEvent.swift; sourceTree = "<group>"; };
+		E7AD850B21D4054600835749 /* PropertyTableEntryMORemoveEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyTableEntryMORemoveEvent.swift; path = ../../../MuzSzafaShared/MuzSzafaShared/property/table/PropertyTableEntryMORemoveEvent.swift; sourceTree = "<group>"; };
+		E7AD850D21D4058C00835749 /* PropertyTableEntryMOEditEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyTableEntryMOEditEvent.swift; path = ../../../MuzSzafaShared/MuzSzafaShared/property/table/PropertyTableEntryMOEditEvent.swift; sourceTree = "<group>"; };
+		E7B1BB692218146100CFC2C8 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E7B1BB6C2218159700CFC2C8 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E7BCDD5F20AAEE8F00C9A8D0 /* FileChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileChooser.swift; sourceTree = "<group>"; };
+		E7BCDD6220AAEEA600C9A8D0 /* FileChooser.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileChooser.xib; sourceTree = "<group>"; };
+		E7D646E2207104A500426612 /* TextPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextPropertyCell.xib; sourceTree = "<group>"; };
+		E7D646E4207104B000426612 /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		E7E2F0C121CE228F00F87C04 /* RelatListPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelatListPropertyCell.xib; sourceTree = "<group>"; };
+		E7E2F0C421CE229A00F87C04 /* RelatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatListTableViewCell.swift; sourceTree = "<group>"; };
+		E7F610BC20C1A4F300EC93E9 /* NSTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70D02EE2063C3F500CE162C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D646D42070C3B900426612 /* MuzSzafaShared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02F82063C3F500CE162C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D02FC2063C3F500CE162C /* MuzSzafaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D03162063C41A00CE162C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D646DF2070C61500426612 /* MuzSzafaShared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D031F2063C41B00CE162C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D03232063C41B00CE162C /* MuzSzafaMacFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E70D02E82063C3F500CE162C = {
+			isa = PBXGroup;
+			children = (
+				E76F9F2920642375007D38C9 /* MuzSzafaShared.xcodeproj */,
+				E70D02F42063C3F500CE162C /* MuzSzafaFramework */,
+				E70D02FF2063C3F500CE162C /* MuzSzafaFrameworkTests */,
+				E70D031B2063C41A00CE162C /* MuzSzafaMacFramework */,
+				E70D03262063C41B00CE162C /* MuzSzafaMacFrameworkTests */,
+				E70D02F32063C3F500CE162C /* Products */,
+				E76F9ECA20641814007D38C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E70D02F32063C3F500CE162C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70D02F22063C3F500CE162C /* MuzSzafaFramework.framework */,
+				E70D02FB2063C3F500CE162C /* MuzSzafaFrameworkTests.xctest */,
+				E70D031A2063C41A00CE162C /* MuzSzafaMacFramework.framework */,
+				E70D03222063C41B00CE162C /* MuzSzafaMacFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70D02F42063C3F500CE162C /* MuzSzafaFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E786BCAB20B1A7F800F0CF0F /* extensions */,
+				E70D03502063C43D00CE162C /* widgets */,
+				E7617DAB206403DC00817E2B /* tables */,
+				E70D02F52063C3F500CE162C /* MuzSzafaFramework.h */,
+				E70D02F62063C3F500CE162C /* Info.plist */,
+			);
+			path = MuzSzafaFramework;
+			sourceTree = "<group>";
+		};
+		E70D02FF2063C3F500CE162C /* MuzSzafaFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E70D03022063C3F500CE162C /* Info.plist */,
+			);
+			path = MuzSzafaFrameworkTests;
+			sourceTree = "<group>";
+		};
+		E70D031B2063C41A00CE162C /* MuzSzafaMacFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E7759FDC20B3FEC0008A4F46 /* textTable */,
+				E786BCAD20B1A80A00F0CF0F /* extensions */,
+				E78DD749206787110071A9CD /* widgets */,
+				E70D031C2063C41A00CE162C /* MuzSzafaMacFramework.h */,
+				E70D031D2063C41A00CE162C /* Info.plist */,
+			);
+			path = MuzSzafaMacFramework;
+			sourceTree = "<group>";
+		};
+		E70D03262063C41B00CE162C /* MuzSzafaMacFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E70D03292063C41B00CE162C /* Info.plist */,
+			);
+			path = MuzSzafaMacFrameworkTests;
+			sourceTree = "<group>";
+		};
+		E70D03482063C43D00CE162C /* propertyTable */ = {
+			isa = PBXGroup;
+			children = (
+				E753B0892067C2A70015BD0E /* Property.swift */,
+				E70D03312063C43D00CE162C /* PropertyTypeUtils.swift */,
+				E70D03342063C43D00CE162C /* PropertyCell.swift */,
+				E70D03352063C43D00CE162C /* PropertyTable.swift */,
+				E70D03362063C43D00CE162C /* BoolPropertyCell.xib */,
+				E70D03372063C43D00CE162C /* BoolTableViewCell.swift */,
+				E767F28020864A9900FD7A7B /* TogglePropertyCell.xib */,
+				E767F28320864AA600FD7A7B /* ToggleTableViewCell.swift */,
+				E7984819206B72A5002C8820 /* RelatPropertyCell.xib */,
+				E798481D206B72B2002C8820 /* RelatTableViewCell.swift */,
+				E75EB8AB2216EB9F0034FEB1 /* RelatToManyPropertyCell.xib */,
+				E75EB8AD2216EBAA0034FEB1 /* RelatToManyTableViewCell.swift */,
+				E75EB8BA2216F8C50034FEB1 /* RelatListPropertyCell.xib */,
+				E75EB8BC2216F8D00034FEB1 /* RelatListTableViewCell.swift */,
+				E795A05022169DF3002D3163 /* MOListPropertyCell.xib */,
+				E795A05222169E05002D3163 /* MOListTableViewCell.swift */,
+				E7562696207D18E100591BC2 /* ButtonPropertyCell.xib */,
+				E7562699207D18EB00591BC2 /* ButtonTableViewCell.swift */,
+				E70D03382063C43D00CE162C /* IntPropertyCell.xib */,
+				E70D03392063C43D00CE162C /* IntTableViewCell.swift */,
+				E70D033A2063C43D00CE162C /* DatePropertyCell.xib */,
+				E70D033B2063C43D00CE162C /* DateTableViewCell.swift */,
+				E7A7B40E206642A600A4AEE9 /* ListPropertyCell.xib */,
+				E7A7B412206642B300A4AEE9 /* ListTableViewCell.swift */,
+				E70D033C2063C43D00CE162C /* StringPropertyCell.xib */,
+				E70D033D2063C43D00CE162C /* StringTableViewCell.swift */,
+				E70D033E2063C43D00CE162C /* MoneyPropertyCell.xib */,
+				E70D033F2063C43D00CE162C /* MoneyTableViewCell.swift */,
+				E70D03402063C43D00CE162C /* DisplayPropertyCell.xib */,
+				E70D03412063C43D00CE162C /* DisplayTableViewCell.swift */,
+				E70D03422063C43D00CE162C /* TextPropertyCell.xib */,
+				E70D03432063C43D00CE162C /* TextTableViewCell.swift */,
+				E70D03442063C43D00CE162C /* TelephonePropertyCell.xib */,
+				E70D03452063C43D00CE162C /* TelephoneTableViewCell.swift */,
+				E70D03462063C43D00CE162C /* EmailPropertyCell.xib */,
+				E70D03472063C43D00CE162C /* EmailTableViewCell.swift */,
+			);
+			path = propertyTable;
+			sourceTree = "<group>";
+		};
+		E70D03502063C43D00CE162C /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E70D03482063C43D00CE162C /* propertyTable */,
+				E75EB8A72216E2350034FEB1 /* MOListTableView.swift */,
+				E75EB8A92216E24E0034FEB1 /* MOListDataDelegate.swift */,
+				E75EB8A42216E2000034FEB1 /* MOManualListTableView.swift */,
+				E793B97B208748D9009D2C38 /* EntitiesTableView.swift */,
+				E7617DB3206403F600817E2B /* PopoverController.swift */,
+				E70D03492063C43D00CE162C /* MoneyTextField.swift */,
+				E70D034A2063C43D00CE162C /* TelephoneField.swift */,
+				E70D034B2063C43D00CE162C /* EmailField.swift */,
+				E70D034C2063C43D00CE162C /* ToggleButton.swift */,
+				E70D034D2063C43D00CE162C /* CounterField.xib */,
+				E70D034E2063C43D00CE162C /* CounterField.swift */,
+				E70D034F2063C43D00CE162C /* CoreDataTable.swift */,
+				E7617D9F2064039B00817E2B /* GenericPicker.swift */,
+				E7617DA1206403AB00817E2B /* GenericTable.swift */,
+				E7617DA3206403B500817E2B /* GenericTableViewCell.swift */,
+				E78DD759206795300071A9CD /* RepresentationTable.swift */,
+				E78DD75B206797050071A9CD /* RepresentationCell.swift */,
+				E71619D12215E89900A27650 /* BasicCell.xib */,
+				E71619D42215E8BC00A27650 /* BasicCell.swift */,
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		E7617DAB206403DC00817E2B /* tables */ = {
+			isa = PBXGroup;
+			children = (
+				E7617DA5206403DC00817E2B /* DealTable.swift */,
+				E7617DA6206403DC00817E2B /* ClientTable.swift */,
+				E7617DA7206403DC00817E2B /* InstrumentTable.swift */,
+			);
+			path = tables;
+			sourceTree = "<group>";
+		};
+		E76F9ECA20641814007D38C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E76F9F2A20642375007D38C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E76F9F2F20642376007D38C9 /* MuzSzafaShared.framework */,
+				E76F9F3120642376007D38C9 /* MuzSzafaSharedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7759FDC20B3FEC0008A4F46 /* textTable */ = {
+			isa = PBXGroup;
+			children = (
+				E7111ECD20B7010300DFDE13 /* TextTableBuilder.swift */,
+				E7759FDD20B3FED7008A4F46 /* TextTable.swift */,
+				E765C95820B4671C00D7551C /* MutableTextTable.swift */,
+				E7759FDF20B3FF1B008A4F46 /* AttributedStringRange.swift */,
+				E7759FE720B42369008A4F46 /* MutableAttributedStringRange.swift */,
+				E765315520B5ED1900A97E6D /* TextTableBlockRangeArray.swift */,
+				E7759FE120B3FF97008A4F46 /* TextTableBlockRange.swift */,
+				E765C95620B4600E00D7551C /* MutableTextTableBlockRange.swift */,
+				E7759FE320B3FFF1008A4F46 /* TextTableRange.swift */,
+				E765C95320B45FBE00D7551C /* MutableTextTableRange.swift */,
+				E7759FE520B40616008A4F46 /* TextTableCellRangeIterator.swift */,
+				E765C95C20B4841800D7551C /* MutableTextTableCellRangeIterator.swift */,
+			);
+			path = textTable;
+			sourceTree = "<group>";
+		};
+		E786BCAB20B1A7F800F0CF0F /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E71619D62215E99F00A27650 /* UITableView.swift */,
+				E7B1BB692218146100CFC2C8 /* UIViewController.swift */,
+				E7B1BB6C2218159700CFC2C8 /* UIView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		E786BCAD20B1A80A00F0CF0F /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E75E501E20AC98C8001AFD01 /* String.swift */,
+				E768770720ADA41200C4C85D /* URL.swift */,
+				E786BCAE20B1A82200F0CF0F /* NSAttributedString.swift */,
+				E765C95A20B469BB00D7551C /* NSMutableAttributedString.swift */,
+				E75969D820B1FF7100E28744 /* NSTextTableBlockArray.swift */,
+				E7111ED020B731D800DFDE13 /* NSTextBlock.swift */,
+				E765978620BF21ED00084D6A /* NSPathControlItem.swift */,
+				E7F610BC20C1A4F300EC93E9 /* NSTableView.swift */,
+				E72535FE20D27EE10023BF2F /* NSTableColumn.swift */,
+				E7A3C9E12153FB1700FB8B4A /* NSView.swift */,
+				E78B88DC215A8928004719DA /* NSRect.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		E78DD749206787110071A9CD /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7628F206F9B6700945C82 /* propertyTable */,
+				E776561021CE5AEF007A24E4 /* MOListTableView.swift */,
+				E710ED4721CF715500391378 /* MOListDataDelegate.swift */,
+				E710ED4A21CF8B0300391378 /* MOManualListTableView.swift */,
+				E754546A206B9CD500FE8CFA /* EntitiesTableView.swift */,
+				E79A53BA20A188780065A749 /* EntitiesFilteredTableView.swift */,
+				E78F245220C3D9A0009E38AA /* EntTableSelectionCell.xib */,
+				E78F245420C3D9AA009E38AA /* EntTableSelectionCell.swift */,
+				E78F245820C3ED0B009E38AA /* BasicTableCell.xib */,
+				E78F245620C3ECF6009E38AA /* BasicTableCell.swift */,
+				E72535FA20D27DC50023BF2F /* PopUpButtonTableCell.xib */,
+				E72535FC20D27DC50023BF2F /* PopUpButtonTableCell.swift */,
+				E78BF4CD207B8BAD0077607F /* PopoverController.swift */,
+				E7549DD1207212D500D8A1DF /* CounterField.xib */,
+				E7549DD42072134500D8A1DF /* CounterField.swift */,
+				E78A04052073C0740004C83C /* CoreDataTable.swift */,
+				E73D93E72072A2FC00847769 /* MoneyTextField.swift */,
+				E759D51820789EDE00157596 /* TablePair.swift */,
+				E767F28520864C4F00FD7A7B /* ToggleButton.swift */,
+				E75D007C208C8BD500E15639 /* Dialogs.swift */,
+				E7A688A7209DA4EB00A9EFA9 /* DraggableButton.swift */,
+				E780B0FC219C704300C10926 /* CharacterChooser.xib */,
+				E780B0FF219C705500C10926 /* CharacterChooser.swift */,
+				E7BCDD6220AAEEA600C9A8D0 /* FileChooser.xib */,
+				E7BCDD5F20AAEE8F00C9A8D0 /* FileChooser.swift */,
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		E7E7628F206F9B6700945C82 /* propertyTable */ = {
+			isa = PBXGroup;
+			children = (
+				E7540E0F206FD5300018C602 /* Property.swift */,
+				E7540E10206FD5300018C602 /* AutomaticTitleCell.swift */,
+				E79967C820A455A8009C9DAE /* PropertyTableCellMac.swift */,
+				E7540E11206FD5300018C602 /* PropertyTypeUtils.swift */,
+				E7540E0B206FCE9A0018C602 /* PropertyTable.swift */,
+				E7A3C9D72153F64400FB8B4A /* HelpPopover.xib */,
+				E70B67682157F5EB0038ED88 /* HelpPopover.swift */,
+				E7A3C9D42153F62800FB8B4A /* HelpPopoverViewController.swift */,
+				E7A3C9E32154061C00FB8B4A /* HelpPopoverRequestDelegate.swift */,
+				E7540E15206FDBD90018C602 /* DisplayPropertyCell.xib */,
+				E78E2BB82070BB58009D7E29 /* DisplayTableViewCell.swift */,
+				E776560B21CE59C6007A24E4 /* MOListPropertyCell.xib */,
+				E776560E21CE59D4007A24E4 /* MOListTableViewCell.swift */,
+				E78A04012073BF7A0004C83C /* RelatPropertyCell.xib */,
+				E78A04032073BF850004C83C /* RelatTableViewCell.swift */,
+				E7E2F0C121CE228F00F87C04 /* RelatListPropertyCell.xib */,
+				E7E2F0C421CE229A00F87C04 /* RelatListTableViewCell.swift */,
+				E75DBC0121C505940095A1AB /* RelatToManyPropertyCell.xib */,
+				E75DBC0421C505A30095A1AB /* RelatToManyTableViewCell.swift */,
+				E756269B207D1C8E00591BC2 /* ButtonPropertyCell.xib */,
+				E756269D207D1C9F00591BC2 /* ButtonTableViewCell.swift */,
+				E767F28A208662D600FD7A7B /* TogglePropertyCell.xib */,
+				E767F28C208662E100FD7A7B /* ToggleTableViewCell.swift */,
+				E78A03F0207375290004C83C /* ListPropertyCell.xib */,
+				E78A03F3207375350004C83C /* ListTableViewCell.swift */,
+				E77FBAC220711CC90034CD67 /* StringPropertyCell.xib */,
+				E77FBAC420711CD80034CD67 /* StringTableViewCell.swift */,
+				E73D93DE2072936500847769 /* EmailPropertyCell.xib */,
+				E73D93E12072937100847769 /* EmailTableViewCell.swift */,
+				E73D93E320729F9800847769 /* TelephonePropertyCell.xib */,
+				E73D93E520729FA400847769 /* TelephoneTableViewCell.swift */,
+				E78A632620728EA1005CD1C8 /* DatePropertyCell.xib */,
+				E78A632920728EAC005CD1C8 /* DateTableViewCell.swift */,
+				E75D0A292071204100727130 /* BoolPropertyCell.xib */,
+				E75D0A2C2071204D00727130 /* BoolTableViewCell.swift */,
+				E75D0A2E207122D400727130 /* IntPropertyCell.xib */,
+				E75D0A30207122DD00727130 /* IntTableViewCell.swift */,
+				E73D93E92072AB8D00847769 /* MoneyPropertyCell.xib */,
+				E73D93EB2072AB9600847769 /* MoneyTableViewCell.swift */,
+				E7D646E2207104A500426612 /* TextPropertyCell.xib */,
+				E7D646E4207104B000426612 /* TextTableViewCell.swift */,
+				E793809D212DDB2000C99368 /* PropertyTableEntryRelatPressEvent.swift */,
+				E79FAA0221D4C5CA006B7633 /* PropertyTableEntryMOSelectEvent.swift */,
+				E7AD850921D4052A00835749 /* PropertyTableEntryMOAddEvent.swift */,
+				E7AD850D21D4058C00835749 /* PropertyTableEntryMOEditEvent.swift */,
+				E7AD850B21D4054600835749 /* PropertyTableEntryMORemoveEvent.swift */,
+			);
+			path = propertyTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E70D02EF2063C3F500CE162C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D03032063C3F500CE162C /* MuzSzafaFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D03172063C41A00CE162C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D032A2063C41B00CE162C /* MuzSzafaMacFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E70D02F12063C3F500CE162C /* MuzSzafaFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D03062063C3F500CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaFramework" */;
+			buildPhases = (
+				E70D02ED2063C3F500CE162C /* Sources */,
+				E70D02EE2063C3F500CE162C /* Frameworks */,
+				E70D02EF2063C3F500CE162C /* Headers */,
+				E70D02F02063C3F500CE162C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D646D82070C52F00426612 /* PBXTargetDependency */,
+			);
+			name = MuzSzafaFramework;
+			productName = MuzSzafaFramework;
+			productReference = E70D02F22063C3F500CE162C /* MuzSzafaFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E70D02FA2063C3F500CE162C /* MuzSzafaFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D03092063C3F500CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaFrameworkTests" */;
+			buildPhases = (
+				E70D02F72063C3F500CE162C /* Sources */,
+				E70D02F82063C3F500CE162C /* Frameworks */,
+				E70D02F92063C3F500CE162C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70D02FE2063C3F500CE162C /* PBXTargetDependency */,
+			);
+			name = MuzSzafaFrameworkTests;
+			productName = MuzSzafaFrameworkTests;
+			productReference = E70D02FB2063C3F500CE162C /* MuzSzafaFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E70D03192063C41A00CE162C /* MuzSzafaMacFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D032B2063C41B00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMacFramework" */;
+			buildPhases = (
+				E70D03152063C41A00CE162C /* Sources */,
+				E70D03162063C41A00CE162C /* Frameworks */,
+				E70D03172063C41A00CE162C /* Headers */,
+				E70D03182063C41A00CE162C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuzSzafaMacFramework;
+			productName = MuzSzafaMacFramework;
+			productReference = E70D031A2063C41A00CE162C /* MuzSzafaMacFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E70D03212063C41B00CE162C /* MuzSzafaMacFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D032E2063C41B00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMacFrameworkTests" */;
+			buildPhases = (
+				E70D031E2063C41B00CE162C /* Sources */,
+				E70D031F2063C41B00CE162C /* Frameworks */,
+				E70D03202063C41B00CE162C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70D03252063C41B00CE162C /* PBXTargetDependency */,
+			);
+			name = MuzSzafaMacFrameworkTests;
+			productName = MuzSzafaMacFrameworkTests;
+			productReference = E70D03222063C41B00CE162C /* MuzSzafaMacFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70D02E92063C3F500CE162C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = alagris;
+				TargetAttributes = {
+					E70D02F12063C3F500CE162C = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					E70D02FA2063C3F500CE162C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E70D03192063C41A00CE162C = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+					};
+					E70D03212063C41B00CE162C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E70D02EC2063C3F500CE162C /* Build configuration list for PBXProject "MuzSzafaFramework" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E70D02E82063C3F500CE162C;
+			productRefGroup = E70D02F32063C3F500CE162C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E76F9F2A20642375007D38C9 /* Products */;
+					ProjectRef = E76F9F2920642375007D38C9 /* MuzSzafaShared.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E70D02F12063C3F500CE162C /* MuzSzafaFramework */,
+				E70D02FA2063C3F500CE162C /* MuzSzafaFrameworkTests */,
+				E70D03192063C41A00CE162C /* MuzSzafaMacFramework */,
+				E70D03212063C41B00CE162C /* MuzSzafaMacFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E76F9F2F20642376007D38C9 /* MuzSzafaShared.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MuzSzafaShared.framework;
+			remoteRef = E76F9F2E20642376007D38C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E76F9F3120642376007D38C9 /* MuzSzafaSharedTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MuzSzafaSharedTests.xctest;
+			remoteRef = E76F9F3020642376007D38C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70D02F02063C3F500CE162C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7562697207D18E100591BC2 /* ButtonPropertyCell.xib in Resources */,
+				E7A7B40F206642A600A4AEE9 /* ListPropertyCell.xib in Resources */,
+				E767F28120864A9900FD7A7B /* TogglePropertyCell.xib in Resources */,
+				E75EB8BB2216F8C50034FEB1 /* RelatListPropertyCell.xib in Resources */,
+				E798481A206B72A5002C8820 /* RelatPropertyCell.xib in Resources */,
+				E795A05122169DF3002D3163 /* MOListPropertyCell.xib in Resources */,
+				E71619D22215E89900A27650 /* BasicCell.xib in Resources */,
+				E75EB8AC2216EB9F0034FEB1 /* RelatToManyPropertyCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02F92063C3F500CE162C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D03182063C41A00CE162C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BCDD6320AAEEA600C9A8D0 /* FileChooser.xib in Resources */,
+				E780B0FD219C704300C10926 /* CharacterChooser.xib in Resources */,
+				E73D93E420729F9800847769 /* TelephonePropertyCell.xib in Resources */,
+				E77FBAC320711CC90034CD67 /* StringPropertyCell.xib in Resources */,
+				E7540E16206FDBD90018C602 /* DisplayPropertyCell.xib in Resources */,
+				E78A04022073BF7A0004C83C /* RelatPropertyCell.xib in Resources */,
+				E73D93EA2072AB8D00847769 /* MoneyPropertyCell.xib in Resources */,
+				E7A3C9D82153F64400FB8B4A /* HelpPopover.xib in Resources */,
+				E75D0A2A2071204100727130 /* BoolPropertyCell.xib in Resources */,
+				E73D93DF2072936500847769 /* EmailPropertyCell.xib in Resources */,
+				E776560C21CE59C6007A24E4 /* MOListPropertyCell.xib in Resources */,
+				E78A03F1207375290004C83C /* ListPropertyCell.xib in Resources */,
+				E756269C207D1C8E00591BC2 /* ButtonPropertyCell.xib in Resources */,
+				E7549DD2207212D500D8A1DF /* CounterField.xib in Resources */,
+				E75DBC0221C505940095A1AB /* RelatToManyPropertyCell.xib in Resources */,
+				E725360020D283C20023BF2F /* PopUpButtonTableCell.xib in Resources */,
+				E767F28B208662D600FD7A7B /* TogglePropertyCell.xib in Resources */,
+				E78F245920C3ED0B009E38AA /* BasicTableCell.xib in Resources */,
+				E75D0A2F207122D400727130 /* IntPropertyCell.xib in Resources */,
+				E78A632720728EA1005CD1C8 /* DatePropertyCell.xib in Resources */,
+				E7E2F0C221CE228F00F87C04 /* RelatListPropertyCell.xib in Resources */,
+				E7D646E3207104A500426612 /* TextPropertyCell.xib in Resources */,
+				E78F245320C3D9A0009E38AA /* EntTableSelectionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D03202063C41B00CE162C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E70D02ED2063C3F500CE162C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B1BB6A2218146100CFC2C8 /* UIViewController.swift in Sources */,
+				E7617DB62064061000817E2B /* DealTable.swift in Sources */,
+				E7617DB72064061000817E2B /* ClientTable.swift in Sources */,
+				E753B08A2067C2A70015BD0E /* Property.swift in Sources */,
+				E7617DB82064061000817E2B /* InstrumentTable.swift in Sources */,
+				E75EB8BD2216F8D00034FEB1 /* RelatListTableViewCell.swift in Sources */,
+				E78DD75A206795300071A9CD /* RepresentationTable.swift in Sources */,
+				E798481E206B72B2002C8820 /* RelatTableViewCell.swift in Sources */,
+				E78DD75C206797050071A9CD /* RepresentationCell.swift in Sources */,
+				E7617D642063E59B00817E2B /* PropertyTypeUtils.swift in Sources */,
+				E71619D52215E8BC00A27650 /* BasicCell.swift in Sources */,
+				E7617D672063E59B00817E2B /* PropertyCell.swift in Sources */,
+				E7617D682063E59B00817E2B /* PropertyTable.swift in Sources */,
+				E75EB8A82216E2350034FEB1 /* MOListTableView.swift in Sources */,
+				E7617D692063E59B00817E2B /* BoolPropertyCell.xib in Sources */,
+				E7617D6A2063E59B00817E2B /* BoolTableViewCell.swift in Sources */,
+				E7617D6B2063E59B00817E2B /* IntPropertyCell.xib in Sources */,
+				E7617D6C2063E59B00817E2B /* IntTableViewCell.swift in Sources */,
+				E7617D6D2063E59B00817E2B /* DatePropertyCell.xib in Sources */,
+				E7617D6E2063E59B00817E2B /* DateTableViewCell.swift in Sources */,
+				E75EB8AE2216EBAA0034FEB1 /* RelatToManyTableViewCell.swift in Sources */,
+				E767F28420864AA600FD7A7B /* ToggleTableViewCell.swift in Sources */,
+				E7617D6F2063E59B00817E2B /* StringPropertyCell.xib in Sources */,
+				E7617D702063E59B00817E2B /* StringTableViewCell.swift in Sources */,
+				E7617D712063E59B00817E2B /* MoneyPropertyCell.xib in Sources */,
+				E7617D722063E59B00817E2B /* MoneyTableViewCell.swift in Sources */,
+				E7B1BB6D2218159700CFC2C8 /* UIView.swift in Sources */,
+				E756269A207D18EB00591BC2 /* ButtonTableViewCell.swift in Sources */,
+				E7617D732063E59B00817E2B /* DisplayPropertyCell.xib in Sources */,
+				E7617D742063E59B00817E2B /* DisplayTableViewCell.swift in Sources */,
+				E75EB8AA2216E24E0034FEB1 /* MOListDataDelegate.swift in Sources */,
+				E7617D752063E59B00817E2B /* TextPropertyCell.xib in Sources */,
+				E7617D762063E59B00817E2B /* TextTableViewCell.swift in Sources */,
+				E7617D772063E59B00817E2B /* TelephonePropertyCell.xib in Sources */,
+				E7617DA02064039C00817E2B /* GenericPicker.swift in Sources */,
+				E7617D782063E59B00817E2B /* TelephoneTableViewCell.swift in Sources */,
+				E7617D792063E59B00817E2B /* EmailPropertyCell.xib in Sources */,
+				E795A05322169E05002D3163 /* MOListTableViewCell.swift in Sources */,
+				E75EB8A52216E2000034FEB1 /* MOManualListTableView.swift in Sources */,
+				E7617D7A2063E59B00817E2B /* EmailTableViewCell.swift in Sources */,
+				E71619D72215E99F00A27650 /* UITableView.swift in Sources */,
+				E7617D7B2063E59B00817E2B /* MoneyTextField.swift in Sources */,
+				E7617D7C2063E59B00817E2B /* TelephoneField.swift in Sources */,
+				E7617DA4206403B600817E2B /* GenericTableViewCell.swift in Sources */,
+				E7617D7D2063E59B00817E2B /* EmailField.swift in Sources */,
+				E7A7B413206642B300A4AEE9 /* ListTableViewCell.swift in Sources */,
+				E7617D7E2063E59B00817E2B /* ToggleButton.swift in Sources */,
+				E7617D7F2063E59B00817E2B /* CounterField.xib in Sources */,
+				E7617DB5206403F600817E2B /* PopoverController.swift in Sources */,
+				E7617D802063E59B00817E2B /* CounterField.swift in Sources */,
+				E7617DA2206403AC00817E2B /* GenericTable.swift in Sources */,
+				E793B97C208748D9009D2C38 /* EntitiesTableView.swift in Sources */,
+				E7617D812063E59B00817E2B /* CoreDataTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02F72063C3F500CE162C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D03152063C41A00CE162C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75DBC0521C505A30095A1AB /* RelatToManyTableViewCell.swift in Sources */,
+				E78F245720C3ECF6009E38AA /* BasicTableCell.swift in Sources */,
+				E765978720BF21ED00084D6A /* NSPathControlItem.swift in Sources */,
+				E73D93E620729FA400847769 /* TelephoneTableViewCell.swift in Sources */,
+				E7111ED120B731D800DFDE13 /* NSTextBlock.swift in Sources */,
+				E767F28D208662E100FD7A7B /* ToggleTableViewCell.swift in Sources */,
+				E756269E207D1C9F00591BC2 /* ButtonTableViewCell.swift in Sources */,
+				E786BCAF20B1A82200F0CF0F /* NSAttributedString.swift in Sources */,
+				E7E2F0C521CE229A00F87C04 /* RelatListTableViewCell.swift in Sources */,
+				E72535FF20D27EE10023BF2F /* NSTableColumn.swift in Sources */,
+				E710ED4821CF715500391378 /* MOListDataDelegate.swift in Sources */,
+				E73D93E22072937100847769 /* EmailTableViewCell.swift in Sources */,
+				E767F28620864C4F00FD7A7B /* ToggleButton.swift in Sources */,
+				E75D0A2D2071204D00727130 /* BoolTableViewCell.swift in Sources */,
+				E7540E12206FD5300018C602 /* Property.swift in Sources */,
+				E765315620B5ED1900A97E6D /* TextTableBlockRangeArray.swift in Sources */,
+				E78A04042073BF850004C83C /* RelatTableViewCell.swift in Sources */,
+				E72535FD20D27DC60023BF2F /* PopUpButtonTableCell.swift in Sources */,
+				E765C95720B4600E00D7551C /* MutableTextTableBlockRange.swift in Sources */,
+				E765C95920B4671C00D7551C /* MutableTextTable.swift in Sources */,
+				E7549DD52072134500D8A1DF /* CounterField.swift in Sources */,
+				E765C95D20B4841800D7551C /* MutableTextTableCellRangeIterator.swift in Sources */,
+				E79967C920A455A8009C9DAE /* PropertyTableCellMac.swift in Sources */,
+				E78F245520C3D9AA009E38AA /* EntTableSelectionCell.swift in Sources */,
+				E780B100219C705500C10926 /* CharacterChooser.swift in Sources */,
+				E79A53BB20A188780065A749 /* EntitiesFilteredTableView.swift in Sources */,
+				E78B88DD215A8928004719DA /* NSRect.swift in Sources */,
+				E75969D920B1FF7100E28744 /* NSTextTableBlockArray.swift in Sources */,
+				E78A03F4207375350004C83C /* ListTableViewCell.swift in Sources */,
+				E75E501F20AC98C8001AFD01 /* String.swift in Sources */,
+				E78A632A20728EAC005CD1C8 /* DateTableViewCell.swift in Sources */,
+				E7D646E5207104B000426612 /* TextTableViewCell.swift in Sources */,
+				E754546B206B9CD500FE8CFA /* EntitiesTableView.swift in Sources */,
+				E70B67692157F5EB0038ED88 /* HelpPopover.swift in Sources */,
+				E78E2BB92070BB58009D7E29 /* DisplayTableViewCell.swift in Sources */,
+				E7111ECE20B7010300DFDE13 /* TextTableBuilder.swift in Sources */,
+				E765C95B20B469BB00D7551C /* NSMutableAttributedString.swift in Sources */,
+				E7759FDE20B3FED7008A4F46 /* TextTable.swift in Sources */,
+				E710ED4B21CF8B0300391378 /* MOManualListTableView.swift in Sources */,
+				E7540E14206FD5300018C602 /* PropertyTypeUtils.swift in Sources */,
+				E7759FE420B3FFF1008A4F46 /* TextTableRange.swift in Sources */,
+				E7A3C9E42154061C00FB8B4A /* HelpPopoverRequestDelegate.swift in Sources */,
+				E7759FE220B3FF97008A4F46 /* TextTableBlockRange.swift in Sources */,
+				E7540E13206FD5300018C602 /* AutomaticTitleCell.swift in Sources */,
+				E776561121CE5AEF007A24E4 /* MOListTableView.swift in Sources */,
+				E73D93E82072A2FC00847769 /* MoneyTextField.swift in Sources */,
+				E7BCDD6020AAEE8F00C9A8D0 /* FileChooser.swift in Sources */,
+				E776560F21CE59D4007A24E4 /* MOListTableViewCell.swift in Sources */,
+				E765C95420B45FBE00D7551C /* MutableTextTableRange.swift in Sources */,
+				E7759FE620B40616008A4F46 /* TextTableCellRangeIterator.swift in Sources */,
+				E7A3C9D52153F62800FB8B4A /* HelpPopoverViewController.swift in Sources */,
+				E7759FE820B42369008A4F46 /* MutableAttributedStringRange.swift in Sources */,
+				E75D007D208C8BD500E15639 /* Dialogs.swift in Sources */,
+				E768770820ADA41200C4C85D /* URL.swift in Sources */,
+				E759D51920789EDE00157596 /* TablePair.swift in Sources */,
+				E78A04062073C0740004C83C /* CoreDataTable.swift in Sources */,
+				E78BF4CF207B8BAD0077607F /* PopoverController.swift in Sources */,
+				E7F610BD20C1A4F300EC93E9 /* NSTableView.swift in Sources */,
+				E7A688A8209DA4EB00A9EFA9 /* DraggableButton.swift in Sources */,
+				E7759FE020B3FF1B008A4F46 /* AttributedStringRange.swift in Sources */,
+				E75D0A31207122DD00727130 /* IntTableViewCell.swift in Sources */,
+				E77FBAC520711CD80034CD67 /* StringTableViewCell.swift in Sources */,
+				E73D93EC2072AB9600847769 /* MoneyTableViewCell.swift in Sources */,
+				E7A3C9E22153FB1700FB8B4A /* NSView.swift in Sources */,
+				E7540E0C206FCE9A0018C602 /* PropertyTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D031E2063C41B00CE162C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E70D02FE2063C3F500CE162C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70D02F12063C3F500CE162C /* MuzSzafaFramework */;
+			targetProxy = E70D02FD2063C3F500CE162C /* PBXContainerItemProxy */;
+		};
+		E70D03252063C41B00CE162C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70D03192063C41A00CE162C /* MuzSzafaMacFramework */;
+			targetProxy = E70D03242063C41B00CE162C /* PBXContainerItemProxy */;
+		};
+		E7D646D82070C52F00426612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MuzSzafaShared;
+			targetProxy = E7D646D72070C52F00426612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E70D03042063C3F500CE162C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E70D03052063C3F500CE162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E70D03072063C3F500CE162C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T94V74U3CT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MuzSzafaFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70D03082063C3F500CE162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T94V74U3CT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MuzSzafaFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E70D030A2063C3F500CE162C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T94V74U3CT;
+				INFOPLIST_FILE = MuzSzafaFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70D030B2063C3F500CE162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T94V74U3CT;
+				INFOPLIST_FILE = MuzSzafaFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E70D032C2063C41B00CE162C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T94V74U3CT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MuzSzafaMacFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMacFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E70D032D2063C41B00CE162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T94V74U3CT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MuzSzafaMacFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMacFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E70D032F2063C41B00CE162C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T94V74U3CT;
+				INFOPLIST_FILE = MuzSzafaMacFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMacFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E70D03302063C41B00CE162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T94V74U3CT;
+				INFOPLIST_FILE = MuzSzafaMacFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMacFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E70D02EC2063C3F500CE162C /* Build configuration list for PBXProject "MuzSzafaFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D03042063C3F500CE162C /* Debug */,
+				E70D03052063C3F500CE162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D03062063C3F500CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D03072063C3F500CE162C /* Debug */,
+				E70D03082063C3F500CE162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D03092063C3F500CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D030A2063C3F500CE162C /* Debug */,
+				E70D030B2063C3F500CE162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D032B2063C41B00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMacFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D032C2063C41B00CE162C /* Debug */,
+				E70D032D2063C41B00CE162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D032E2063C41B00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMacFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D032F2063C41B00CE162C /* Debug */,
+				E70D03302063C41B00CE162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E70D02E92063C3F500CE162C /* Project object */;
+}

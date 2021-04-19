@@ -1,0 +1,1474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D500E97526510504E201046 /* Pods_MuzSzafaMacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE2390820878122105BCE36 /* Pods_MuzSzafaMacUITests.framework */; };
+		61AEE1047B55A292E325D4ED /* Pods_MuzSzafaMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EBE12B301DE259F97476D8 /* Pods_MuzSzafaMac.framework */; };
+		84DDE9A433D93D95FAAEB2FA /* Pods_MuzSzafa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0154EE67365E59372F4057 /* Pods_MuzSzafa.framework */; };
+		A6030C608EEB9EBA84D344EB /* Pods_MuzSzafaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC0B7D7EE428F4333AC10D8 /* Pods_MuzSzafaTests.framework */; };
+		C09A00C13A3A81C533709F22 /* Pods_MuzSzafaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA35A07E19EE562085FB0F9 /* Pods_MuzSzafaUITests.framework */; };
+		E7020166204AFB07005A474E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7020165204AFB07005A474E /* AppDelegate.swift */; };
+		E702016B204AFB07005A474E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7020169204AFB07005A474E /* Main.storyboard */; };
+		E7020170204AFB07005A474E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E702016F204AFB07005A474E /* Assets.xcassets */; };
+		E7020173204AFB07005A474E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7020171204AFB07005A474E /* LaunchScreen.storyboard */; };
+		E7020189204AFB07005A474E /* MuzSzafaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7020188204AFB07005A474E /* MuzSzafaUITests.swift */; };
+		E70201A1204AFC8D005A474E /* EntityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7020199204AFC8C005A474E /* EntityViewController.swift */; };
+		E70201A4204AFC8D005A474E /* NewInstrumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702019C204AFC8D005A474E /* NewInstrumentViewController.swift */; };
+		E70D02BC2063C3BA00CE162C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D02BB2063C3BA00CE162C /* AppDelegate.swift */; };
+		E70D02BE2063C3BA00CE162C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D02BD2063C3BA00CE162C /* MainViewController.swift */; };
+		E70D02C32063C3BA00CE162C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70D02C22063C3BA00CE162C /* Assets.xcassets */; };
+		E70D02C62063C3BA00CE162C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70D02C42063C3BA00CE162C /* Main.storyboard */; };
+		E70D02D22063C3BA00CE162C /* MuzSzafaMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D02D12063C3BA00CE162C /* MuzSzafaMacTests.swift */; };
+		E70D02DD2063C3BA00CE162C /* MuzSzafaMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D02DC2063C3BA00CE162C /* MuzSzafaMacUITests.swift */; };
+		E719517821CBF34A005022D2 /* warning_email.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = E719517521CBF34A005022D2 /* warning_email.rtfd */; };
+		E72007C821A46475004D400F /* ClientTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72007C721A46475004D400F /* ClientTableView.swift */; };
+		E72BE6A620983FF4006E978C /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6A420983FF4006E978C /* PaymentsViewController.swift */; };
+		E730B0182218879F0095E0AD /* NewInstrumentTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730B0172218879F0095E0AD /* NewInstrumentTypeViewController.swift */; };
+		E74F2D0221D6C3F0005E617C /* DealTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F2D0121D6C3F0005E617C /* DealTableView.swift */; };
+		E7504474215BDB7A00CD9D39 /* Income.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7504473215BDB7A00CD9D39 /* Income.storyboard */; };
+		E7561052207A9FAA00049EB8 /* NewInstrumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7561051207A9FAA00049EB8 /* NewInstrumentViewController.swift */; };
+		E75B298121C6C95A008479A6 /* DealTemplateProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B298021C6C959008479A6 /* DealTemplateProcessor.swift */; };
+		E75B298521C6C98A008479A6 /* RtfPatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B298421C6C98A008479A6 /* RtfPatternTest.swift */; };
+		E75DBF652091B57F00B61C79 /* InstrumentTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DBF642091B57F00B61C79 /* InstrumentTypeViewController.swift */; };
+		E75EF46720C1538900D97723 /* NewTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75EF46620C1538900D97723 /* NewTermViewController.swift */; };
+		E7604CB220D16E2D00B9F021 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7604CB120D16E2D00B9F021 /* MainWindowController.swift */; };
+		E761246B20E25D2100EC3BBC /* CSVImport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E761246D20E25D2100EC3BBC /* CSVImport.storyboard */; };
+		E76233B0208B0E8000B11AE0 /* MuzSzafaShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76233AF208B0E8000B11AE0 /* MuzSzafaShared.framework */; };
+		E76233B1208B0E8000B11AE0 /* MuzSzafaShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E76233AF208B0E8000B11AE0 /* MuzSzafaShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7647118209B6B3E0015652C /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7647117209B6B3E0015652C /* IncomeViewController.swift */; };
+		E767496C20D2557C009916F5 /* CSVImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767496B20D2557C009916F5 /* CSVImportViewController.swift */; };
+		E76F9F6B20642D2E007D38C9 /* MuzSzafaMacFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70D03542063C43D00CE162C /* MuzSzafaMacFramework.framework */; };
+		E76F9F6C20642D2E007D38C9 /* MuzSzafaMacFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E70D03542063C43D00CE162C /* MuzSzafaMacFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E77C837F2056DFB3004027F8 /* NewDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C837E2056DFB3004027F8 /* NewDealViewController.swift */; };
+		E78B88DF215AA6DF004719DA /* Preferences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78B88E1215AA6DF004719DA /* Preferences.storyboard */; };
+		E78BF4D3207BA25C0077607F /* NewDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78BF4D2207BA25C0077607F /* NewDealViewController.swift */; };
+		E79380A1212DE14200C99368 /* InstrumentAccessoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79380A0212DE14200C99368 /* InstrumentAccessoriesViewController.swift */; };
+		E7984926205D8FA4006FD45E /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7984925205D8FA4006FD45E /* PaymentsViewController.swift */; };
+		E7AD8472214FD89000AE3DCC /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AD8471214FD89000AE3DCC /* Statistics.storyboard */; };
+		E7B1BB6F22181A8000CFC2C8 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1BB6E22181A8000CFC2C8 /* SelectionViewController.swift */; };
+		E7B1BB732218366100CFC2C8 /* RelatEditingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1BB722218366100CFC2C8 /* RelatEditingType.swift */; };
+		E7B3589F2124261400CB9D36 /* Updater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3589C2124261300CB9D36 /* Updater.swift */; };
+		E7BCDD5A20AAED9100C9A8D0 /* PrefGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BCDD5920AAED9100C9A8D0 /* PrefGeneralViewController.swift */; };
+		E7BCDD5D20AAEDA200C9A8D0 /* PrefEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BCDD5B20AAEDA200C9A8D0 /* PrefEmailViewController.swift */; };
+		E7CC09AA2168B55F006C73D2 /* InstrumentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC09A92168B55F006C73D2 /* InstrumentTableView.swift */; };
+		E7D646D22070C36400426612 /* MuzSzafaShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D646D12070C36400426612 /* MuzSzafaShared.framework */; };
+		E7D646D32070C36400426612 /* MuzSzafaShared.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7D646D12070C36400426612 /* MuzSzafaShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7D646DB2070C5B400426612 /* MuzSzafaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70D03122063C3F700CE162C /* MuzSzafaFramework.framework */; };
+		E7D646DC2070C5B400426612 /* MuzSzafaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E70D03122063C3F700CE162C /* MuzSzafaFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7EC0A50205EC73600D7EE77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EC0A4F205EC73600D7EE77 /* HomeViewController.swift */; };
+		E7F092DB213DAF37009F4159 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7F092D8213DAF37009F4159 /* GoogleService-Info.plist */; };
+		F279267F9FF42420C8EEB80A /* Pods_MuzSzafaMacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DD1DAAB09A408AFB07AA5B /* Pods_MuzSzafaMacTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E702017A204AFB07005A474E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E702015A204AFB07005A474E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7020161204AFB07005A474E;
+			remoteInfo = MuzSzafa;
+		};
+		E7020185204AFB07005A474E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E702015A204AFB07005A474E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7020161204AFB07005A474E;
+			remoteInfo = MuzSzafa;
+		};
+		E70D02CE2063C3BA00CE162C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E702015A204AFB07005A474E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D02B82063C3B900CE162C;
+			remoteInfo = MuzSzafaMac;
+		};
+		E70D02D92063C3BA00CE162C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E702015A204AFB07005A474E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D02B82063C3B900CE162C;
+			remoteInfo = MuzSzafaMac;
+		};
+		E70D03112063C3F700CE162C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E70D02F22063C3F500CE162C;
+			remoteInfo = MuzSzafaFramework;
+		};
+		E70D03132063C3F700CE162C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E70D02FB2063C3F500CE162C;
+			remoteInfo = MuzSzafaFrameworkTests;
+		};
+		E70D03532063C43D00CE162C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E70D031A2063C41A00CE162C;
+			remoteInfo = MuzSzafaMacFramework;
+		};
+		E70D03552063C43D00CE162C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E70D03222063C41B00CE162C;
+			remoteInfo = MuzSzafaMacFrameworkTests;
+		};
+		E75734E72063DB7D00E54268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D02F12063C3F500CE162C;
+			remoteInfo = MuzSzafaFramework;
+		};
+		E76F9F6D20642D2E007D38C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D03192063C41A00CE162C;
+			remoteInfo = MuzSzafaMacFramework;
+		};
+		E7D646DD2070C5B400426612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D02F12063C3F500CE162C;
+			remoteInfo = MuzSzafaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E76F9F6020642894007D38C9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7D646DC2070C5B400426612 /* MuzSzafaFramework.framework in CopyFiles */,
+				E7D646D32070C36400426612 /* MuzSzafaShared.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76F9F6F20642D2E007D38C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E76233B1208B0E8000B11AE0 /* MuzSzafaShared.framework in Embed Frameworks */,
+				E76F9F6C20642D2E007D38C9 /* MuzSzafaMacFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		072A9C2017164CE1D490BF1B /* Pods-MuzSzafa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafa/Pods-MuzSzafa.debug.xcconfig"; sourceTree = "<group>"; };
+		0AE0C44EF18AB83CADC8342C /* Pods-MuzSzafaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaTests/Pods-MuzSzafaTests.release.xcconfig"; sourceTree = "<group>"; };
+		0AE2390820878122105BCE36 /* Pods_MuzSzafaMacUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuzSzafaMacUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC0B7D7EE428F4333AC10D8 /* Pods_MuzSzafaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuzSzafaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2761EC3755154323CCE43704 /* Pods-MuzSzafaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaTests/Pods-MuzSzafaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A0154EE67365E59372F4057 /* Pods_MuzSzafa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuzSzafa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447D46D8B193B4245A5813C5 /* Pods-MuzSzafaMacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaMacTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaMacTests/Pods-MuzSzafaMacTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49B5AEF3BD03EE89417B7ADF /* Pods-MuzSzafaMacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaMacUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaMacUITests/Pods-MuzSzafaMacUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49EBE12B301DE259F97476D8 /* Pods_MuzSzafaMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuzSzafaMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA35A07E19EE562085FB0F9 /* Pods_MuzSzafaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuzSzafaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BECE045DE3C14C402F2D73B /* Pods-MuzSzafaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaUITests/Pods-MuzSzafaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		843B60FBA45DF09861080483 /* Pods-MuzSzafaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaUITests/Pods-MuzSzafaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B881056B6C00200FF55EC96 /* Pods-MuzSzafaMacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaMacTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaMacTests/Pods-MuzSzafaMacTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB047C7F527A4E2268E4ECA6 /* Pods-MuzSzafaMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaMac/Pods-MuzSzafaMac.release.xcconfig"; sourceTree = "<group>"; };
+		C6DD1DAAB09A408AFB07AA5B /* Pods_MuzSzafaMacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuzSzafaMacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC75C9754148E768B43E1BF1 /* Pods-MuzSzafa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafa.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafa/Pods-MuzSzafa.release.xcconfig"; sourceTree = "<group>"; };
+		E328D889F86DB4FDD96E3B3C /* Pods-MuzSzafaMacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaMacUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaMacUITests/Pods-MuzSzafaMacUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7020162204AFB07005A474E /* MuzSzafa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuzSzafa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7020165204AFB07005A474E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E702016A204AFB07005A474E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E702016F204AFB07005A474E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7020172204AFB07005A474E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7020174204AFB07005A474E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7020179204AFB07005A474E /* MuzSzafaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuzSzafaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E702017F204AFB07005A474E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7020184204AFB07005A474E /* MuzSzafaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuzSzafaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7020188204AFB07005A474E /* MuzSzafaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzSzafaUITests.swift; sourceTree = "<group>"; };
+		E702018A204AFB07005A474E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7020199204AFC8C005A474E /* EntityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityViewController.swift; sourceTree = "<group>"; };
+		E702019C204AFC8D005A474E /* NewInstrumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInstrumentViewController.swift; sourceTree = "<group>"; };
+		E70D02B92063C3B900CE162C /* MuzSzafaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuzSzafaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D02BB2063C3BA00CE162C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E70D02BD2063C3BA00CE162C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E70D02C22063C3BA00CE162C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E70D02C52063C3BA00CE162C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E70D02C72063C3BA00CE162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D02C82063C3BA00CE162C /* MuzSzafaMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MuzSzafaMac.entitlements; sourceTree = "<group>"; };
+		E70D02CD2063C3BA00CE162C /* MuzSzafaMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuzSzafaMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D02D12063C3BA00CE162C /* MuzSzafaMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzSzafaMacTests.swift; sourceTree = "<group>"; };
+		E70D02D32063C3BA00CE162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D02D82063C3BA00CE162C /* MuzSzafaMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuzSzafaMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D02DC2063C3BA00CE162C /* MuzSzafaMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzSzafaMacUITests.swift; sourceTree = "<group>"; };
+		E70D02DE2063C3BA00CE162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MuzSzafaFramework.xcodeproj; path = MuzSzafaFramework/MuzSzafaFramework.xcodeproj; sourceTree = "<group>"; };
+		E719517521CBF34A005022D2 /* warning_email.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = warning_email.rtfd; path = ../../warning_email.rtfd; sourceTree = "<group>"; };
+		E72007C721A46475004D400F /* ClientTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTableView.swift; sourceTree = "<group>"; };
+		E72BE6A420983FF4006E978C /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		E730B0172218879F0095E0AD /* NewInstrumentTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInstrumentTypeViewController.swift; sourceTree = "<group>"; };
+		E74F2D0121D6C3F0005E617C /* DealTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealTableView.swift; sourceTree = "<group>"; };
+		E7504473215BDB7A00CD9D39 /* Income.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Income.storyboard; sourceTree = "<group>"; };
+		E7549BEA205AEA67001C1638 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E7561051207A9FAA00049EB8 /* NewInstrumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInstrumentViewController.swift; sourceTree = "<group>"; };
+		E75B298021C6C959008479A6 /* DealTemplateProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealTemplateProcessor.swift; sourceTree = "<group>"; };
+		E75B298421C6C98A008479A6 /* RtfPatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RtfPatternTest.swift; sourceTree = "<group>"; };
+		E75DBF642091B57F00B61C79 /* InstrumentTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTypeViewController.swift; sourceTree = "<group>"; };
+		E75EF46620C1538900D97723 /* NewTermViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTermViewController.swift; sourceTree = "<group>"; };
+		E7604CB120D16E2D00B9F021 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		E761246C20E25D2100EC3BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CSVImport.storyboard; sourceTree = "<group>"; };
+		E761246E20E25D3300EC3BBC /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CSVImport.strings; sourceTree = "<group>"; };
+		E76233AF208B0E8000B11AE0 /* MuzSzafaShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MuzSzafaShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7647117209B6B3E0015652C /* IncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
+		E767496B20D2557C009916F5 /* CSVImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVImportViewController.swift; sourceTree = "<group>"; };
+		E77C837E2056DFB3004027F8 /* NewDealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDealViewController.swift; sourceTree = "<group>"; };
+		E78B88E4215AA6FB004719DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Preferences.storyboard; sourceTree = "<group>"; };
+		E78B88E5215AA70E004719DA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Preferences.strings; sourceTree = "<group>"; };
+		E78BB20A20624E9400621323 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		E78BF4D2207BA25C0077607F /* NewDealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDealViewController.swift; sourceTree = "<group>"; };
+		E79380A0212DE14200C99368 /* InstrumentAccessoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentAccessoriesViewController.swift; sourceTree = "<group>"; };
+		E7984925205D8FA4006FD45E /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		E7AD8471214FD89000AE3DCC /* Statistics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		E7B1BB6E22181A8000CFC2C8 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		E7B1BB722218366100CFC2C8 /* RelatEditingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatEditingType.swift; sourceTree = "<group>"; };
+		E7B3589C2124261300CB9D36 /* Updater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updater.swift; sourceTree = "<group>"; };
+		E7BCDD5920AAED9100C9A8D0 /* PrefGeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefGeneralViewController.swift; sourceTree = "<group>"; };
+		E7BCDD5B20AAEDA200C9A8D0 /* PrefEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefEmailViewController.swift; sourceTree = "<group>"; };
+		E7CC09A92168B55F006C73D2 /* InstrumentTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTableView.swift; sourceTree = "<group>"; };
+		E7D646D12070C36400426612 /* MuzSzafaShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MuzSzafaShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7EC0A4F205EC73600D7EE77 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E7F092D8213DAF37009F4159 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7FB0ADB219837AA009415B4 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		F6ADC64BFBD4480E018F50FC /* Pods-MuzSzafaMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzSzafaMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuzSzafaMac/Pods-MuzSzafaMac.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E702015F204AFB07005A474E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D646DB2070C5B400426612 /* MuzSzafaFramework.framework in Frameworks */,
+				E7D646D22070C36400426612 /* MuzSzafaShared.framework in Frameworks */,
+				84DDE9A433D93D95FAAEB2FA /* Pods_MuzSzafa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7020176204AFB07005A474E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6030C608EEB9EBA84D344EB /* Pods_MuzSzafaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7020181204AFB07005A474E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09A00C13A3A81C533709F22 /* Pods_MuzSzafaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02B62063C3B900CE162C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76233B0208B0E8000B11AE0 /* MuzSzafaShared.framework in Frameworks */,
+				E76F9F6B20642D2E007D38C9 /* MuzSzafaMacFramework.framework in Frameworks */,
+				61AEE1047B55A292E325D4ED /* Pods_MuzSzafaMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02CA2063C3BA00CE162C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F279267F9FF42420C8EEB80A /* Pods_MuzSzafaMacTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02D52063C3BA00CE162C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D500E97526510504E201046 /* Pods_MuzSzafaMacUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D1DB84604B690C0173647B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				072A9C2017164CE1D490BF1B /* Pods-MuzSzafa.debug.xcconfig */,
+				CC75C9754148E768B43E1BF1 /* Pods-MuzSzafa.release.xcconfig */,
+				F6ADC64BFBD4480E018F50FC /* Pods-MuzSzafaMac.debug.xcconfig */,
+				AB047C7F527A4E2268E4ECA6 /* Pods-MuzSzafaMac.release.xcconfig */,
+				447D46D8B193B4245A5813C5 /* Pods-MuzSzafaMacTests.debug.xcconfig */,
+				9B881056B6C00200FF55EC96 /* Pods-MuzSzafaMacTests.release.xcconfig */,
+				49B5AEF3BD03EE89417B7ADF /* Pods-MuzSzafaMacUITests.debug.xcconfig */,
+				E328D889F86DB4FDD96E3B3C /* Pods-MuzSzafaMacUITests.release.xcconfig */,
+				2761EC3755154323CCE43704 /* Pods-MuzSzafaTests.debug.xcconfig */,
+				0AE0C44EF18AB83CADC8342C /* Pods-MuzSzafaTests.release.xcconfig */,
+				843B60FBA45DF09861080483 /* Pods-MuzSzafaUITests.debug.xcconfig */,
+				7BECE045DE3C14C402F2D73B /* Pods-MuzSzafaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7020159204AFB07005A474E = {
+			isa = PBXGroup;
+			children = (
+				E76233AF208B0E8000B11AE0 /* MuzSzafaShared.framework */,
+				E7D646D12070C36400426612 /* MuzSzafaShared.framework */,
+				E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */,
+				E7020164204AFB07005A474E /* MuzSzafa */,
+				E702017C204AFB07005A474E /* MuzSzafaTests */,
+				E7020187204AFB07005A474E /* MuzSzafaUITests */,
+				E70D02BA2063C3BA00CE162C /* MuzSzafaMac */,
+				E70D02D02063C3BA00CE162C /* MuzSzafaMacTests */,
+				E70D02DB2063C3BA00CE162C /* MuzSzafaMacUITests */,
+				E7020163204AFB07005A474E /* Products */,
+				E70D03572063C58300CE162C /* Frameworks */,
+				7D1DB84604B690C0173647B4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E7020163204AFB07005A474E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7020162204AFB07005A474E /* MuzSzafa.app */,
+				E7020179204AFB07005A474E /* MuzSzafaTests.xctest */,
+				E7020184204AFB07005A474E /* MuzSzafaUITests.xctest */,
+				E70D02B92063C3B900CE162C /* MuzSzafaMac.app */,
+				E70D02CD2063C3BA00CE162C /* MuzSzafaMacTests.xctest */,
+				E70D02D82063C3BA00CE162C /* MuzSzafaMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7020164204AFB07005A474E /* MuzSzafa */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1BB722218366100CFC2C8 /* RelatEditingType.swift */,
+				E7020199204AFC8C005A474E /* EntityViewController.swift */,
+				E702019C204AFC8D005A474E /* NewInstrumentViewController.swift */,
+				E730B0172218879F0095E0AD /* NewInstrumentTypeViewController.swift */,
+				E77C837E2056DFB3004027F8 /* NewDealViewController.swift */,
+				E7984925205D8FA4006FD45E /* PaymentsViewController.swift */,
+				E7B1BB6E22181A8000CFC2C8 /* SelectionViewController.swift */,
+				E7EC0A4F205EC73600D7EE77 /* HomeViewController.swift */,
+				E7020165204AFB07005A474E /* AppDelegate.swift */,
+				E7020169204AFB07005A474E /* Main.storyboard */,
+				E702016F204AFB07005A474E /* Assets.xcassets */,
+				E7020171204AFB07005A474E /* LaunchScreen.storyboard */,
+				E7020174204AFB07005A474E /* Info.plist */,
+			);
+			path = MuzSzafa;
+			sourceTree = "<group>";
+		};
+		E702017C204AFB07005A474E /* MuzSzafaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E702017F204AFB07005A474E /* Info.plist */,
+			);
+			path = MuzSzafaTests;
+			sourceTree = "<group>";
+		};
+		E7020187204AFB07005A474E /* MuzSzafaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7020188204AFB07005A474E /* MuzSzafaUITests.swift */,
+				E702018A204AFB07005A474E /* Info.plist */,
+			);
+			path = MuzSzafaUITests;
+			sourceTree = "<group>";
+		};
+		E70D02BA2063C3BA00CE162C /* MuzSzafaMac */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3589C2124261300CB9D36 /* Updater.swift */,
+				E70D02C22063C3BA00CE162C /* Assets.xcassets */,
+				E7CC09A92168B55F006C73D2 /* InstrumentTableView.swift */,
+				E74F2D0121D6C3F0005E617C /* DealTableView.swift */,
+				E72007C721A46475004D400F /* ClientTableView.swift */,
+				E70D02BB2063C3BA00CE162C /* AppDelegate.swift */,
+				E70D02C42063C3BA00CE162C /* Main.storyboard */,
+				E78B88E1215AA6DF004719DA /* Preferences.storyboard */,
+				E7AD8471214FD89000AE3DCC /* Statistics.storyboard */,
+				E7504473215BDB7A00CD9D39 /* Income.storyboard */,
+				E70D02BD2063C3BA00CE162C /* MainViewController.swift */,
+				E7604CB120D16E2D00B9F021 /* MainWindowController.swift */,
+				E7561051207A9FAA00049EB8 /* NewInstrumentViewController.swift */,
+				E75DBF642091B57F00B61C79 /* InstrumentTypeViewController.swift */,
+				E79380A0212DE14200C99368 /* InstrumentAccessoriesViewController.swift */,
+				E72BE6A420983FF4006E978C /* PaymentsViewController.swift */,
+				E78BF4D2207BA25C0077607F /* NewDealViewController.swift */,
+				E7647117209B6B3E0015652C /* IncomeViewController.swift */,
+				E7BCDD5920AAED9100C9A8D0 /* PrefGeneralViewController.swift */,
+				E7BCDD5B20AAEDA200C9A8D0 /* PrefEmailViewController.swift */,
+				E75B298021C6C959008479A6 /* DealTemplateProcessor.swift */,
+				E75EF46620C1538900D97723 /* NewTermViewController.swift */,
+				E767496B20D2557C009916F5 /* CSVImportViewController.swift */,
+				E761246D20E25D2100EC3BBC /* CSVImport.storyboard */,
+				E70D02C72063C3BA00CE162C /* Info.plist */,
+				E7F092D8213DAF37009F4159 /* GoogleService-Info.plist */,
+				E70D02C82063C3BA00CE162C /* MuzSzafaMac.entitlements */,
+			);
+			path = MuzSzafaMac;
+			sourceTree = "<group>";
+		};
+		E70D02D02063C3BA00CE162C /* MuzSzafaMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				E719517521CBF34A005022D2 /* warning_email.rtfd */,
+				E75B298421C6C98A008479A6 /* RtfPatternTest.swift */,
+				E70D02D12063C3BA00CE162C /* MuzSzafaMacTests.swift */,
+				E70D02D32063C3BA00CE162C /* Info.plist */,
+			);
+			path = MuzSzafaMacTests;
+			sourceTree = "<group>";
+		};
+		E70D02DB2063C3BA00CE162C /* MuzSzafaMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E70D02DC2063C3BA00CE162C /* MuzSzafaMacUITests.swift */,
+				E70D02DE2063C3BA00CE162C /* Info.plist */,
+			);
+			path = MuzSzafaMacUITests;
+			sourceTree = "<group>";
+		};
+		E70D030D2063C3F500CE162C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70D03122063C3F700CE162C /* MuzSzafaFramework.framework */,
+				E70D03142063C3F700CE162C /* MuzSzafaFrameworkTests.xctest */,
+				E70D03542063C43D00CE162C /* MuzSzafaMacFramework.framework */,
+				E70D03562063C43D00CE162C /* MuzSzafaMacFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70D03572063C58300CE162C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A0154EE67365E59372F4057 /* Pods_MuzSzafa.framework */,
+				49EBE12B301DE259F97476D8 /* Pods_MuzSzafaMac.framework */,
+				C6DD1DAAB09A408AFB07AA5B /* Pods_MuzSzafaMacTests.framework */,
+				0AE2390820878122105BCE36 /* Pods_MuzSzafaMacUITests.framework */,
+				1DC0B7D7EE428F4333AC10D8 /* Pods_MuzSzafaTests.framework */,
+				5BA35A07E19EE562085FB0F9 /* Pods_MuzSzafaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7020161204AFB07005A474E /* MuzSzafa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E702018D204AFB07005A474E /* Build configuration list for PBXNativeTarget "MuzSzafa" */;
+			buildPhases = (
+				D32B09931268B3DD6385BEC0 /* [CP] Check Pods Manifest.lock */,
+				E702015E204AFB07005A474E /* Sources */,
+				E702015F204AFB07005A474E /* Frameworks */,
+				E7020160204AFB07005A474E /* Resources */,
+				E76F9F6020642894007D38C9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E75734E82063DB7D00E54268 /* PBXTargetDependency */,
+				E7D646DE2070C5B400426612 /* PBXTargetDependency */,
+			);
+			name = MuzSzafa;
+			productName = MuzSzafa;
+			productReference = E7020162204AFB07005A474E /* MuzSzafa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7020178204AFB07005A474E /* MuzSzafaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7020190204AFB07005A474E /* Build configuration list for PBXNativeTarget "MuzSzafaTests" */;
+			buildPhases = (
+				FB2918B34E2787F8E40935CD /* [CP] Check Pods Manifest.lock */,
+				E7020175204AFB07005A474E /* Sources */,
+				E7020176204AFB07005A474E /* Frameworks */,
+				E7020177204AFB07005A474E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E702017B204AFB07005A474E /* PBXTargetDependency */,
+			);
+			name = MuzSzafaTests;
+			productName = MuzSzafaTests;
+			productReference = E7020179204AFB07005A474E /* MuzSzafaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7020183204AFB07005A474E /* MuzSzafaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7020193204AFB07005A474E /* Build configuration list for PBXNativeTarget "MuzSzafaUITests" */;
+			buildPhases = (
+				2BB80E3FCAEAA086406B3516 /* [CP] Check Pods Manifest.lock */,
+				E7020180204AFB07005A474E /* Sources */,
+				E7020181204AFB07005A474E /* Frameworks */,
+				E7020182204AFB07005A474E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7020186204AFB07005A474E /* PBXTargetDependency */,
+			);
+			name = MuzSzafaUITests;
+			productName = MuzSzafaUITests;
+			productReference = E7020184204AFB07005A474E /* MuzSzafaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E70D02B82063C3B900CE162C /* MuzSzafaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D02E52063C3BA00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMac" */;
+			buildPhases = (
+				B0B084062A1B1435585B9CD6 /* [CP] Check Pods Manifest.lock */,
+				E70D02B52063C3B900CE162C /* Sources */,
+				E70D02B62063C3B900CE162C /* Frameworks */,
+				E70D02B72063C3B900CE162C /* Resources */,
+				E76F9F6F20642D2E007D38C9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76F9F6E20642D2E007D38C9 /* PBXTargetDependency */,
+			);
+			name = MuzSzafaMac;
+			productName = MuzSzafaMac;
+			productReference = E70D02B92063C3B900CE162C /* MuzSzafaMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E70D02CC2063C3BA00CE162C /* MuzSzafaMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D02E62063C3BA00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMacTests" */;
+			buildPhases = (
+				EAC15047EE667C5BF6536FF5 /* [CP] Check Pods Manifest.lock */,
+				E70D02C92063C3BA00CE162C /* Sources */,
+				E70D02CA2063C3BA00CE162C /* Frameworks */,
+				E70D02CB2063C3BA00CE162C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70D02CF2063C3BA00CE162C /* PBXTargetDependency */,
+			);
+			name = MuzSzafaMacTests;
+			productName = MuzSzafaMacTests;
+			productReference = E70D02CD2063C3BA00CE162C /* MuzSzafaMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E70D02D72063C3BA00CE162C /* MuzSzafaMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D02E72063C3BA00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMacUITests" */;
+			buildPhases = (
+				971C399B6329B459286FA56B /* [CP] Check Pods Manifest.lock */,
+				E70D02D42063C3BA00CE162C /* Sources */,
+				E70D02D52063C3BA00CE162C /* Frameworks */,
+				E70D02D62063C3BA00CE162C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70D02DA2063C3BA00CE162C /* PBXTargetDependency */,
+			);
+			name = MuzSzafaMacUITests;
+			productName = MuzSzafaMacUITests;
+			productReference = E70D02D82063C3BA00CE162C /* MuzSzafaMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E702015A204AFB07005A474E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = alagris;
+				TargetAttributes = {
+					E7020161204AFB07005A474E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E7020178204AFB07005A474E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7020161204AFB07005A474E;
+					};
+					E7020183204AFB07005A474E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7020161204AFB07005A474E;
+					};
+					E70D02B82063C3B900CE162C = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+					};
+					E70D02CC2063C3BA00CE162C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E70D02B82063C3B900CE162C;
+					};
+					E70D02D72063C3BA00CE162C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E70D02B82063C3B900CE162C;
+					};
+				};
+			};
+			buildConfigurationList = E702015D204AFB07005A474E /* Build configuration list for PBXProject "MuzSzafa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pl,
+			);
+			mainGroup = E7020159204AFB07005A474E;
+			productRefGroup = E7020163204AFB07005A474E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E70D030D2063C3F500CE162C /* Products */;
+					ProjectRef = E70D030C2063C3F500CE162C /* MuzSzafaFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E7020161204AFB07005A474E /* MuzSzafa */,
+				E7020178204AFB07005A474E /* MuzSzafaTests */,
+				E7020183204AFB07005A474E /* MuzSzafaUITests */,
+				E70D02B82063C3B900CE162C /* MuzSzafaMac */,
+				E70D02CC2063C3BA00CE162C /* MuzSzafaMacTests */,
+				E70D02D72063C3BA00CE162C /* MuzSzafaMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E70D03122063C3F700CE162C /* MuzSzafaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MuzSzafaFramework.framework;
+			remoteRef = E70D03112063C3F700CE162C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E70D03142063C3F700CE162C /* MuzSzafaFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MuzSzafaFrameworkTests.xctest;
+			remoteRef = E70D03132063C3F700CE162C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E70D03542063C43D00CE162C /* MuzSzafaMacFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MuzSzafaMacFramework.framework;
+			remoteRef = E70D03532063C43D00CE162C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E70D03562063C43D00CE162C /* MuzSzafaMacFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MuzSzafaMacFrameworkTests.xctest;
+			remoteRef = E70D03552063C43D00CE162C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7020160204AFB07005A474E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7020173204AFB07005A474E /* LaunchScreen.storyboard in Resources */,
+				E7020170204AFB07005A474E /* Assets.xcassets in Resources */,
+				E702016B204AFB07005A474E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7020177204AFB07005A474E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7020182204AFB07005A474E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02B72063C3B900CE162C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E761246B20E25D2100EC3BBC /* CSVImport.storyboard in Resources */,
+				E7F092DB213DAF37009F4159 /* GoogleService-Info.plist in Resources */,
+				E70D02C32063C3BA00CE162C /* Assets.xcassets in Resources */,
+				E7AD8472214FD89000AE3DCC /* Statistics.storyboard in Resources */,
+				E7504474215BDB7A00CD9D39 /* Income.storyboard in Resources */,
+				E78B88DF215AA6DF004719DA /* Preferences.storyboard in Resources */,
+				E70D02C62063C3BA00CE162C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02CB2063C3BA00CE162C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E719517821CBF34A005022D2 /* warning_email.rtfd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02D62063C3BA00CE162C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BB80E3FCAEAA086406B3516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuzSzafaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971C399B6329B459286FA56B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuzSzafaMacUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B084062A1B1435585B9CD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuzSzafaMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32B09931268B3DD6385BEC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuzSzafa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC15047EE667C5BF6536FF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuzSzafaMacTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2918B34E2787F8E40935CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuzSzafaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E702015E204AFB07005A474E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E730B0182218879F0095E0AD /* NewInstrumentTypeViewController.swift in Sources */,
+				E70201A4204AFC8D005A474E /* NewInstrumentViewController.swift in Sources */,
+				E70201A1204AFC8D005A474E /* EntityViewController.swift in Sources */,
+				E7984926205D8FA4006FD45E /* PaymentsViewController.swift in Sources */,
+				E7020166204AFB07005A474E /* AppDelegate.swift in Sources */,
+				E77C837F2056DFB3004027F8 /* NewDealViewController.swift in Sources */,
+				E7EC0A50205EC73600D7EE77 /* HomeViewController.swift in Sources */,
+				E7B1BB6F22181A8000CFC2C8 /* SelectionViewController.swift in Sources */,
+				E7B1BB732218366100CFC2C8 /* RelatEditingType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7020175204AFB07005A474E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7020180204AFB07005A474E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7020189204AFB07005A474E /* MuzSzafaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02B52063C3B900CE162C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CC09AA2168B55F006C73D2 /* InstrumentTableView.swift in Sources */,
+				E75B298121C6C95A008479A6 /* DealTemplateProcessor.swift in Sources */,
+				E75DBF652091B57F00B61C79 /* InstrumentTypeViewController.swift in Sources */,
+				E70D02BE2063C3BA00CE162C /* MainViewController.swift in Sources */,
+				E767496C20D2557C009916F5 /* CSVImportViewController.swift in Sources */,
+				E7B3589F2124261400CB9D36 /* Updater.swift in Sources */,
+				E7604CB220D16E2D00B9F021 /* MainWindowController.swift in Sources */,
+				E79380A1212DE14200C99368 /* InstrumentAccessoriesViewController.swift in Sources */,
+				E7BCDD5D20AAEDA200C9A8D0 /* PrefEmailViewController.swift in Sources */,
+				E78BF4D3207BA25C0077607F /* NewDealViewController.swift in Sources */,
+				E72BE6A620983FF4006E978C /* PaymentsViewController.swift in Sources */,
+				E74F2D0221D6C3F0005E617C /* DealTableView.swift in Sources */,
+				E7BCDD5A20AAED9100C9A8D0 /* PrefGeneralViewController.swift in Sources */,
+				E7647118209B6B3E0015652C /* IncomeViewController.swift in Sources */,
+				E70D02BC2063C3BA00CE162C /* AppDelegate.swift in Sources */,
+				E72007C821A46475004D400F /* ClientTableView.swift in Sources */,
+				E7561052207A9FAA00049EB8 /* NewInstrumentViewController.swift in Sources */,
+				E75EF46720C1538900D97723 /* NewTermViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02C92063C3BA00CE162C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D02D22063C3BA00CE162C /* MuzSzafaMacTests.swift in Sources */,
+				E75B298521C6C98A008479A6 /* RtfPatternTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D02D42063C3BA00CE162C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D02DD2063C3BA00CE162C /* MuzSzafaMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E702017B204AFB07005A474E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7020161204AFB07005A474E /* MuzSzafa */;
+			targetProxy = E702017A204AFB07005A474E /* PBXContainerItemProxy */;
+		};
+		E7020186204AFB07005A474E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7020161204AFB07005A474E /* MuzSzafa */;
+			targetProxy = E7020185204AFB07005A474E /* PBXContainerItemProxy */;
+		};
+		E70D02CF2063C3BA00CE162C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70D02B82063C3B900CE162C /* MuzSzafaMac */;
+			targetProxy = E70D02CE2063C3BA00CE162C /* PBXContainerItemProxy */;
+		};
+		E70D02DA2063C3BA00CE162C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70D02B82063C3B900CE162C /* MuzSzafaMac */;
+			targetProxy = E70D02D92063C3BA00CE162C /* PBXContainerItemProxy */;
+		};
+		E75734E82063DB7D00E54268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MuzSzafaFramework;
+			targetProxy = E75734E72063DB7D00E54268 /* PBXContainerItemProxy */;
+		};
+		E76F9F6E20642D2E007D38C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MuzSzafaMacFramework;
+			targetProxy = E76F9F6D20642D2E007D38C9 /* PBXContainerItemProxy */;
+		};
+		E7D646DE2070C5B400426612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MuzSzafaFramework;
+			targetProxy = E7D646DD2070C5B400426612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7020169204AFB07005A474E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E702016A204AFB07005A474E /* Base */,
+				E78BB20A20624E9400621323 /* pl */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7020171204AFB07005A474E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7020172204AFB07005A474E /* Base */,
+				E7549BEA205AEA67001C1638 /* pl */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E70D02C42063C3BA00CE162C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70D02C52063C3BA00CE162C /* Base */,
+				E7FB0ADB219837AA009415B4 /* pl */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E761246D20E25D2100EC3BBC /* CSVImport.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E761246C20E25D2100EC3BBC /* Base */,
+				E761246E20E25D3300EC3BBC /* pl */,
+			);
+			name = CSVImport.storyboard;
+			sourceTree = "<group>";
+		};
+		E78B88E1215AA6DF004719DA /* Preferences.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78B88E4215AA6FB004719DA /* Base */,
+				E78B88E5215AA70E004719DA /* pl */,
+			);
+			name = Preferences.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E702018B204AFB07005A474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E702018C204AFB07005A474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E702018E204AFB07005A474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072A9C2017164CE1D490BF1B /* Pods-MuzSzafa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E702018F204AFB07005A474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC75C9754148E768B43E1BF1 /* Pods-MuzSzafa.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7020191204AFB07005A474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2761EC3755154323CCE43704 /* Pods-MuzSzafaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuzSzafa.app/MuzSzafa";
+			};
+			name = Debug;
+		};
+		E7020192204AFB07005A474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE0C44EF18AB83CADC8342C /* Pods-MuzSzafaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuzSzafa.app/MuzSzafa";
+			};
+			name = Release;
+		};
+		E7020194204AFB07005A474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843B60FBA45DF09861080483 /* Pods-MuzSzafaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuzSzafa;
+			};
+			name = Debug;
+		};
+		E7020195204AFB07005A474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BECE045DE3C14C402F2D73B /* Pods-MuzSzafaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuzSzafa;
+			};
+			name = Release;
+		};
+		E70D02DF2063C3BA00CE162C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6ADC64BFBD4480E018F50FC /* Pods-MuzSzafaMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MuzSzafaMac/MuzSzafaMac.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MuzSzafaMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E70D02E02063C3BA00CE162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB047C7F527A4E2268E4ECA6 /* Pods-MuzSzafaMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MuzSzafaMac/MuzSzafaMac.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MuzSzafaMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E70D02E12063C3BA00CE162C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447D46D8B193B4245A5813C5 /* Pods-MuzSzafaMacTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafaMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuzSzafaMac.app/Contents/MacOS/MuzSzafaMac";
+			};
+			name = Debug;
+		};
+		E70D02E22063C3BA00CE162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B881056B6C00200FF55EC96 /* Pods-MuzSzafaMacTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafaMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuzSzafaMac.app/Contents/MacOS/MuzSzafaMac";
+			};
+			name = Release;
+		};
+		E70D02E32063C3BA00CE162C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B5AEF3BD03EE89417B7ADF /* Pods-MuzSzafaMacUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafaMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = MuzSzafaMac;
+			};
+			name = Debug;
+		};
+		E70D02E42063C3BA00CE162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E328D889F86DB4FDD96E3B3C /* Pods-MuzSzafaMacUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UUJLA999V5;
+				INFOPLIST_FILE = MuzSzafaMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = alagris.MuzSzafaMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = MuzSzafaMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E702015D204AFB07005A474E /* Build configuration list for PBXProject "MuzSzafa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E702018B204AFB07005A474E /* Debug */,
+				E702018C204AFB07005A474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E702018D204AFB07005A474E /* Build configuration list for PBXNativeTarget "MuzSzafa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E702018E204AFB07005A474E /* Debug */,
+				E702018F204AFB07005A474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7020190204AFB07005A474E /* Build configuration list for PBXNativeTarget "MuzSzafaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7020191204AFB07005A474E /* Debug */,
+				E7020192204AFB07005A474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7020193204AFB07005A474E /* Build configuration list for PBXNativeTarget "MuzSzafaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7020194204AFB07005A474E /* Debug */,
+				E7020195204AFB07005A474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D02E52063C3BA00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D02DF2063C3BA00CE162C /* Debug */,
+				E70D02E02063C3BA00CE162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D02E62063C3BA00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D02E12063C3BA00CE162C /* Debug */,
+				E70D02E22063C3BA00CE162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D02E72063C3BA00CE162C /* Build configuration list for PBXNativeTarget "MuzSzafaMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D02E32063C3BA00CE162C /* Debug */,
+				E70D02E42063C3BA00CE162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E702015A204AFB07005A474E /* Project object */;
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="string" rowHeight="88" id="Feh-2b-uav" customClass="StringTableViewCell" customModule="MuzSzafa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Feh-2b-uav" id="IrX-dS-cTZ">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICf-Mu-j1k">
+                        <rect key="frame" x="20" y="11" width="353" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AEa-80-eCa" userLabel="value">
+                        <rect key="frame" x="20" y="40" width="353" height="30"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="stringChanged:" destination="Feh-2b-uav" eventType="editingChanged" id="132-CN-l54"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ICf-Mu-j1k" firstAttribute="trailing" secondItem="IrX-dS-cTZ" secondAttribute="trailingMargin" id="85u-yM-c8U"/>
+                    <constraint firstItem="ICf-Mu-j1k" firstAttribute="leading" secondItem="IrX-dS-cTZ" secondAttribute="leadingMargin" id="9tO-cv-jlq"/>
+                    <constraint firstItem="ICf-Mu-j1k" firstAttribute="trailing" secondItem="AEa-80-eCa" secondAttribute="trailing" id="POJ-lM-cxn"/>
+                    <constraint firstItem="ICf-Mu-j1k" firstAttribute="leading" secondItem="AEa-80-eCa" secondAttribute="leading" id="dkd-Kr-OXn"/>
+                    <constraint firstItem="AEa-80-eCa" firstAttribute="top" secondItem="ICf-Mu-j1k" secondAttribute="bottom" constant="8" symbolic="YES" id="kZ0-Z8-zx7"/>
+                    <constraint firstItem="ICf-Mu-j1k" firstAttribute="top" secondItem="IrX-dS-cTZ" secondAttribute="topMargin" id="wO7-wF-ac7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellTitle" destination="ICf-Mu-j1k" id="vnU-wi-utZ"/>
+                <outlet property="stringField" destination="AEa-80-eCa" id="xKX-PB-17q"/>
+            </connections>
+            <point key="canvasLocation" x="48.5" y="226"/>
+        </tableViewCell>
+    </objects>
+</document>

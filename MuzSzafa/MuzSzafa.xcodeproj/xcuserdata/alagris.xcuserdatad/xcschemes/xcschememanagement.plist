@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MuzSzafa.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>MuzSzafaMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>MuzSzafaMacTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>MuzSzafaMacUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E7020161204AFB07005A474E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7020178204AFB07005A474E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7020183204AFB07005A474E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E70D02B82063C3B900CE162C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E70D02CC2063C3BA00CE162C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E70D02D72063C3BA00CE162C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

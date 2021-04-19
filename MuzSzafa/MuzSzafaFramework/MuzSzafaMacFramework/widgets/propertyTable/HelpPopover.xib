@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="HelpPopover" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <connections>
+                <outlet property="text" destination="Z7D-cO-8Hk" id="AuI-Zi-FZM"/>
+                <outlet property="view" destination="c22-O7-iKe" id="mEN-om-Emq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="209"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ze8-ms-KPy">
+                    <rect key="frame" x="5" y="5" width="403" height="199"/>
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Yy4-Vh-AYC">
+                        <rect key="frame" x="1" y="1" width="401" height="197"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView editable="NO" drawsBackground="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="Z7D-cO-8Hk">
+                                <rect key="frame" x="0.0" y="0.0" width="401" height="197"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="minSize" width="401" height="197"/>
+                                <size key="maxSize" width="463" height="10000000"/>
+                                <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="5ez-po-E8L">
+                        <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="nvr-x3-gjv">
+                        <rect key="frame" x="386" y="1" width="16" height="197"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ze8-ms-KPy" secondAttribute="bottom" constant="5" id="GuD-C5-kt6"/>
+                <constraint firstItem="Ze8-ms-KPy" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="5" id="UJe-5K-lx1"/>
+                <constraint firstItem="Ze8-ms-KPy" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="5" id="apN-jq-jNm"/>
+                <constraint firstAttribute="trailing" secondItem="Ze8-ms-KPy" secondAttribute="trailing" constant="5" id="hJr-qX-w7l"/>
+            </constraints>
+            <point key="canvasLocation" x="105.5" y="240.5"/>
+        </customView>
+    </objects>
+</document>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="Z8G-2t-Skq">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Import View Controller-->
+        <scene sceneID="xR0-4c-Efg">
+            <objects>
+                <viewController id="Z8G-2t-Skq" customClass="CSVImportViewController" customModule="MuzSzafaMac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="jx9-Ov-urd">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="410"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <pathControl verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8gb-Bi-YxP">
+                                <rect key="frame" x="21" y="368" width="392" height="22"/>
+                                <pathCell key="cell" selectable="YES" editable="YES" alignment="left" id="RzE-Ld-Txh">
+                                    <font key="font" metaFont="system"/>
+                                    <url key="url" string="file://localhost/Applications/"/>
+                                    <color key="backgroundColor" red="0.89803921568627454" green="0.92549019607843142" blue="0.97254901960784312" alpha="1" colorSpace="deviceRGB"/>
+                                </pathCell>
+                            </pathControl>
+                            <scrollView autohidesScrollers="YES" horizontalLineScroll="26" horizontalPageScroll="10" verticalLineScroll="26" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfd-Sy-h8I">
+                                <rect key="frame" x="20" y="42" width="394" height="294"/>
+                                <clipView key="contentView" id="5iz-bM-76u">
+                                    <rect key="frame" x="1" y="1" width="392" height="292"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="none" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="systemDefault" id="Gsc-uX-N9Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="392" height="292"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <size key="intercellSpacing" width="3" height="2"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                        </tableView>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="44H-Xr-9Qm">
+                                    <rect key="frame" x="1" y="213" width="403" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="ECv-Mu-4vI">
+                                    <rect key="frame" x="224" y="17" width="15" height="102"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2hW-yO-QPh">
+                                <rect key="frame" x="19" y="341" width="37" height="26"/>
+                                <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="8nK-Wq-Ebz">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="yPl-zq-BXL"/>
+                                </popUpButtonCell>
+                                <connections>
+                                    <action selector="selectedEntChanged:" target="Z8G-2t-Skq" id="zHr-99-B98"/>
+                                </connections>
+                            </popUpButton>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f2Y-pD-Lmf">
+                                <rect key="frame" x="339" y="337" width="80" height="32"/>
+                                <buttonCell key="cell" type="push" title="Import" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="edB-Wo-vbC">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="readyToImport:" target="Z8G-2t-Skq" id="1JZ-No-pHc"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7PK-hx-p2G">
+                                <rect key="frame" x="201" y="346" width="138" height="18"/>
+                                <buttonCell key="cell" type="check" title="First row as header" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="TiX-bW-ZL3">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wqY-Oh-4Wl">
+                                <rect key="frame" x="0.0" y="391" width="13" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="13" id="a1d-iP-GpB"/>
+                                    <constraint firstAttribute="height" constant="19" id="tac-rZ-qD8"/>
+                                </constraints>
+                                <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSGoLeftTemplate" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" id="xTt-Sb-Dic">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="goBack:" target="Z8G-2t-Skq" id="7kL-TC-Ps9"/>
+                                </connections>
+                            </button>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="3Sn-mr-4ew" customClass="CharacterChooser" customModule="MuzSzafaMacFramework">
+                                <rect key="frame" x="21" y="13" width="393" height="21"/>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="7PK-hx-p2G" firstAttribute="centerY" secondItem="f2Y-pD-Lmf" secondAttribute="centerY" id="0g0-rZ-6ie"/>
+                            <constraint firstItem="bfd-Sy-h8I" firstAttribute="top" secondItem="2hW-yO-QPh" secondAttribute="bottom" constant="8" id="5jY-C6-FlK"/>
+                            <constraint firstItem="2hW-yO-QPh" firstAttribute="leading" secondItem="bfd-Sy-h8I" secondAttribute="leading" constant="1" id="9uj-CJ-h1c"/>
+                            <constraint firstAttribute="bottom" secondItem="3Sn-mr-4ew" secondAttribute="bottom" constant="13" id="AIA-pb-ben"/>
+                            <constraint firstItem="2hW-yO-QPh" firstAttribute="centerY" secondItem="7PK-hx-p2G" secondAttribute="centerY" id="DOy-tt-m3q"/>
+                            <constraint firstItem="3Sn-mr-4ew" firstAttribute="leading" secondItem="bfd-Sy-h8I" secondAttribute="leading" constant="1" id="EkK-CK-sOO"/>
+                            <constraint firstItem="2hW-yO-QPh" firstAttribute="top" secondItem="8gb-Bi-YxP" secondAttribute="bottom" constant="3" id="FRM-Xa-2x7"/>
+                            <constraint firstItem="8gb-Bi-YxP" firstAttribute="top" secondItem="jx9-Ov-urd" secondAttribute="top" constant="20" id="GeK-T7-emt"/>
+                            <constraint firstItem="wqY-Oh-4Wl" firstAttribute="top" secondItem="jx9-Ov-urd" secondAttribute="top" id="I3W-52-e2p"/>
+                            <constraint firstItem="3Sn-mr-4ew" firstAttribute="top" secondItem="bfd-Sy-h8I" secondAttribute="bottom" constant="8" id="O2x-9z-S2L"/>
+                            <constraint firstItem="3Sn-mr-4ew" firstAttribute="trailing" secondItem="bfd-Sy-h8I" secondAttribute="trailing" id="OMS-dA-I3x"/>
+                            <constraint firstItem="f2Y-pD-Lmf" firstAttribute="leading" secondItem="7PK-hx-p2G" secondAttribute="trailing" constant="8" id="PbZ-EL-GHM"/>
+                            <constraint firstItem="8gb-Bi-YxP" firstAttribute="leading" secondItem="bfd-Sy-h8I" secondAttribute="leading" constant="1" id="QvQ-fv-7TQ"/>
+                            <constraint firstItem="3Sn-mr-4ew" firstAttribute="height" secondItem="2hW-yO-QPh" secondAttribute="height" id="cRT-hc-twv"/>
+                            <constraint firstItem="wqY-Oh-4Wl" firstAttribute="leading" secondItem="jx9-Ov-urd" secondAttribute="leading" id="kOj-HK-HLW"/>
+                            <constraint firstItem="wqY-Oh-4Wl" firstAttribute="top" secondItem="jx9-Ov-urd" secondAttribute="top" id="lqX-Rf-S8M"/>
+                            <constraint firstItem="8gb-Bi-YxP" firstAttribute="trailing" secondItem="bfd-Sy-h8I" secondAttribute="trailing" constant="-1" id="mZ8-qw-Ojh"/>
+                            <constraint firstItem="bfd-Sy-h8I" firstAttribute="leading" secondItem="jx9-Ov-urd" secondAttribute="leading" constant="20" id="nlU-v3-Sqb"/>
+                            <constraint firstItem="wqY-Oh-4Wl" firstAttribute="leading" secondItem="jx9-Ov-urd" secondAttribute="leading" id="q1p-CG-KWm"/>
+                            <constraint firstItem="f2Y-pD-Lmf" firstAttribute="trailing" secondItem="bfd-Sy-h8I" secondAttribute="trailing" constant="-1" id="wnS-1y-uJX"/>
+                            <constraint firstAttribute="trailing" secondItem="bfd-Sy-h8I" secondAttribute="trailing" constant="20" id="zfV-bx-b9l"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="entSelector" destination="2hW-yO-QPh" id="Oku-tR-vsH"/>
+                        <outlet property="firstRowAsHeader" destination="7PK-hx-p2G" id="l9Y-oC-FIc"/>
+                        <outlet property="path" destination="8gb-Bi-YxP" id="jt3-Sl-1iR"/>
+                        <outlet property="separatorCharacter" destination="3Sn-mr-4ew" id="lUa-J4-QsK"/>
+                        <outlet property="table" destination="Gsc-uX-N9Y" id="sLX-SV-Utj"/>
+                    </connections>
+                </viewController>
+                <customObject id="sMm-EA-A92" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151" y="237"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NSGoLeftTemplate" width="9" height="12"/>
+    </resources>
+</document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="zdg-dt-j0F" customClass="DateTableViewCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="269" height="54"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="RQ5-1B-pb3" userLabel="Title">
+                    <rect key="frame" x="1" y="31" width="31" height="17"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="? ? ?" id="OcO-Rh-UKO">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <datePicker horizontalHuggingPriority="249" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3s4-IK-mRQ">
+                    <rect key="frame" x="38" y="28" width="202" height="27"/>
+                    <datePickerCell key="cell" borderStyle="bezel" alignment="left" id="Tfw-Og-sdk">
+                        <font key="font" metaFont="system"/>
+                        <date key="date" timeIntervalSinceReferenceDate="-595929600">
+                            <!--1982-02-12 16:00:00 +0000-->
+                        </date>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <datePickerElements key="datePickerElements" year="YES" month="YES" day="YES" hour="YES" minute="YES"/>
+                    </datePickerCell>
+                </datePicker>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oNR-9n-Ayp">
+                    <rect key="frame" x="243" y="26" width="25" height="25"/>
+                    <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bcD-bd-yQE">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="helpSelected:" target="zdg-dt-j0F" id="ufs-fP-BLB"/>
+                    </connections>
+                </button>
+                <button hidden="YES" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-0e-wlM">
+                    <rect key="frame" x="188" y="28" width="32" height="23"/>
+                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSCaution" imagePosition="only" alignment="center" lineBreakMode="truncatingTail" enabled="NO" refusesFirstResponder="YES" state="on" transparent="YES" imageScaling="proportionallyDown" inset="2" id="hI6-AY-l0e">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="baseline" secondItem="3s4-IK-mRQ" secondAttribute="baseline" id="47W-S0-oIr"/>
+                <constraint firstItem="RQ5-1B-pb3" firstAttribute="leading" secondItem="zdg-dt-j0F" secondAttribute="leading" constant="3" id="5Bv-ps-QhY"/>
+                <constraint firstItem="3s4-IK-mRQ" firstAttribute="leading" secondItem="RQ5-1B-pb3" secondAttribute="trailing" constant="8" id="8Z9-GQ-yy3"/>
+                <constraint firstItem="HgG-0e-wlM" firstAttribute="top" secondItem="3s4-IK-mRQ" secondAttribute="top" id="GLg-KS-uyL"/>
+                <constraint firstItem="oNR-9n-Ayp" firstAttribute="leading" secondItem="3s4-IK-mRQ" secondAttribute="trailing" constant="8" id="Wn5-4C-1Ta"/>
+                <constraint firstItem="oNR-9n-Ayp" firstAttribute="centerY" secondItem="3s4-IK-mRQ" secondAttribute="centerY" id="aMH-TL-skl"/>
+                <constraint firstAttribute="trailing" secondItem="oNR-9n-Ayp" secondAttribute="trailing" constant="3" id="mWX-C1-1Li"/>
+                <constraint firstItem="HgG-0e-wlM" firstAttribute="bottom" secondItem="3s4-IK-mRQ" secondAttribute="bottom" id="qSm-s3-aKI"/>
+                <constraint firstItem="HgG-0e-wlM" firstAttribute="leading" secondItem="3s4-IK-mRQ" secondAttribute="trailing" constant="-49" id="uCA-pN-iN6"/>
+                <constraint firstItem="3s4-IK-mRQ" firstAttribute="top" secondItem="zdg-dt-j0F" secondAttribute="top" constant="3" id="vgb-4l-3Om"/>
+            </constraints>
+            <connections>
+                <outlet property="caution" destination="HgG-0e-wlM" id="sjM-nX-0Wb"/>
+                <outlet property="cellTitle" destination="RQ5-1B-pb3" id="WJL-Hk-4fl"/>
+                <outlet property="cellValue" destination="3s4-IK-mRQ" id="QdB-Ep-EWQ"/>
+                <outlet property="help" destination="oNR-9n-Ayp" id="Ic0-f3-0Ss"/>
+            </connections>
+            <point key="canvasLocation" x="-28.5" y="109"/>
+        </tableCellView>
+    </objects>
+    <resources>
+        <image name="NSCaution" width="32" height="32"/>
+    </resources>
+</document>

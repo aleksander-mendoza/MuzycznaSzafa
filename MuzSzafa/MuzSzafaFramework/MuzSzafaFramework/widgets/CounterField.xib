@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CounterField" customModule="MuzSzafaFramework" customModuleProvider="target">
+            <connections>
+                <outlet property="field" destination="XjY-TT-3ba" id="0yA-Ke-CLr"/>
+                <outlet property="stepper" destination="gZa-4v-8g6" id="45C-dr-Xwf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" maximumValue="10000000" translatesAutoresizingMaskIntoConstraints="NO" id="gZa-4v-8g6">
+                    <rect key="frame" x="0.0" y="0.0" width="94" height="29"/>
+                    <connections>
+                        <action selector="stepperChanged:" destination="-1" eventType="valueChanged" id="BlQ-tR-dE1"/>
+                    </connections>
+                </stepper>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XjY-TT-3ba">
+                    <rect key="frame" x="102" y="0.0" width="273" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                    <connections>
+                        <action selector="fieldChanged:" destination="-1" eventType="editingDidEnd" id="pNw-dq-hQZ"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gZa-4v-8g6" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="5Ns-7e-6vo"/>
+                <constraint firstItem="gZa-4v-8g6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8Fo-O5-ptO"/>
+                <constraint firstItem="gZa-4v-8g6" firstAttribute="top" secondItem="XjY-TT-3ba" secondAttribute="top" id="B4s-0v-rWe"/>
+                <constraint firstItem="XjY-TT-3ba" firstAttribute="leading" secondItem="gZa-4v-8g6" secondAttribute="trailing" constant="8" symbolic="YES" id="iMM-a4-4zq"/>
+                <constraint firstAttribute="trailing" secondItem="XjY-TT-3ba" secondAttribute="trailing" id="nYt-CW-x8S"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="45.5" y="-221"/>
+        </view>
+    </objects>
+</document>

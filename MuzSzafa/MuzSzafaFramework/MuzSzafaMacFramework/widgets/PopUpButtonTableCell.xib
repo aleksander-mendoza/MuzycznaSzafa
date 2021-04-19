@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="ZV4-O3-5M8" customClass="PopUpButtonTableCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="73"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ilp-cJ-c13">
+                    <rect key="frame" x="1" y="46" width="139" height="26"/>
+                    <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="bGm-da-4qo" id="M4x-Rn-f9x">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" id="7ga-aU-kDv">
+                            <items>
+                                <menuItem title="Item 1" state="on" id="bGm-da-4qo"/>
+                                <menuItem title="Item 2" id="j1t-lx-kjO"/>
+                                <menuItem title="Item 3" id="cO9-0g-OSa"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="selected:" target="ZV4-O3-5M8" id="ngR-ci-f2G"/>
+                    </connections>
+                </popUpButton>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Ilp-cJ-c13" firstAttribute="top" secondItem="ZV4-O3-5M8" secondAttribute="top" constant="3" id="GON-7S-w96"/>
+                <constraint firstItem="Ilp-cJ-c13" firstAttribute="leading" secondItem="ZV4-O3-5M8" secondAttribute="leading" constant="3" id="b4d-P2-Apo"/>
+                <constraint firstAttribute="trailing" secondItem="Ilp-cJ-c13" secondAttribute="trailing" constant="3" id="h71-R3-fOs"/>
+            </constraints>
+            <connections>
+                <outlet property="popUpButton" destination="Ilp-cJ-c13" id="Cml-ee-2xu"/>
+            </connections>
+            <point key="canvasLocation" x="148" y="190.5"/>
+        </tableCellView>
+    </objects>
+</document>

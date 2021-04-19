@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="date" rowHeight="127" id="V5f-uQ-Wej" customClass="DateTableViewCell" customModule="MuzSzafaFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="292" height="133"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="V5f-uQ-Wej" id="Wby-Wp-hf9">
+                <rect key="frame" x="0.0" y="0.0" width="292" height="132.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="a3V-ZT-Wg7">
+                        <rect key="frame" x="0.0" y="29" width="292" height="104"/>
+                        <date key="date" timeIntervalSinceReferenceDate="543077819.71106505">
+                            <!--2018-03-18 14:56:59 +0000-->
+                        </date>
+                        <connections>
+                            <action selector="dateChanged:" destination="V5f-uQ-Wej" eventType="valueChanged" id="gpX-yh-lrx"/>
+                        </connections>
+                    </datePicker>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wX0-aQ-Q2I">
+                        <rect key="frame" x="16" y="0.0" width="276" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="BUp-Ux-F0v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="a3V-ZT-Wg7" secondAttribute="bottom" constant="-11" id="Pi5-us-dhu"/>
+                    <constraint firstItem="wX0-aQ-Q2I" firstAttribute="trailing" secondItem="a3V-ZT-Wg7" secondAttribute="trailing" id="hn4-3u-zCp"/>
+                    <constraint firstItem="wX0-aQ-Q2I" firstAttribute="leading" secondItem="Wby-Wp-hf9" secondAttribute="leading" constant="16" id="iEs-BB-6yJ"/>
+                    <constraint firstItem="a3V-ZT-Wg7" firstAttribute="top" secondItem="wX0-aQ-Q2I" secondAttribute="bottom" constant="8" symbolic="YES" id="lE8-YG-Ymo"/>
+                    <constraint firstAttribute="trailing" secondItem="wX0-aQ-Q2I" secondAttribute="trailing" id="nZq-Lc-ki6"/>
+                    <constraint firstItem="wX0-aQ-Q2I" firstAttribute="top" secondItem="Wby-Wp-hf9" secondAttribute="top" id="rXs-oU-wRM"/>
+                    <constraint firstItem="wX0-aQ-Q2I" firstAttribute="leading" secondItem="a3V-ZT-Wg7" secondAttribute="leading" constant="16" id="vNk-ew-AvI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellTitle" destination="wX0-aQ-Q2I" id="W2I-cs-jkt"/>
+                <outlet property="datePicker" destination="a3V-ZT-Wg7" id="GOM-tX-mlK"/>
+            </connections>
+            <point key="canvasLocation" x="-1" y="160.5"/>
+        </tableViewCell>
+    </objects>
+</document>

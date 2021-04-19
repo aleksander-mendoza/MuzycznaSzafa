@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="telephone" rowHeight="88" id="zre-sg-XX4" customClass="TelephoneTableViewCell" customModule="MuzSzafa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zre-sg-XX4" id="TuW-KJ-1ve">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="87.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ice-jL-Fbp">
+                        <rect key="frame" x="16" y="11" width="343" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pBJ-N4-Xp3" customClass="TelephoneField" customModule="MuzSzafa" customModuleProvider="target">
+                        <rect key="frame" x="16" y="40" width="343" height="30"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="telephoneChanged:" destination="zre-sg-XX4" eventType="editingChanged" id="wmP-IL-hES"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ice-jL-Fbp" firstAttribute="leading" secondItem="pBJ-N4-Xp3" secondAttribute="leading" id="9wr-jT-k2e"/>
+                    <constraint firstItem="ice-jL-Fbp" firstAttribute="leading" secondItem="TuW-KJ-1ve" secondAttribute="leadingMargin" id="DLx-QX-tx8"/>
+                    <constraint firstItem="ice-jL-Fbp" firstAttribute="trailing" secondItem="pBJ-N4-Xp3" secondAttribute="trailing" id="FZH-CX-FWo"/>
+                    <constraint firstItem="ice-jL-Fbp" firstAttribute="trailing" secondItem="TuW-KJ-1ve" secondAttribute="trailingMargin" id="Swd-6H-9PT"/>
+                    <constraint firstItem="ice-jL-Fbp" firstAttribute="top" secondItem="TuW-KJ-1ve" secondAttribute="topMargin" id="VRh-Pl-UNS"/>
+                    <constraint firstItem="pBJ-N4-Xp3" firstAttribute="top" secondItem="ice-jL-Fbp" secondAttribute="bottom" constant="8" symbolic="YES" id="vWo-Sf-mKR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellTitle" destination="ice-jL-Fbp" id="bbL-zd-7Gy"/>
+                <outlet property="telephoneField" destination="pBJ-N4-Xp3" id="eNB-BC-lFe"/>
+            </connections>
+            <point key="canvasLocation" x="42.5" y="183"/>
+        </tableViewCell>
+    </objects>
+</document>

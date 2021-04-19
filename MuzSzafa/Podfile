@@ -1,0 +1,51 @@
+workspace 'MuzSzafa.xcworkspace'
+project 'MuzSzafa'
+project 'MuzSzafaFramework/MuzSzafaFramework'
+project 'MuzSzafaFramework/MuzSzafaShared/MuzSzafaShared'
+
+target 'MuzSzafaShared' do
+	platform :osx, '10.13'
+	use_frameworks!
+	project 'MuzSzafaFramework/MuzSzafaShared/MuzSzafaShared'
+	pod 'PeerTalk'
+end
+
+target 'MuzSzafaFramework' do
+	platform :ios, '10.0'
+	use_frameworks!
+	project 'MuzSzafaFramework/MuzSzafaFramework'
+#pod 'MuzSzafaShared'
+end
+
+target 'MuzSzafaMacFramework' do
+	platform :osx, '10.13'
+	use_frameworks!
+	project 'MuzSzafaFramework/MuzSzafaFramework'
+#	pod 'MuzSzafaShared'
+end
+
+target 'MuzSzafa' do
+	project 'MuzSzafa'
+	use_frameworks!
+	platform :ios, '10.0'
+#	pod 'MuzSzafaFramework'
+	target 'MuzSzafaTests' do
+		inherit! :search_paths
+	end
+	target 'MuzSzafaUITests' do
+		inherit! :search_paths
+	end
+end
+
+target 'MuzSzafaMac' do
+	project 'MuzSzafa'
+	use_frameworks!
+	platform :osx, '10.13'
+#pod 'MuzSzafaMacFramework'
+	target 'MuzSzafaMacTests' do
+		inherit! :search_paths
+	end
+	target 'MuzSzafaMacUITests' do
+		inherit! :search_paths
+	end
+end

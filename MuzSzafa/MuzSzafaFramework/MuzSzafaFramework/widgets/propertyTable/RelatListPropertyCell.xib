@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="relatList" textLabel="FAI-4c-S2k" rowHeight="128" style="IBUITableViewCellStyleDefault" id="Jnc-tz-bwU" customClass="RelatListTableViewCell" customModule="MuzSzafaFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="132"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jnc-tz-bwU" id="fcq-QW-E6a">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="131.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7g-mG-sBh">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="131.5"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Idk-65-rh5" customClass="EntitiesTableView" customModule="MuzSzafaFramework" customModuleProvider="target">
+                                <rect key="frame" x="128" y="8" width="204" height="115.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Idk-65-rh5" firstAttribute="bottom" secondItem="d7g-mG-sBh" secondAttribute="bottomMargin" id="VzJ-NO-y0f"/>
+                            <constraint firstItem="Idk-65-rh5" firstAttribute="trailing" secondItem="d7g-mG-sBh" secondAttribute="trailingMargin" id="iCq-ox-mdr"/>
+                            <constraint firstItem="Idk-65-rh5" firstAttribute="width" secondItem="d7g-mG-sBh" secondAttribute="width" multiplier="0.6" id="rt8-Qa-8l8"/>
+                            <constraint firstItem="Idk-65-rh5" firstAttribute="top" secondItem="d7g-mG-sBh" secondAttribute="topMargin" id="u4H-ax-DIC"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FAI-4c-S2k">
+                        <rect key="frame" x="16" y="0.0" width="308" height="131.5"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="d7g-mG-sBh" firstAttribute="top" secondItem="FAI-4c-S2k" secondAttribute="top" id="Igs-Pz-Mjz"/>
+                    <constraint firstItem="d7g-mG-sBh" firstAttribute="centerX" secondItem="FAI-4c-S2k" secondAttribute="centerX" id="d2A-pS-InF"/>
+                    <constraint firstItem="d7g-mG-sBh" firstAttribute="centerY" secondItem="FAI-4c-S2k" secondAttribute="centerY" id="flq-pu-Bqg"/>
+                    <constraint firstItem="d7g-mG-sBh" firstAttribute="leading" secondItem="fcq-QW-E6a" secondAttribute="leading" id="ypC-iG-f4n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="valueTable" destination="Idk-65-rh5" id="b3i-Yp-fqM"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="133.13343328335833"/>
+        </tableViewCell>
+    </objects>
+</document>

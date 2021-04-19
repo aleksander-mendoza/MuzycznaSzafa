@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="toggle" textLabel="FAI-4c-S2k" rowHeight="44" style="IBUITableViewCellStyleDefault" id="Jnc-tz-bwU" customClass="ToggleTableViewCell" customModule="MuzSzafaFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="48"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jnc-tz-bwU" id="fcq-QW-E6a">
+                <rect key="frame" x="0.0" y="0.0" width="289" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7g-mG-sBh">
+                        <rect key="frame" x="0.0" y="0.0" width="289" height="47.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOG-6J-pZK" customClass="ToggleButton" customModule="MuzSzafaFramework" customModuleProvider="target">
+                                <rect key="frame" x="144.5" y="8" width="144.5" height="31.5"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wOG-6J-pZK" secondAttribute="trailing" id="3oh-hj-08a"/>
+                            <constraint firstItem="wOG-6J-pZK" firstAttribute="top" secondItem="d7g-mG-sBh" secondAttribute="topMargin" id="agU-DV-lS9"/>
+                            <constraint firstItem="wOG-6J-pZK" firstAttribute="bottom" secondItem="d7g-mG-sBh" secondAttribute="bottomMargin" id="bA3-ah-meq"/>
+                            <constraint firstItem="wOG-6J-pZK" firstAttribute="width" secondItem="d7g-mG-sBh" secondAttribute="width" multiplier="0.5" id="v5Y-dW-sVQ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FAI-4c-S2k">
+                        <rect key="frame" x="16" y="0.0" width="257" height="47.5"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="d7g-mG-sBh" firstAttribute="top" secondItem="FAI-4c-S2k" secondAttribute="top" id="Igs-Pz-Mjz"/>
+                    <constraint firstItem="d7g-mG-sBh" firstAttribute="centerX" secondItem="FAI-4c-S2k" secondAttribute="centerX" id="d2A-pS-InF"/>
+                    <constraint firstItem="d7g-mG-sBh" firstAttribute="centerY" secondItem="FAI-4c-S2k" secondAttribute="centerY" id="flq-pu-Bqg"/>
+                    <constraint firstItem="d7g-mG-sBh" firstAttribute="leading" secondItem="fcq-QW-E6a" secondAttribute="leading" id="ypC-iG-f4n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="valueButton" destination="wOG-6J-pZK" id="kDV-SE-Zhj"/>
+            </connections>
+            <point key="canvasLocation" x="-0.5" y="96"/>
+        </tableViewCell>
+    </objects>
+</document>

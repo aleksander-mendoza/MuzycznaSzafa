@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="zdg-dt-j0F" customClass="ToggleTableViewCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="172" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cuu-1U-KNa">
+                    <rect key="frame" x="1" y="39" width="31" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="? ? ?" id="YBE-Ke-h2z">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZHr-7N-sgt" customClass="ToggleButton" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+                    <rect key="frame" x="53" y="30" width="67" height="32"/>
+                    <buttonCell key="cell" type="push" title="? ? ?" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Tv2-30-8Tb">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7PI-Bd-ykw">
+                    <rect key="frame" x="124" y="34" width="25" height="25"/>
+                    <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5rk-ue-ykt">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="helpSelected:" target="zdg-dt-j0F" id="VRF-QZ-EvC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ZHr-7N-sgt" firstAttribute="top" secondItem="zdg-dt-j0F" secondAttribute="top" constant="3" id="7jA-ad-rcH"/>
+                <constraint firstItem="ZHr-7N-sgt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cuu-1U-KNa" secondAttribute="trailing" constant="3" id="Cet-F7-iWY"/>
+                <constraint firstItem="ZHr-7N-sgt" firstAttribute="centerX" secondItem="zdg-dt-j0F" secondAttribute="centerX" id="O4e-mO-cVy"/>
+                <constraint firstItem="cuu-1U-KNa" firstAttribute="leading" secondItem="zdg-dt-j0F" secondAttribute="leading" constant="3" id="QbW-UA-jfW"/>
+                <constraint firstItem="cuu-1U-KNa" firstAttribute="centerY" secondItem="ZHr-7N-sgt" secondAttribute="centerY" id="Yro-Kn-5hy"/>
+                <constraint firstItem="7PI-Bd-ykw" firstAttribute="leading" secondItem="ZHr-7N-sgt" secondAttribute="trailing" constant="12" id="dqT-90-EV5"/>
+                <constraint firstItem="7PI-Bd-ykw" firstAttribute="centerY" secondItem="ZHr-7N-sgt" secondAttribute="centerY" id="swy-EJ-rya"/>
+            </constraints>
+            <connections>
+                <outlet property="cellTitle" destination="cuu-1U-KNa" id="cZ9-pr-Rry"/>
+                <outlet property="cellValue" destination="ZHr-7N-sgt" id="Jys-Is-su1"/>
+                <outlet property="help" destination="7PI-Bd-ykw" id="0oM-YB-X9U"/>
+            </connections>
+            <point key="canvasLocation" x="-7" y="119.5"/>
+        </tableCellView>
+    </objects>
+</document>

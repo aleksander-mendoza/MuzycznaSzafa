@@ -1,0 +1,285 @@
+
+/* Class = "NSMenuItem"; title = "Filter records"; ObjectID = "16Q-z0-FLK"; */
+"16Q-z0-FLK.title" = "Filtruj";
+
+/* Class = "NSMenuItem"; title = "MuzSzafaMac"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "MuzSzafaMac";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "37n-rZ-p5e"; */
+"37n-rZ-p5e.title" = "Anuluj";
+
+/* Class = "NSMenuItem"; title = "Sort records"; ObjectID = "39L-0f-M3C"; */
+"39L-0f-M3C.title" = "Sortuj";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "4Fs-jA-qjc"; */
+"4Fs-jA-qjc.title" = "Usuń";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "4J7-dP-txa"; */
+"4J7-dP-txa.title" = "Tryb pełnoekranowy";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "4ZZ-wE-w4z"; */
+"4ZZ-wE-w4z.title" = "Usuń";
+
+/* Class = "NSMenuItem"; title = "Quit MuzSzafaMac"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Zakończ MuzSzafaMac";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
+"5QF-Oa-p0T.title" = "Edycja";
+
+/* Class = "NSMenuItem"; title = "About MuzSzafaMac"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "MuzSzafaMac";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "6TN-z8-8kI"; */
+"6TN-z8-8kI.title" = "Gotowe";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
+"6dh-zS-Vam.title" = "Przywróć";
+
+/* Class = "NSMenuItem"; title = "Export all"; ObjectID = "7LK-RD-rWd"; */
+"7LK-RD-rWd.title" = "Eksportuj wszystko";
+
+/* Class = "NSMenuItem"; title = "CSV"; ObjectID = "8W5-g1-w3V"; */
+"8W5-g1-w3V.title" = "CSV";
+
+/* Class = "NSMenu"; title = "Advanced"; ObjectID = "9lV-iG-B8g"; */
+"9lV-iG-B8g.title" = "Zaawansowane";
+
+/* Class = "NSMenu"; title = "Data"; ObjectID = "9ui-bC-ESC"; */
+"9ui-bC-ESC.title" = "Dane";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Menu główne";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "B0i-Eb-z1z"; */
+"B0i-Eb-z1z.title" = "Gotowe";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Ustawienia…";
+
+/* Class = "NSMenuItem"; title = "Make PDF"; ObjectID = "DJ0-8L-LTF"; */
+"DJ0-8L-LTF.title" = "Stwórz PDF";
+
+/* Class = "NSMenuItem"; title = "Send email"; ObjectID = "ESt-Vd-L6S"; */
+"ESt-Vd-L6S.title" = "Wyślij email";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Pomoc";
+
+/* Class = "NSMenuItem"; title = "MuzSzafaMac Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "MuzSzafaMac Pomoc";
+
+/* Class = "NSMenuItem"; title = "New client"; ObjectID = "FN5-NB-BaJ"; */
+"FN5-NB-BaJ.title" = "Nowy klient";
+
+/* Class = "NSMenuItem"; title = "New instrument"; ObjectID = "Hk8-BW-0y3"; */
+"Hk8-BW-0y3.title" = "Nowy instrument";
+
+/* Class = "NSMenuItem"; title = "New client"; ObjectID = "IAo-SY-fd9"; */
+"IAo-SY-fd9.title" = "Nowy klient";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "MuzSzafa";
+
+/* Class = "NSMenuItem"; title = "Archive"; ObjectID = "Ion-ej-vpT"; */
+"Ion-ej-vpT.title" = "Archiwum";
+
+/* Class = "NSTextFieldCell"; title = "id:"; ObjectID = "KHa-6Y-iaO"; */
+"KHa-6Y-iaO.title" = "identyfikator:";
+
+/* Class = "NSMenuItem"; title = "New deal"; ObjectID = "KLu-zc-dlt"; */
+"KLu-zc-dlt.title" = "Nowa umowa";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Pokaż wszystko";
+
+/* Class = "NSMenuItem"; title = "Import"; ObjectID = "Kg3-PF-gdn"; */
+"Kg3-PF-gdn.title" = "Importuj";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "Umieść wszystko na wierzchu";
+
+/* Class = "NSMenuItem"; title = "Purge"; ObjectID = "Lhf-cM-aeX"; */
+"Lhf-cM-aeX.title" = "Wyczyść";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "M8O-Ue-f6u"; */
+"M8O-Ue-f6u.title" = "Usuń";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Usługi";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "Minimalizuj";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "OYh-uF-vnl"; */
+"OYh-uF-vnl.title" = "Anuluj";
+
+/* Class = "NSMenuItem"; title = "Hide MuzSzafaMac"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Ukryj MuzSzafaMac";
+
+/* Class = "NSViewController"; title = "Instrument Accessories"; ObjectID = "PTy-P4-8FB"; */
+"PTy-P4-8FB.title" = "Akcesoria";
+
+/* Class = "NSMenuItem"; title = "All deals"; ObjectID = "Pfv-Ef-d2v"; */
+"Pfv-Ef-d2v.title" = "Wszystkie umowy";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "Zoom";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "RDh-rS-8Ne"; */
+"RDh-rS-8Ne.title" = "Gotowe";
+
+/* Class = "NSMenuItem"; title = "Deals"; ObjectID = "Ram-e4-OER"; */
+"Ram-e4-OER.title" = "Umowy";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
+"Ruw-6m-B2m.title" = "Zaznacz wszystko";
+
+/* Class = "NSTextFieldCell"; title = "accessories list:"; ObjectID = "SVN-sS-TlO"; */
+"SVN-sS-TlO.title" = "lista akcesoriów:";
+
+/* Class = "NSMenuItem"; title = "Payments"; ObjectID = "Sz4-xU-Tvu"; */
+"Sz4-xU-Tvu.title" = "Płatności";
+
+/* Class = "NSViewController"; title = "Payments"; ObjectID = "T4g-Cq-0jD"; */
+"T4g-Cq-0jD.title" = "Płatności";
+
+/* Class = "NSButtonCell"; title = "Show"; ObjectID = "TBD-bQ-SO7"; */
+"TBD-bQ-SO7.title" = "Pokaż";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Okno";
+
+/* Class = "NSTextFieldCell"; title = "type:"; ObjectID = "VKS-PM-prg"; */
+"VKS-PM-prg.title" = "rodzaj:";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Ukryj pozostałe";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
+"W48-6f-4Dl.title" = "Edycja";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "WeT-3V-zwk"; */
+"WeT-3V-zwk.title" = "Wklej i dostosuj styl";
+
+/* Class = "NSMenuItem"; title = "Import"; ObjectID = "XVN-4I-LqZ"; */
+"XVN-4I-LqZ.title" = "Importuj";
+
+/* Class = "NSViewController"; title = "New Instrument"; ObjectID = "Xpj-zh-kpt"; */
+"Xpj-zh-kpt.title" = "Nowy instrument";
+
+/* Class = "NSMenuItem"; title = "Dump to disk"; ObjectID = "YNz-oC-Uv1"; */
+"YNz-oC-Uv1.title" = "Zapisz do dysku";
+
+/* Class = "NSMenuItem"; title = "Statistics"; ObjectID = "Yeq-tM-IdU"; */
+"Yeq-tM-IdU.title" = "Statystyka";
+
+/* Class = "NSViewController"; title = "Instrument Type"; ObjectID = "Zf8-QK-131"; */
+"Zf8-QK-131.title" = "Rodzaj instrument";
+
+/* Class = "NSMenuItem"; title = "Export deals"; ObjectID = "a8j-TW-7n3"; */
+"a8j-TW-7n3.title" = "Eksportuj umowy";
+
+/* Class = "NSMenuItem"; title = "Hide types"; ObjectID = "aQp-NH-CB6"; */
+"aQp-NH-CB6.title" = "Ukryj rodzaje";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Okno";
+
+/* Class = "NSMenuItem"; title = "Data"; ObjectID = "bb9-xu-lYK"; */
+"bb9-xu-lYK.title" = "Dane";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "bib-Uj-vzu"; */
+"bib-Uj-vzu.title" = "Widok";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "dMs-cI-mzQ"; */
+"dMs-cI-mzQ.title" = "Widok";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
+"dRJ-4n-Yzg.title" = "Cofnij";
+
+/* Class = "NSMenuItem"; title = "New term"; ObjectID = "eJ7-bk-SD3"; */
+"eJ7-bk-SD3.title" = "Nowy okres";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "eiu-Rb-3Y6"; */
+"eiu-Rb-3Y6.title" = "Anuluj";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "f9O-2W-3JO"; */
+"f9O-2W-3JO.title" = "Gotowe";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
+"gVA-U4-sdL.title" = "Wklej";
+
+/* Class = "NSMenuItem"; title = "Add filters"; ObjectID = "hRw-hg-U4Y"; */
+"hRw-hg-U4Y.title" = "Dodaj filtry";
+
+/* Class = "NSMenu"; title = "Data"; ObjectID = "hkt-Ar-7iw"; */
+"hkt-Ar-7iw.title" = "Dane";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Usługi";
+
+/* Class = "NSMenuItem"; title = "Export"; ObjectID = "ilo-xo-OKv"; */
+"ilo-xo-OKv.title" = "Eksportuj";
+
+/* Class = "NSMenuItem"; title = "Show types"; ObjectID = "kFc-co-73k"; */
+"kFc-co-73k.title" = "Pokaż rodzaje";
+
+/* Class = "NSMenuItem"; title = "Export instruments"; ObjectID = "lWf-Of-OKH"; */
+"lWf-Of-OKH.title" = "Eksportuj instrumenty";
+
+/* Class = "NSTextFieldCell"; title = "type:"; ObjectID = "lgL-CI-NGv"; */
+"lgL-CI-NGv.title" = "rodzaj:";
+
+/* Class = "NSMenuItem"; title = "Export payments"; ObjectID = "p2W-DW-f6F"; */
+"p2W-DW-f6F.title" = "Eksportuj płatności";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "pa3-QI-u2k"; */
+"pa3-QI-u2k.title" = "Usuń";
+
+/* Class = "NSMenuItem"; title = "Hide payments"; ObjectID = "pdF-xN-II3"; */
+"pdF-xN-II3.title" = "Ukryj płatności";
+
+/* Class = "NSMenuItem"; title = "Advanced"; ObjectID = "qJq-hj-FqC"; */
+"qJq-hj-FqC.title" = "Zaawansowane";
+
+/* Class = "NSMenuItem"; title = "Export clients"; ObjectID = "qOH-FB-l3n"; */
+"qOH-FB-l3n.title" = "Eksportuj klientów";
+
+/* Class = "NSMenuItem"; title = "Load from disk"; ObjectID = "rXa-8g-6uc"; */
+"rXa-8g-6uc.title" = "Załaduj z dysku";
+
+/* Class = "NSMenuItem"; title = "New instrument"; ObjectID = "tXI-mr-wws"; */
+"tXI-mr-wws.title" = "Nowy instrument";
+
+/* Class = "NSMenu"; title = "MuzSzafaMac"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "MuzSzafaMac";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
+"uRl-iY-unG.title" = "Wytnij";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "unY-ri-FDL"; */
+"unY-ri-FDL.title" = "Gotowe";
+
+/* Class = "NSMenuItem"; title = "Show payments"; ObjectID = "uu5-dE-x3d"; */
+"uu5-dE-x3d.title" = "Pokaż płatności";
+
+/* Class = "NSMenu"; title = "Data"; ObjectID = "vmT-Gi-a91"; */
+"vmT-Gi-a91.title" = "Dane";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Pomoc";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
+"x3v-GG-iWU.title" = "Kopiuj";
+
+/* Class = "NSMenuItem"; title = "Deals"; ObjectID = "xR6-gh-P7c"; */
+"xR6-gh-P7c.title" = "Umowy";
+
+/* Class = "NSMenuItem"; title = "All deals"; ObjectID = "xjq-7y-O5n"; */
+"xjq-7y-O5n.title" = "Wszystkie umowy";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "yO3-q5-0BO"; */
+"yO3-q5-0BO.title" = "Usuń";
+
+/* Class = "NSMenuItem"; title = "Show income"; ObjectID = "zeB-tC-ZWY"; */
+"zeB-tC-ZWY.title" = "Pokaż przychód";

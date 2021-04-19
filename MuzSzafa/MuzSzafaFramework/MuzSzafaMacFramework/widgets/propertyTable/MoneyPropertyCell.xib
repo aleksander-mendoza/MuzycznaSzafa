@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="zdg-dt-j0F" customClass="MoneyTableViewCell" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fAO-xy-eIh" customClass="MoneyTextField" customModule="MuzSzafaMacFramework" customModuleProvider="target">
+                    <rect key="frame" x="38" y="31" width="260" height="22"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ndx-OQ-B5t">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bCk-co-RE0">
+                    <rect key="frame" x="1" y="33" width="31" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="? ? ?" id="Kyb-va-a9F">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sXg-rv-ELw">
+                    <rect key="frame" x="304" y="29" width="25" height="25"/>
+                    <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="DOF-Zx-ZyL">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="helpSelected:" target="zdg-dt-j0F" id="iVi-wg-tHC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="sXg-rv-ELw" secondAttribute="trailing" constant="3" id="HHQ-YU-Zvv"/>
+                <constraint firstItem="fAO-xy-eIh" firstAttribute="leading" secondItem="bCk-co-RE0" secondAttribute="trailing" constant="8" id="K8h-2u-Rxv"/>
+                <constraint firstItem="sXg-rv-ELw" firstAttribute="centerY" secondItem="fAO-xy-eIh" secondAttribute="centerY" id="PzL-I4-oFh"/>
+                <constraint firstItem="sXg-rv-ELw" firstAttribute="leading" secondItem="fAO-xy-eIh" secondAttribute="trailing" constant="8" id="UDC-X1-NM8"/>
+                <constraint firstItem="fAO-xy-eIh" firstAttribute="centerY" secondItem="bCk-co-RE0" secondAttribute="centerY" id="dfv-yQ-uR7"/>
+                <constraint firstItem="fAO-xy-eIh" firstAttribute="top" secondItem="zdg-dt-j0F" secondAttribute="top" constant="3" id="gMu-CJ-qRw"/>
+                <constraint firstItem="bCk-co-RE0" firstAttribute="leading" secondItem="zdg-dt-j0F" secondAttribute="leading" constant="3" id="zSp-ps-FBx"/>
+            </constraints>
+            <connections>
+                <outlet property="cellTitle" destination="bCk-co-RE0" id="cRH-D2-TjA"/>
+                <outlet property="cellValue" destination="fAO-xy-eIh" id="cj5-Qa-3nh"/>
+                <outlet property="help" destination="sXg-rv-ELw" id="JDf-Bf-dds"/>
+            </connections>
+            <point key="canvasLocation" x="79" y="167"/>
+        </tableCellView>
+    </objects>
+</document>
